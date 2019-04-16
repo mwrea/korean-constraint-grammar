@@ -1,5 +1,65 @@
-LIST NOUN = NOUN ;
+DELIMITERS = "." ; 
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ; 
+
+LIST NOUN = NOUN ; 
+LIST NOUNS = NOUN PROPN ;
+LIST VERB = VERB ;
+LIST AUX = AUX ;
+LIST ADV = ADV ;
+LIST SCONJ = SCONJ ; 
+LIST CCONJ = CCONJ ;
+LIST ADJ = ADJ ;
+LIST PUNCT = PUNCT ;
+LIST VERBAL = VERB ADV ;
+LIST NPMOD = NOUN ADJ ;
+
 
 SECTION
 
-SELECT NOUN ; 
+# sent_id = MH2_0169-s735
+# sent_id = M2TA_089-s15
+SELECT:r1 VERB 
+    (-1 ADV)
+    (1 AUX OR SCONJ) ;
+
+SELECT:r1a VERB
+    (0 VERB)
+    (0 CCONJ)
+    (-1 NOUN)
+    (1 AUX)
+
+SELECT:r1b AUX
+    (0 VERB)
+    (0 AUX)
+    (1 NOUN)
+    (-1 VERB)
+
+#SELECT:r2 VERB
+#    (1 PUNCT)
+#    (-1 SCONJ OR ADJ) ;
+ 
+ # sent_id = M2TA_069-s3
+#ADJ sentence initially but verb everywhere else.
+#might write as REMOVE VERB when pos 1, but...
+#SELECT:r3 ADJ
+#    (0 ADJ)
+#    (0 VERB)
+#    (-1 BOS)
+    
+
+SELECT:r4 ADJ
+    (-1 BOS)
+    (1 CCONJ) ; 
+#select verb if +1 is punct and -1 is verb or adverb
+# sent_id = MH2_0169-s499
+SELECT:r5 AUX
+    (-1 VERB)
+    (1* NOUN BARRIER (*) - NPMOD) ; 
+#select aux if -1 is verb and +1 or +2 is noun
+#SELECT:r1 VERB
+#     (1 AUX OR SCONJ) ;
+
+#In japanese, the verb stem is analyzed as VERB and all inflections (passive, causative, past, etc.) are labeled as AUX
+#Could be similar in Korean
