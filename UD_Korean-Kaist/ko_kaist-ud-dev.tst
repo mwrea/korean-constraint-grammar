@@ -27,8 +27,8 @@
 	"." PUNCT
 
 "<이른>"
-	"이르+ㄴ" ADJ SELECT:52:r4
-;	"이르+ㄴ" VERB SELECT:52:r4
+	"이르+ㄴ" ADJ SELECT:61:r4
+;	"이르+ㄴ" VERB SELECT:61:r4
 "<아침과>"
 	"아침+과" CCONJ
 "<밤>"
@@ -105,8 +105,8 @@
 "<오간수다리에>"
 	"오간수+다리+에" ADV
 "<걸려>"
-	"걸리+어" VERB SELECT:23:r1
-;	"걸리+어" SCONJ SELECT:23:r1
+	"걸리+어" VERB SELECT:27:r1
+;	"걸리+어" SCONJ SELECT:27:r1
 "<있어서>"
 	"있+어서" SCONJ
 	"있+어서+의" NOUN
@@ -115,8 +115,8 @@
 "<찾아가곤>"
 	"찾+아+가+곤" AUX
 "<했지요>"
-	"하+었+지요" AUX
-	"하+었+지+요" VERB
+	"하+었+지요" AUX SELECT:132:r2g
+;	"하+었+지+요" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -159,7 +159,7 @@
 
 "<어쨌든>"
 	"어쨌든" CCONJ
-	"어쨌든" ADV
+;	"어쨌든" ADV REMOVE:69:r6
 "<경북궁을>"
 	"경북궁+을" PROPN
 "<짓고>"
@@ -204,11 +204,11 @@
 "<저녁으로>"
 	"저녁+으로" ADV
 "<울려>"
-	"울리+어" VERB SELECT:23:r1
-;	"울리+어" SCONJ SELECT:23:r1
+	"울리+어" VERB SELECT:27:r1
+;	"울리+어" SCONJ SELECT:27:r1
 "<나오는>"
-	"나오+는" AUX SELECT:33:r1b
-;	"나오+는" VERB SELECT:33:r1b
+	"나오+는" AUX SELECT:37:r1b
+;	"나오+는" VERB SELECT:37:r1b
 "<종소리가>"
 	"종소리+가" NOUN
 "<어디서나>"
@@ -317,9 +317,9 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<데리고>"
-	"데리+고" SCONJ
-	"데리+고" CCONJ
-	"데리+고" VERB
+	"데리+고" CCONJ SELECT:128:r2e
+;	"데리+고" SCONJ SELECT:128:r2e
+;	"데리+고" VERB SELECT:128:r2e
 "<가질>"
 	"가+지+ㄹ" NOUN
 	"가지+ㄹ" VERB
@@ -379,8 +379,8 @@
 "<아주>"
 	"아주" ADV
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<꾸며>"
 	"꾸미+어" VERB
 	"꾸+며" SCONJ
@@ -466,9 +466,9 @@
 "<먹지>"
 	"먹+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<반쯤>"
 	"반+쯤" NOUN
 "<남기지요>"
@@ -486,7 +486,7 @@
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<같이>"
 	"같+이" SCONJ
 	"같이" ADV
@@ -502,9 +502,9 @@
 	"잡+아" SCONJ
 	"잡+아" VERB
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<,>"
 	"," PUNCT
 "<그것으로>"
@@ -520,7 +520,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<부산>"
 	"부산" PROPN
 "<동래부를>"
@@ -633,9 +633,9 @@
 "<절여>"
 	"절이+어" VERB
 "<가지고>"
-	"가지+고" CCONJ
-	"가지+고" VERB
-	"가지+고" SCONJ
+	"가지+고" CCONJ SELECT:128:r2e
+;	"가지+고" VERB SELECT:128:r2e
+;	"가지+고" SCONJ SELECT:128:r2e
 "<갔습니다>"
 	"가+ㅆ+습니다" VERB
 "<.>"
@@ -681,11 +681,11 @@
 	"하나+이+다" SCONJ
 	"하나+이+다" VERB
 "<하고>"
-	"하+고" AUX SELECT:33:r1b
-;	"하+고" CCONJ SELECT:33:r1b
-;	"하+고" VERB SELECT:33:r1b
-;	"하+고" SCONJ SELECT:33:r1b
-;	"하고" ADP SELECT:33:r1b
+	"하+고" AUX SELECT:37:r1b
+;	"하+고" CCONJ SELECT:37:r1b
+;	"하+고" VERB SELECT:37:r1b
+;	"하+고" SCONJ SELECT:37:r1b
+;	"하고" ADP SELECT:37:r1b
 "<전공을>"
 	"전공+을" NOUN
 "<세었겠지요>"
@@ -699,10 +699,10 @@
 "<경도에>"
 	"경도+에" ADV
 "<있는>"
-	"있+는" VERB SELECT:23:r1
-;	"있+는" ADJ SELECT:23:r1
-;	"있+는" AUX SELECT:23:r1
-;	"있+ㄴ" ADJ SELECT:23:r1
+	"있+는" VERB SELECT:27:r1
+;	"있+는" ADJ SELECT:27:r1
+;	"있+는" AUX SELECT:27:r1
+;	"있+ㄴ" ADJ SELECT:27:r1
 "<풍국신사인데>"
 	"풍국신사+이+ㄴ데" SCONJ
 "<,>"
@@ -832,8 +832,8 @@
 "<밀려나가게>"
 	"밀리+어+나+아+가+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:132:r2g
+;	"되+었+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -892,8 +892,8 @@
 "<발상지가>"
 	"발상지+가" NOUN
 "<된>"
-	"되+ㄴ" VERB
-	"되+ㄴ" AUX
+	"되+ㄴ" VERB SELECT:153:r3b
+;	"되+ㄴ" AUX SELECT:153:r3b
 "<내력을>"
 	"내력+을" NOUN
 "<말했으니>"
@@ -931,8 +931,8 @@
 "<파송되어>"
 	"파송+되+어" VERB
 "<오는>"
-	"오+는" AUX
-	"오+는" VERB
+	"오+는" AUX SELECT:111:r2c
+;	"오+는" VERB SELECT:111:r2c
 "<길에>"
 	"길+에" ADV
 "<일본에서>"
@@ -1019,15 +1019,15 @@
 "<고아의>"
 	"고아+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<예이다>"
 	"예+이+다" VERB
 "<.>"
@@ -1104,8 +1104,8 @@
 "<지도하게>"
 	"지도+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -1197,8 +1197,8 @@
 "<잡게>"
 	"잡+게" VERB
 "<된>"
-	"되+ㄴ" AUX SELECT:33:r1b
-;	"되+ㄴ" VERB SELECT:33:r1b
+	"되+ㄴ" AUX SELECT:37:r1b
+;	"되+ㄴ" VERB SELECT:37:r1b
 "<연유를>"
 	"연유+를" NOUN
 "<이야기해야겠다>"
@@ -1236,8 +1236,8 @@
 "<다시>"
 	"다시" ADV
 "<일어난>"
-	"일어나+ㄴ" VERB SELECT:23:r1
-;	"일+어+나+ㄴ" AUX SELECT:23:r1
+	"일어나+ㄴ" VERB SELECT:27:r1
+;	"일+어+나+ㄴ" AUX SELECT:27:r1
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -1287,10 +1287,10 @@
 "<욕심>"
 	"욕심" NOUN
 "<내지>"
-	"내+지" VERB SELECT:27:r1a
-;	"내지" CCONJ SELECT:27:r1a
-;	"내+지" AUX SELECT:27:r1a
-;	"내지" ADV SELECT:27:r1a
+	"내+지" VERB SELECT:31:r1a
+;	"내지" CCONJ SELECT:31:r1a
+;	"내+지" AUX SELECT:31:r1a
+;	"내지" ADV SELECT:31:r1a
 "<않는>"
 	"않+는" AUX
 	"않+는" ADJ
@@ -1303,7 +1303,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<그>"
 	"그" DET
 	"그" PRON
@@ -1329,9 +1329,9 @@
 	"받+게" VERB
 	"받+게" SCONJ
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -1437,18 +1437,18 @@
 "<과제로>"
 	"과제+로" ADV
 "<남겨>"
-	"남기+어" VERB SELECT:23:r1
-;	"남기+어" SCONJ SELECT:23:r1
+	"남기+어" VERB SELECT:27:r1
+;	"남기+어" SCONJ SELECT:27:r1
 "<두고>"
-	"두+고" AUX
-	"두+고" VERB
-	"두+고" CCONJ
-	"두+고" SCONJ
-	"두고" PROPN
+	"두+고" AUX SELECT:111:r2c
+;	"두+고" VERB SELECT:111:r2c
+;	"두+고" CCONJ SELECT:111:r2c
+;	"두+고" SCONJ SELECT:111:r2c
+;	"두고" PROPN SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -1468,13 +1468,13 @@
 "<법학인물들을>"
 	"법학인물+들+을" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<사전을>"
 	"사전+을" NOUN
 "<통하여>"
@@ -1482,32 +1482,32 @@
 	"통하+어" VERB
 	"통+하+어" SCONJ
 "<보다>"
-	"보+다" AUX SELECT:57:r5
-;	"보다" ADV SELECT:57:r5
-;	"보다" ADP SELECT:57:r5
+	"보+다" AUX SELECT:66:r5
+;	"보다" ADV SELECT:66:r5
+;	"보다" ADP SELECT:66:r5
 "<가까이>"
 	"가까이" ADV
 	"가까이" NOUN
 	"가깝+이" SCONJ
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -1533,23 +1533,23 @@
 "<한층>"
 	"한층" ADV
 "<높이고>"
-	"높이+고" VERB SELECT:23:r1
-;	"높이+고" CCONJ SELECT:23:r1
+	"높이+고" VERB SELECT:27:r1
+;	"높이+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<책으로>"
 	"책+으로" ADV
 "<한국의>"
@@ -1557,13 +1557,13 @@
 "<법학교육에도>"
 	"법학교육+에+도" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<과목이>"
 	"과목+이" NOUN
 "<정착되리라>"
@@ -1611,13 +1611,13 @@
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<사전은>"
 	"사전+은" NOUN
 "<그런>"
@@ -1634,13 +1634,13 @@
 "<꼭>"
 	"꼭" ADV
 "<알아야>"
-	"알+아야" VERB SELECT:23:r1
-;	"알+아야" SCONJ SELECT:23:r1
+	"알+아야" VERB SELECT:27:r1
+;	"알+아야" SCONJ SELECT:27:r1
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<내용이다>"
 	"내용+이+다" VERB
 "<.>"
@@ -1655,10 +1655,10 @@
 "<멀리>"
 	"멀리" ADV
 "<떨어져>"
-	"떨어지+어" VERB SELECT:23:r1
-;	"떨어지+어" SCONJ SELECT:23:r1
-;	"떨+어+지+어" AUX SELECT:23:r1
-;	"떨+어+지+어" SCONJ SELECT:23:r1
+	"떨어지+어" VERB SELECT:27:r1
+;	"떨어지+어" SCONJ SELECT:27:r1
+;	"떨+어+지+어" AUX SELECT:27:r1
+;	"떨+어+지+어" SCONJ SELECT:27:r1
 "<있기>"
 	"있+기" AUX
 	"있+기" ADJ
@@ -1684,31 +1684,31 @@
 "<면면을>"
 	"면면+을" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<번>"
 	"번" NOUN
 	"벌+ㄴ" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<책에서>"
 	"책+에서" ADV
 "<확인하면서>"
-	"확인+하+면서" SCONJ
 	"확인+하+면서" CCONJ
+;	"확인+하+면서" SCONJ REMOVE:56:r3
 "<공부하면>"
 	"공부+하+면" SCONJ
 "<법학공부의>"
@@ -1751,9 +1751,9 @@
 "<수록하고>"
 	"수록+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -1790,13 +1790,13 @@
 "<글들을>"
 	"글+들+을" NOUN
 "<싣고>"
-	"싣+고" VERB SELECT:27:r1a
-;	"싣+고" CCONJ SELECT:27:r1a
-;	"싣+고" SCONJ SELECT:27:r1a
+	"싣+고" VERB SELECT:31:r1a
+;	"싣+고" CCONJ SELECT:31:r1a
+;	"싣+고" SCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -1833,10 +1833,10 @@
 "<생각하게>"
 	"생각+하+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<매력적인>"
 	"매력+적+이+ㄴ" VERB
 "<책이다>"
@@ -2054,10 +2054,10 @@
 "<수가>"
 	"수+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -2099,13 +2099,13 @@
 	"채" NOUN
 	"채" ADV
 "<자고>"
-	"자+고" VERB SELECT:23:r1
-;	"자+고" CCONJ SELECT:23:r1
+	"자+고" VERB SELECT:27:r1
+;	"자+고" CCONJ SELECT:27:r1
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -2119,10 +2119,10 @@
 "<사람들도>"
 	"사람+들+도" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -2147,9 +2147,9 @@
 "<발견하게>"
 	"발견+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -2210,8 +2210,8 @@
 "<데>"
 	"데" NOUN
 "<이용하고>"
-	"이용+하+고" VERB SELECT:27:r1a
-;	"이용+하+고" CCONJ SELECT:27:r1a
+	"이용+하+고" VERB SELECT:31:r1a
+;	"이용+하+고" CCONJ SELECT:31:r1a
 "<있어>"
 	"있+어" SCONJ
 	"있+어" AUX
@@ -2239,11 +2239,11 @@
 "<일본에는>"
 	"일본+에+는" PROPN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<많은>"
 	"많+ㄴ" ADJ
 	"많+은" ADJ
@@ -2257,9 +2257,9 @@
 	"넘치+고" VERB
 	"넘치+고" CCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -2289,15 +2289,15 @@
 "<용돈에서부터>"
 	"용돈+에서+부터" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<밑천까지>"
 	"밑천+까지" ADV
 "<단단히>"
@@ -2332,10 +2332,10 @@
 "<부인이>"
 	"부인+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -2361,9 +2361,9 @@
 "<가리지>"
 	"가리+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<육탄공세를>"
 	"육탄공세+를" NOUN
 "<펼쳐대니까요>"
@@ -2448,23 +2448,23 @@
 "<멋>"
 	"멋" NOUN
 "<내는>"
-	"내+는" VERB
-	"내+는" AUX
-	"내+는" PRON
+	"내+는" VERB SELECT:153:r3b
+;	"내+는" AUX SELECT:153:r3b
+;	"내+는" PRON SELECT:153:r3b
 "<돈을>"
 	"돈+을" NOUN
 "<버느라고>"
 	"벌+느라고" SCONJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<달>"
 	"달" NOUN
 "<내내>"
@@ -2492,13 +2492,13 @@
 "<그토록>"
 	"그토록" ADV
 "<얽매여>"
-	"얽매이+어" VERB SELECT:23:r1
-;	"얽매이+어" SCONJ SELECT:23:r1
+	"얽매이+어" VERB SELECT:27:r1
+;	"얽매이+어" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<루이비통>"
 	"루이비통" NOUN
 "<백처럼>"
@@ -2521,11 +2521,11 @@
 	"하루종일" NOUN
 	"하루종일" ADV
 "<보게>"
-	"보+게" VERB SELECT:23:r1
-;	"보+게" AUX SELECT:23:r1
+	"보+게" VERB SELECT:27:r1
+;	"보+게" AUX SELECT:27:r1
 "<되는>"
-	"되+는" AUX SELECT:33:r1b
-;	"되+는" VERB SELECT:33:r1b
+	"되+는" AUX SELECT:37:r1b
+;	"되+는" VERB SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -2706,9 +2706,9 @@
 "<생각하지>"
 	"생각+하+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<온갖>"
 	"온갖" ADJ
 "<고급품을>"
@@ -2740,35 +2740,35 @@
 	"되+어" SCONJ
 	"되+어" AUX
 "<버린>"
-	"버리+ㄴ" AUX SELECT:33:r1b
-;	"버리+ㄴ" VERB SELECT:33:r1b
+	"버리+ㄴ" AUX SELECT:37:r1b
+;	"버리+ㄴ" VERB SELECT:37:r1b
 "<느낌을>"
 	"느낌+을" NOUN
 	"느끼+ㅁ+을" NOUN
 "<버릴>"
-	"버리+ㄹ" VERB
-	"버리+ㄹ" AUX
+	"버리+ㄹ" VERB SELECT:153:r3b
+;	"버리+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
 	"." PUNCT
 
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<것에>"
 	"것+에" ADV
 "<놀라지>"
@@ -2777,11 +2777,11 @@
 	"않+ㄹ" AUX
 	"않+을" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -2819,11 +2819,11 @@
 	"맞추+어" SCONJ
 	"맞추+어" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<많은>"
 	"많+ㄴ" ADJ
 	"많+은" ADJ
@@ -2850,14 +2850,14 @@
 "<술집에>"
 	"술집+에" ADV
 "<나와>"
-	"나오+아" VERB SELECT:23:r1
-;	"나오+아" SCONJ SELECT:23:r1
-;	"나+와" CCONJ SELECT:23:r1
+	"나오+아" VERB SELECT:27:r1
+;	"나오+아" SCONJ SELECT:27:r1
+;	"나+와" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<여자들도>"
 	"여자+들+도" ADV
 "<많다>"
@@ -2893,17 +2893,17 @@
 "<술집에>"
 	"술집+에" ADV
 "<나와>"
-	"나오+아" VERB SELECT:23:r1
-;	"나오+아" SCONJ SELECT:23:r1
-;	"나+와" CCONJ SELECT:23:r1
+	"나오+아" VERB SELECT:27:r1
+;	"나오+아" SCONJ SELECT:27:r1
+;	"나+와" CCONJ SELECT:27:r1
 "<앉아>"
 	"앉+아" VERB
 	"앉+아" SCONJ
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -2946,10 +2946,10 @@
 "<여자들이>"
 	"여자+들+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -3043,9 +3043,9 @@
 "<팔짱을>"
 	"팔짱+을" NOUN
 "<끼고>"
-	"끼+고" VERB SELECT:27:r1a
-;	"끼+고" CCONJ SELECT:27:r1a
-;	"끼+고" SCONJ SELECT:27:r1a
+	"끼+고" VERB SELECT:31:r1a
+;	"끼+고" CCONJ SELECT:31:r1a
+;	"끼+고" SCONJ SELECT:31:r1a
 "<지나가는>"
 	"지나+아+가+는" AUX
 "<일본>"
@@ -3061,11 +3061,11 @@
 	"보+ㄹ" AUX
 	"볼" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -3101,14 +3101,14 @@
 "<인기를>"
 	"인기+를" NOUN
 "<끌고>"
-	"끌+고" VERB SELECT:27:r1a
-;	"끌+고" CCONJ SELECT:27:r1a
-;	"끌+고" SCONJ SELECT:27:r1a
+	"끌+고" VERB SELECT:31:r1a
+;	"끌+고" CCONJ SELECT:31:r1a
+;	"끌+고" SCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -3179,10 +3179,10 @@
 "<가격흥정을>"
 	"가격흥정+을" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -3193,9 +3193,9 @@
 "<디스코테크로>"
 	"디스코+테크+로" ADV
 "<데리고>"
-	"데리+고" VERB SELECT:23:r1
-;	"데리+고" SCONJ SELECT:23:r1
-;	"데리+고" CCONJ SELECT:23:r1
+	"데리+고" VERB SELECT:27:r1
+;	"데리+고" SCONJ SELECT:27:r1
+;	"데리+고" CCONJ SELECT:27:r1
 "<가서>"
 	"가+서" SCONJ
 "<신나게>"
@@ -3231,10 +3231,10 @@
 	"물론" ADV
 	"물론" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<비용은>"
 	"비용+은" NOUN
 "<경제대국>"
@@ -3309,8 +3309,8 @@
 "<술상에>"
 	"술상+에" ADV
 "<올려>"
-	"올리+어" VERB SELECT:23:r1
-;	"올리+어" SCONJ SELECT:23:r1
+	"올리+어" VERB SELECT:27:r1
+;	"올리+어" SCONJ SELECT:27:r1
 "<놓은>"
 	"놓+ㄴ" AUX
 	"놓+은" AUX
@@ -3354,10 +3354,10 @@
 "<특징이>"
 	"특징+이" NOUN
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<결론을>"
 	"결론+을" NOUN
 "<얻었다>"
@@ -3410,11 +3410,11 @@
 "<만날>"
 	"만나+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -3483,30 +3483,30 @@
 "<친구를>"
 	"친구+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없이>"
 	"없+이" SCONJ
 "<자기집까지>"
 	"자기집+까지" ADV
 "<데리고>"
-	"데리+고" VERB SELECT:23:r1
-;	"데리+고" SCONJ SELECT:23:r1
-;	"데리+고" CCONJ SELECT:23:r1
+	"데리+고" VERB SELECT:27:r1
+;	"데리+고" SCONJ SELECT:27:r1
+;	"데리+고" CCONJ SELECT:27:r1
 "<갔다>"
-	"가+ㅆ+다" VERB
-	"가+ㅆ+다" AUX
-	"가+았+다" SCONJ
-	"가+ㅆ+다" SCONJ
-	"가+았+다" AUX
+	"가+ㅆ+다" AUX SELECT:111:r2c
+	"가+았+다" AUX SELECT:111:r2c
+;	"가+ㅆ+다" VERB SELECT:111:r2c
+;	"가+았+다" SCONJ SELECT:111:r2c
+;	"가+ㅆ+다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -3539,13 +3539,13 @@
 "<역사를>"
 	"역사+를" NOUN
 "<가지고>"
-	"가지+고" VERB SELECT:27:r1a
-;	"가지+고" CCONJ SELECT:27:r1a
-;	"가지+고" SCONJ SELECT:27:r1a
+	"가지+고" VERB SELECT:31:r1a
+;	"가지+고" CCONJ SELECT:31:r1a
+;	"가지+고" SCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -3627,18 +3627,18 @@
 "<못하고>"
 	"못하+고" AUX
 	"못하+고" CCONJ
-	"못하+고" SCONJ
+;	"못하+고" SCONJ REMOVE:56:r3
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:132:r2g
+;	"있+었+다" ADJ SELECT:132:r2g
+;	"있+었+다" VERB SELECT:132:r2g
+;	"있+었+다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<이론의>"
 	"이론+의" NOUN
 "<부재가>"
@@ -3688,10 +3688,10 @@
 "<인간의>"
 	"인간+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<본질과>"
 	"본질+과" CCONJ
 "<현상은>"
@@ -3707,15 +3707,15 @@
 	"이루+어" VERB
 	"이루+어" SCONJ
 "<질>"
-	"지+ㄹ" AUX SELECT:33:r1b
-;	"지+ㄹ" VERB SELECT:33:r1b
-;	"질" NOUN SELECT:33:r1b
+	"지+ㄹ" AUX SELECT:37:r1b
+;	"지+ㄹ" VERB SELECT:37:r1b
+;	"질" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -3749,14 +3749,14 @@
 "<학문이>"
 	"학문+이" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -3842,10 +3842,10 @@
 	"보+려고" AUX
 	"보+려고" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -3864,17 +3864,17 @@
 "<재생산해내고>"
 	"재생산+하+어+내+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<본>"
 	"본" DET
 	"보+ㄴ" AUX
@@ -3890,13 +3890,13 @@
 	"속+에서" ADV
 	"속+에서" NOUN
 "<나타나고>"
-	"나타나+고" VERB SELECT:23:r1
-;	"나타나+고" CCONJ SELECT:23:r1
+	"나타나+고" VERB SELECT:27:r1
+;	"나타나+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<출판의>"
 	"출판+의" NOUN
 "<성격을>"
@@ -3904,21 +3904,21 @@
 "<규명하고자>"
 	"규명+하+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<위해>"
 	"위하+어" SCONJ
 	"위+하+어" SCONJ
@@ -3936,11 +3936,11 @@
 "<특수성으로>"
 	"특수성+으로" ADV
 "<나누어>"
-	"나누+어" VERB SELECT:23:r1
-;	"나누+어" SCONJ SELECT:23:r1
+	"나누+어" VERB SELECT:27:r1
+;	"나누+어" SCONJ SELECT:27:r1
 "<살펴본다>"
-	"살피+어+보+ㄴ다" AUX
-	"살펴보+ㄴ다" VERB
+	"살피+어+보+ㄴ다" AUX SELECT:111:r2c
+;	"살펴보+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -4099,13 +4099,13 @@
 "<출판분야에도>"
 	"출판+분야+에+도" ADV
 "<나타나고>"
-	"나타나+고" VERB SELECT:23:r1
-;	"나타나+고" CCONJ SELECT:23:r1
+	"나타나+고" VERB SELECT:27:r1
+;	"나타나+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<일방적이고>"
 	"일방+적+이+고" CCONJ
 "<불평등한>"
@@ -4117,8 +4117,8 @@
 "<조명해>"
 	"조명+하+어" VERB
 "<본다>"
-	"보+ㄴ다" AUX
-	"보+ㄴ다" VERB
+	"보+ㄴ다" AUX SELECT:111:r2c
+;	"보+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -4153,10 +4153,10 @@
 	"나아가+야" VERB
 	"나+아+가+아야" AUX
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<출판의>"
 	"출판+의" NOUN
 "<방향을>"
@@ -4312,9 +4312,9 @@
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<언론상품은>"
 	"언론+상품+은" NOUN
 "<포장이나>"
@@ -4344,9 +4344,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -4388,16 +4388,16 @@
 "<변화를>"
 	"변화+를" NOUN
 "<줄>"
-	"주+ㄹ" VERB
-	"주+ㄹ" AUX
-	"줄" NOUN
-	"줄+ㄹ" VERB
+	"주+ㄹ" VERB SELECT:153:r3b
+	"줄+ㄹ" VERB SELECT:153:r3b
+;	"주+ㄹ" AUX SELECT:153:r3b
+;	"줄" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -4407,7 +4407,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<언론상품의>"
 	"언론+상품+의" NOUN
 "<사용가치의>"
@@ -4443,8 +4443,8 @@
 "<자본투하가>"
 	"자본+투하+가" NOUN
 "<된>"
-	"되+ㄴ" VERB
-	"되+ㄴ" AUX
+	"되+ㄴ" VERB SELECT:153:r3b
+;	"되+ㄴ" AUX SELECT:153:r3b
 "<후의>"
 	"후+의" NOUN
 "<상품은>"
@@ -4537,9 +4537,9 @@
 "<지형만>"
 	"지형+만" ADV
 "<가지고>"
-	"가지+고" VERB SELECT:23:r1
-;	"가지+고" CCONJ SELECT:23:r1
-;	"가지+고" SCONJ SELECT:23:r1
+	"가지+고" VERB SELECT:27:r1
+;	"가지+고" CCONJ SELECT:27:r1
+;	"가지+고" SCONJ SELECT:27:r1
 "<있으면>"
 	"있+으면" SCONJ
 "<저렴한>"
@@ -4561,15 +4561,15 @@
 "<,>"
 	"," PUNCT
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<번>"
 	"번" NOUN
 	"벌+ㄴ" VERB
@@ -4730,7 +4730,7 @@
 
 "<왜냐하면>"
 	"왜냐하면" CCONJ
-	"왜냐하면" ADV
+;	"왜냐하면" ADV REMOVE:69:r6
 "<언론상품의>"
 	"언론+상품+의" NOUN
 "<사용가치를>"
@@ -4781,9 +4781,9 @@
 "<원하게>"
 	"원하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -4866,11 +4866,11 @@
 "<보존될>"
 	"보존+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있어>"
 	"있+어" SCONJ
 	"있+어" AUX
@@ -4894,11 +4894,11 @@
 	"받+ㄹ" VERB
 	"받+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -4964,11 +4964,11 @@
 "<읽힐>"
 	"읽히+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -4989,11 +4989,11 @@
 "<설명에서>"
 	"설명+에서" ADV
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<드러난다>"
-	"드러나+ㄴ다" VERB
-	"들+어+나+ㄴ다" AUX
+	"들+어+나+ㄴ다" AUX SELECT:111:r2c
+;	"드러나+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -5198,7 +5198,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<하나의>"
 	"하나+의" NUM
 	"하나+의" NOUN
@@ -5206,14 +5206,14 @@
 	"책+을" NOUN
 	"책+의" NOUN
 "<놓고>"
-	"놓+고" VERB SELECT:27:r1a
-;	"놓+고" AUX SELECT:27:r1a
-;	"놓+고" CCONJ SELECT:27:r1a
-;	"놓+고" SCONJ SELECT:27:r1a
+	"놓+고" VERB SELECT:31:r1a
+;	"놓+고" AUX SELECT:31:r1a
+;	"놓+고" CCONJ SELECT:31:r1a
+;	"놓+고" SCONJ SELECT:31:r1a
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -5234,19 +5234,19 @@
 	"깊이" ADV
 	"깊+이" SCONJ
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<내용을>"
 	"내용+을" NOUN
 "<담고>"
-	"담+고" VERB SELECT:27:r1a
-;	"담+고" CCONJ SELECT:27:r1a
+	"담+고" VERB SELECT:31:r1a
+;	"담+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -5258,15 +5258,15 @@
 "<신문은>"
 	"신문+은" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<부의>"
 	"부+의" NOUN
 "<신문에>"
@@ -5279,9 +5279,9 @@
 "<포괄되어>"
 	"포괄+되+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -5430,11 +5430,11 @@
 "<발간할>"
 	"발간+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -5529,11 +5529,11 @@
 "<꽃힐>"
 	"꽃히+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -5542,9 +5542,9 @@
 "<장기성에>"
 	"장기성+에" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -5564,13 +5564,13 @@
 "<특성을>"
 	"특성+을" NOUN
 "<지니고>"
-	"지니+고" VERB SELECT:27:r1a
-;	"지니+고" SCONJ SELECT:27:r1a
-;	"지니+고" CCONJ SELECT:27:r1a
+	"지니+고" VERB SELECT:31:r1a
+;	"지니+고" SCONJ SELECT:31:r1a
+;	"지니+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -5604,10 +5604,10 @@
 "<오히려>"
 	"오히려" ADV
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<언론상품이>"
 	"언론+상품+이" NOUN
 "<지닌>"
@@ -5645,16 +5645,16 @@
 "<충족시켜줄>"
 	"충족+시키+어+주+ㄹ" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<물품을>"
 	"물품+을" NOUN
 "<만들어내는>"
@@ -5751,11 +5751,11 @@
 	"들" PART
 	"들" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -5794,11 +5794,11 @@
 "<작용할>"
 	"작용+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -5880,10 +5880,10 @@
 "<노동행위를>"
 	"노동+행위+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<것인가를>"
 	"것+이+ㄴ가+를" NOUN
 	"것+이+인가+를" NOUN
@@ -5901,7 +5901,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<노동은>"
 	"노동+은" NOUN
 "<단순한>"
@@ -5971,31 +5971,31 @@
 "<실현될>"
 	"실현+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<대상물을>"
 	"대상물+을" NOUN
 "<노동대상이라고>"
 	"노동+대상+이+라+고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<노동이>"
 	"노동+이" NOUN
 "<행해지기>"
@@ -6016,7 +6016,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이러한>"
 	"이러하+ㄴ" ADJ
 	"이러하+ㄴ" VERB
@@ -6031,10 +6031,10 @@
 "<등의>"
 	"등+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<사회적>"
 	"사회+적" NOUN
 "<원료는>"
@@ -6042,14 +6042,14 @@
 "<노동대상이>"
 	"노동+대상+이" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있지만>"
 	"있+지만" SCONJ
 	"있+지만" CCONJ
@@ -6093,8 +6093,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<출판노동자는>"
 	"출판+노동자+는" NOUN
 "<인간의>"
@@ -6133,9 +6133,9 @@
 	"만들+어" SCONJ
 	"만들+어" AUX
 "<내는>"
-	"내+는" VERB
-	"내+는" AUX
-	"내+는" PRON
+	"내+는" AUX SELECT:111:r2c
+;	"내+는" VERB SELECT:111:r2c
+;	"내+는" PRON SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -6144,12 +6144,12 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<저자의>"
 	"저자+의" NOUN
 "<지적인>"
@@ -6213,14 +6213,14 @@
 "<상품이>"
 	"상품+이" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -6289,10 +6289,10 @@
 "<생산수단이라고>"
 	"생산+수단+이+라+고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -6323,16 +6323,16 @@
 "<확보하고자>"
 	"확보+하+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<자본주의적>"
 	"자본주의+적" NOUN
 "<생산양식의>"
@@ -6375,14 +6375,14 @@
 "<추진하게>"
 	"추진+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<어느>"
 	"어느" DET
 	"어느" NOUN
@@ -6416,22 +6416,22 @@
 "<통제가>"
 	"통제+가" NOUN
 "<이루어지는>"
-	"이루+어+지+는" AUX
-	"이루어지+는" VERB
+	"이루어지+는" VERB SELECT:153:r3b
+;	"이루+어+지+는" AUX SELECT:153:r3b
 "<실질적>"
 	"실질+적" NOUN
 "<포섭으로>"
 	"포섭+으로" ADV
 "<바뀌어>"
-	"바뀌+어" VERB SELECT:23:r1
-;	"바뀌+어" SCONJ SELECT:23:r1
+	"바뀌+어" VERB SELECT:27:r1
+;	"바뀌+어" SCONJ SELECT:27:r1
 "<가는>"
-	"가+는" AUX
-	"가+는" VERB
-	"가+는" NOUN
-	"가늘+ㄴ" ADJ
-	"갈+는" VERB
-	"가늘+는" ADJ
+	"가+는" AUX SELECT:78:r7
+;	"가+는" VERB SELECT:78:r7
+;	"가+는" NOUN SELECT:78:r7
+;	"가늘+ㄴ" ADJ SELECT:78:r7
+;	"갈+는" VERB SELECT:78:r7
+;	"가늘+는" ADJ SELECT:78:r7
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -6465,8 +6465,8 @@
 	"가능하+게" ADJ
 	"가능+하+게" SCONJ
 "<해주는>"
-	"하+어+주+는" AUX SELECT:33:r1b
-;	"해주+는" VERB SELECT:33:r1b
+	"하+어+주+는" AUX SELECT:37:r1b
+;	"해주+는" VERB SELECT:37:r1b
 "<물적토대를>"
 	"물적+토대+를" NOUN
 "<마련해준다>"
@@ -6524,9 +6524,9 @@
 "<차지하고>"
 	"차지+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -6547,21 +6547,21 @@
 "<행위를>"
 	"행위+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<것인가를>"
 	"것+이+ㄴ가+를" NOUN
 	"것+이+인가+를" NOUN
 "<머리에>"
 	"머리+에" ADV
 "<그리고>"
-	"그리+고" VERB SELECT:23:r1
-;	"그리고" CCONJ SELECT:23:r1
-;	"그리고" ADV SELECT:23:r1
-;	"길+ㄴ" ADJ SELECT:23:r1
-;	"그리+고" SCONJ SELECT:23:r1
+	"그리+고" VERB SELECT:27:r1
+;	"그리고" CCONJ SELECT:27:r1
+;	"그리고" ADV SELECT:27:r1
+;	"길+ㄴ" ADJ SELECT:27:r1
+;	"그리+고" SCONJ SELECT:27:r1
 "<나서>"
 	"나+서" SCONJ
 	"나서+어" SCONJ
@@ -6594,11 +6594,11 @@
 "<발휘할>"
 	"발휘+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -6664,15 +6664,15 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<거의>"
 	"거의" ADV
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<출판사에서의>"
 	"출판사+에서+의" NOUN
 "<기획결정과정에는>"
@@ -6687,13 +6687,13 @@
 "<상례로>"
 	"상례+로" ADV
 "<되어>"
-	"되+어" VERB SELECT:23:r1
-;	"되+어" SCONJ SELECT:23:r1
-;	"되+어" AUX SELECT:23:r1
+	"되+어" VERB SELECT:27:r1
+;	"되+어" SCONJ SELECT:27:r1
+;	"되+어" AUX SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -6744,10 +6744,10 @@
 "<하여야>"
 	"하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -6762,17 +6762,17 @@
 	"가+지+ㄹ" NOUN
 	"가지+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" VERB SELECT:153:r3b
+;	"있+ㄹ" ADJ SELECT:153:r3b
+;	"있+ㄹ" AUX SELECT:153:r3b
+;	"있+을" ADJ SELECT:153:r3b
+;	"있+을" AUX SELECT:153:r3b
 "<것인가는>"
 	"것+이+ㄴ가+는" NOUN
 	"것+이+인가+는" NOUN
@@ -6800,16 +6800,16 @@
 	"가+지+ㄹ" NOUN
 	"가지+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<판단이>"
 	"판단+이" NOUN
 "<서면>"
@@ -6824,12 +6824,12 @@
 "<기획에>"
 	"기획+에" ADV
 "<들어가게>"
-	"들어가+게" VERB SELECT:23:r1
-;	"들+어+가+게" AUX SELECT:23:r1
+	"들어가+게" VERB SELECT:27:r1
+;	"들+어+가+게" AUX SELECT:27:r1
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -6854,9 +6854,9 @@
 	"이루+어+지+게" AUX
 	"이루+어+지+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:132:r2g
+	"되+다" AUX SELECT:132:r2g
+;	"되+ㄴ다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -6885,9 +6885,9 @@
 "<구별되고>"
 	"구별+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -6900,10 +6900,10 @@
 "<주변의>"
 	"주변+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<소재를>"
 	"소재+를" NOUN
 "<저자가>"
@@ -6931,7 +6931,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<오늘날의>"
 	"오늘날+의" NOUN
 "<출판시장은>"
@@ -6952,21 +6952,21 @@
 "<생명이라고>"
 	"생명+이+라+고" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<저술의>"
 	"저술+의" NOUN
 "<내용을>"
@@ -6978,10 +6978,10 @@
 "<통제하려고>"
 	"통제+하+려고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7004,10 +7004,10 @@
 	"극복+하+려고" VERB
 	"극복+하+려고" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7045,11 +7045,11 @@
 	"보+ㄹ" AUX
 	"볼" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -7173,11 +7173,11 @@
 	"가+지+ㄹ" NOUN
 	"가지+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는가를>"
 	"있+는가+를" NOUN
 	"있+ㄴ가+를" NOUN
@@ -7201,9 +7201,9 @@
 	"결함+이" NOUN
 "<있다고>"
 	"있+다+고" VERB
-	"있+다고" SCONJ
-	"있+다+고" SCONJ
 	"있+다고" CCONJ
+;	"있+다고" SCONJ REMOVE:56:r3
+;	"있+다+고" SCONJ REMOVE:56:r3
 "<판단되면>"
 	"판단+되+면" SCONJ
 "<다시>"
@@ -7217,11 +7217,11 @@
 "<요구할>"
 	"요구+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -7241,9 +7241,9 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7263,20 +7263,20 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<레이아웃작업은>"
 	"레이아웃+작업+은" NOUN
 "<편집자의>"
@@ -7310,11 +7310,11 @@
 "<높일>"
 	"높이+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -7349,13 +7349,13 @@
 	"하+더라도" SCONJ
 	"하+더+라도" SCONJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<레이아웃>"
 	"레이아웃" NOUN
 "<과정에서>"
@@ -7378,8 +7378,8 @@
 "<받지>"
 	"받+지" VERB
 "<못한다>"
-	"못하+ㄴ다" AUX
-	"못하+ㄴ다" VERB
+	"못하+ㄴ다" AUX SELECT:111:r2c
+;	"못하+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7444,10 +7444,10 @@
 "<역할을>"
 	"역할+을" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -7494,8 +7494,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<출판자본가는>"
 	"출판+자본가+는" NOUN
 "<디자이너의>"
@@ -7524,9 +7524,9 @@
 "<경우도>"
 	"경우+도" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -7548,12 +7548,12 @@
 "<인쇄에>"
 	"인쇄+에" ADV
 "<들어가게>"
-	"들어가+게" VERB SELECT:23:r1
-;	"들+어+가+게" AUX SELECT:23:r1
+	"들어가+게" VERB SELECT:27:r1
+;	"들+어+가+게" AUX SELECT:27:r1
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7594,9 +7594,9 @@
 	"나오+게" SCONJ
 	"나오+게" AUX
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -7613,13 +7613,13 @@
 "<제본기를>"
 	"제본기+를" NOUN
 "<가지고>"
-	"가지+고" VERB SELECT:27:r1a
-;	"가지+고" CCONJ SELECT:27:r1a
-;	"가지+고" SCONJ SELECT:27:r1a
+	"가지+고" VERB SELECT:31:r1a
+;	"가지+고" CCONJ SELECT:31:r1a
+;	"가지+고" SCONJ SELECT:31:r1a
 "<있어>"
-	"있+어" AUX SELECT:57:r5
-;	"있+어" SCONJ SELECT:57:r5
-;	"있+어" ADJ SELECT:57:r5
+	"있+어" AUX SELECT:66:r5
+;	"있+어" SCONJ SELECT:66:r5
+;	"있+어" ADJ SELECT:66:r5
 "<자체>"
 	"자체" NOUN
 "<내에서>"
@@ -7693,9 +7693,9 @@
 	"보이+고" VERB
 	"보이+고" CCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -7719,15 +7719,15 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<자본의>"
 	"자본+의" NOUN
 "<운동을>"
@@ -7780,13 +7780,13 @@
 "<사용가치를>"
 	"사용+가치+를" NOUN
 "<지니고>"
-	"지니+고" VERB SELECT:27:r1a
-;	"지니+고" SCONJ SELECT:27:r1a
-;	"지니+고" CCONJ SELECT:27:r1a
+	"지니+고" VERB SELECT:31:r1a
+;	"지니+고" SCONJ SELECT:31:r1a
+;	"지니+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<하더라도>"
 	"하+더라+도" ADV
 	"하+더라도" SCONJ
@@ -7829,8 +7829,8 @@
 "<받지>"
 	"받+지" VERB
 "<못하는>"
-	"못하+는" AUX SELECT:33:r1b
-;	"못하+는" VERB SELECT:33:r1b
+	"못하+는" AUX SELECT:37:r1b
+;	"못하+는" VERB SELECT:37:r1b
 "<상품은>"
 	"상품+은" NOUN
 "<창고에서>"
@@ -7885,8 +7885,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<자본가는>"
 	"자본가+는" NOUN
 "<교환가치의>"
@@ -7898,17 +7898,17 @@
 	"위하+ㄴ" VERB
 	"위+하+어서" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<힘을>"
 	"힘+을" NOUN
 "<기울이게>"
 	"기울이+게" VERB
 "<되고>"
-	"되+고" CCONJ
-	"되+고" VERB
+	"되+고" CCONJ SELECT:128:r2e
+;	"되+고" VERB SELECT:128:r2e
 "<가능하면>"
 	"가능+하+면" SCONJ
 "<자본의>"
@@ -7923,16 +7923,16 @@
 	"하+려고" SCONJ
 	"하+려고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<왜냐하면>"
 	"왜냐하면" CCONJ
-	"왜냐하면" ADV
+;	"왜냐하면" ADV REMOVE:69:r6
 "<이윤율이>"
 	"이윤율+이" NOUN
 "<같은>"
@@ -8002,10 +8002,10 @@
 	"위하+어" SCONJ
 	"위+하+어" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<수단을>"
 	"수단+을" NOUN
 "<강구한다>"
@@ -8031,10 +8031,10 @@
 "<역할을>"
 	"역할+을" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -8102,10 +8102,10 @@
 "<역할을>"
 	"역할+을" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -8114,8 +8114,8 @@
 "<원활히>"
 	"원활+히" ADV
 "<하기>"
-	"하+기" VERB SELECT:23:r1
-;	"하+기" AUX SELECT:23:r1
+	"하+기" VERB SELECT:27:r1
+;	"하+기" AUX SELECT:27:r1
 "<위하여>"
 	"위하+어" SCONJ
 	"위+하+어" SCONJ
@@ -8176,10 +8176,10 @@
 "<이룩하고자>"
 	"이룩하+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -8191,11 +8191,11 @@
 "<소비하고>"
 	"소비+하+고" VERB
 "<난>"
-	"나+ㄴ" AUX SELECT:33:r1b
-;	"나+ㄴ" VERB SELECT:33:r1b
-;	"나+는" PRON SELECT:33:r1b
-;	"난" NOUN SELECT:33:r1b
-;	"나+ㄴ" PRON SELECT:33:r1b
+	"나+ㄴ" AUX SELECT:37:r1b
+;	"나+ㄴ" VERB SELECT:37:r1b
+;	"나+는" PRON SELECT:37:r1b
+;	"난" NOUN SELECT:37:r1b
+;	"나+ㄴ" PRON SELECT:37:r1b
 "<잉여가치의>"
 	"잉여+가치+의" NOUN
 "<일부를>"
@@ -8221,17 +8221,17 @@
 "<이루게>"
 	"이루+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<지식과>"
 	"지식+과" CCONJ
 "<정보의>"
@@ -8255,7 +8255,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<1445년>"
 	"1445+년" NOUN
 "<독일인>"
@@ -8324,16 +8324,16 @@
 "<이윤추구를>"
 	"이윤+추구+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -8368,21 +8368,21 @@
 "<이윤추구를>"
 	"이윤+추구+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<지식>"
 	"지식" NOUN
 "<정보상품의>"
@@ -8409,9 +8409,9 @@
 	"있+게" VERB
 	"있+게" AUX
 "<되자>"
-	"되+자" SCONJ
-	"되+자" VERB
-	"되+자" CCONJ
+	"되+자" CCONJ SELECT:128:r2e
+;	"되+자" SCONJ SELECT:128:r2e
+;	"되+자" VERB SELECT:128:r2e
 "<그들의>"
 	"그+들+의" PRON
 "<관심은>"
@@ -8502,13 +8502,13 @@
 "<'>"
 	"'" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<출판>"
 	"출판" NOUN
 "<당일>"
@@ -8564,10 +8564,10 @@
 	"팔+려" SCONJ
 	"팔리+어" VERB
 "<나갔다>"
-	"나가+ㅆ+다" VERB
-	"나가+ㅆ+다" AUX
-	"나가+ㅆ+다" SCONJ
-	"나가+았+다" AUX
+	"나가+ㅆ+다" AUX SELECT:111:r2c
+	"나가+았+다" AUX SELECT:111:r2c
+;	"나가+ㅆ+다" VERB SELECT:111:r2c
+;	"나가+ㅆ+다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -8639,7 +8639,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<점차>"
 	"점차" ADV
 "<판매의>"
@@ -8713,7 +8713,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이러한>"
 	"이러하+ㄴ" ADJ
 	"이러하+ㄴ" VERB
@@ -8777,8 +8777,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<생산>"
 	"생산" NOUN
 "<,>"
@@ -8906,15 +8906,15 @@
 "<꾀하여>"
 	"꾀하+어" VERB
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<하나의>"
 	"하나+의" NUM
 	"하나+의" NOUN
@@ -9073,12 +9073,12 @@
 	"더" ADV
 	"더" X
 "<소유하고>"
-	"소유+하+고" VERB SELECT:23:r1
-;	"소유+하+고" CCONJ SELECT:23:r1
+	"소유+하+고" VERB SELECT:27:r1
+;	"소유+하+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -9197,13 +9197,13 @@
 "<한계를>"
 	"한계+를" NOUN
 "<안고>"
-	"안+고" VERB SELECT:27:r1a
-;	"안+고" CCONJ SELECT:27:r1a
+	"안+고" VERB SELECT:31:r1a
+;	"안+고" CCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -9250,7 +9250,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<본격적인>"
 	"본격+적+이+ㄴ" VERB
 "<자본>"
@@ -9318,8 +9318,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<1970년대에는>"
 	"1970+년대+에+는" NUM
 "<자본의>"
@@ -9357,22 +9357,22 @@
 "<조화될>"
 	"조화+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
 "<시점에>"
 	"시점+에" ADV
 "<이르게>"
-	"이르+게" VERB SELECT:23:r1
-;	"이르+게" SCONJ SELECT:23:r1
+	"이르+게" VERB SELECT:27:r1
+;	"이르+게" SCONJ SELECT:27:r1
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" AUX SELECT:111:r2c
+;	"되+는" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -9422,15 +9422,15 @@
 	"." PUNCT
 
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<줌의>"
 	"줌+의" NOUN
 "<몇몇>"
@@ -9447,13 +9447,13 @@
 "<자본가에게>"
 	"자본가+에게" ADV
 "<집중되어>"
-	"집중+되+어" VERB SELECT:23:r1
-;	"집중+되+어" SCONJ SELECT:23:r1
+	"집중+되+어" VERB SELECT:27:r1
+;	"집중+되+어" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<생산수단의>"
 	"생산+수단+의" NOUN
 	"생산수단+의" NOUN
@@ -9478,12 +9478,12 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<노동과정이>"
 	"노동+과정+이" NOUN
 "<끝날>"
@@ -9501,13 +9501,13 @@
 "<표상속에>"
 	"표상+속+에" ADV
 "<존재하고>"
-	"존재+하+고" VERB SELECT:23:r1
-;	"존재+하+고" CCONJ SELECT:23:r1
+	"존재+하+고" VERB SELECT:27:r1
+;	"존재+하+고" CCONJ SELECT:27:r1
 "<있던>"
-	"있+던" AUX SELECT:57:r5
-	"있+더+ㄴ" AUX SELECT:57:r5
-;	"있+던" ADJ SELECT:57:r5
-;	"있+더+ㄴ" ADJ SELECT:57:r5
+	"있+던" AUX SELECT:66:r5
+	"있+더+ㄴ" AUX SELECT:66:r5
+;	"있+던" ADJ SELECT:66:r5
+;	"있+더+ㄴ" ADJ SELECT:66:r5
 "<성과가>"
 	"성과+가" NOUN
 "<나온다>"
@@ -9519,8 +9519,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<인간은>"
 	"인간+은" NOUN
 "<그>"
@@ -9559,7 +9559,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<인간의>"
 	"인간+의" NOUN
 "<관념>"
@@ -9610,7 +9610,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<점차>"
 	"점차" ADV
 "<생산력이>"
@@ -9655,7 +9655,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<관념>"
 	"관념" NOUN
 "<,>"
@@ -9714,7 +9714,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<결정내용과>"
 	"결정+내용+과" CCONJ
 "<그리고>"
@@ -9777,7 +9777,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<전근대적인>"
 	"전근대+적+이+ㄴ" VERB
 "<학식자와>"
@@ -9804,7 +9804,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<구텐베르크>"
 	"구텐베르크" PROPN
 "<이후의>"
@@ -9955,11 +9955,11 @@
 "<영향력하에>"
 	"영향력+하+에" ADV
 "<묶어>"
-	"묶+어" VERB SELECT:23:r1
-;	"묶+어" SCONJ SELECT:23:r1
+	"묶+어" VERB SELECT:27:r1
+;	"묶+어" SCONJ SELECT:27:r1
 "<두려고>"
-	"두+려고" AUX
-	"두+려고" VERB
+	"두+려고" AUX SELECT:111:r2c
+;	"두+려고" VERB SELECT:111:r2c
 "<하였으며>"
 	"하+었+으며" SCONJ
 	"하+었+으며" CCONJ
@@ -9979,14 +9979,14 @@
 	"독점+하+려고" VERB
 	"독점+하+려고" SCONJ
 "<하였다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
+	"하+었+다" AUX SELECT:111:r2c
+;	"하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<활판인쇄의>"
 	"활판+인쇄+의" NOUN
 "<보급으로>"
@@ -10042,10 +10042,10 @@
 "<등은>"
 	"등+은" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<국가에>"
 	"국가+에" ADV
 "<통용되는>"
@@ -10131,16 +10131,16 @@
 	"것+이+라+고" VERB
 	"것+이+라고" SCONJ
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -10174,8 +10174,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<교과서의>"
 	"교과서+의" NOUN
 "<내용은>"
@@ -10238,10 +10238,10 @@
 	"관하+ㄴ" VERB
 	"관하+ㄴ" ADJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<사항이>"
 	"사항+이" NOUN
 "<국가권력에>"
@@ -10253,9 +10253,9 @@
 "<위임되고>"
 	"위임+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -10319,11 +10319,11 @@
 "<무풍지대일>"
 	"무풍지대+이+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -10375,9 +10375,9 @@
 	"하+어" SCONJ
 	"하+어" AUX
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -10551,17 +10551,17 @@
 "<수가>"
 	"수+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<그들은>"
 	"그+들+은" PRON
 	"그+들+의" PRON
@@ -10636,16 +10636,16 @@
 "<가할>"
 	"가하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -10701,8 +10701,8 @@
 	"제대로" ADV
 	"제+대로" ADV
 "<이루어지지>"
-	"이루어지+지" VERB SELECT:23:r1
-;	"이루+어+지+지" AUX SELECT:23:r1
+	"이루어지+지" VERB SELECT:27:r1
+;	"이루+어+지+지" AUX SELECT:27:r1
 "<않아>"
 	"않+아" SCONJ
 "<출판에>"
@@ -10721,19 +10721,19 @@
 "<마련되어>"
 	"마련+되+어" VERB
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<1896년>"
 	"1896+년" NOUN
 "<천주교를>"
@@ -10787,10 +10787,10 @@
 "<제정하여>"
 	"제정+하+어" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<출판물에>"
 	"출판물+에" ADV
 "<대하여>"
@@ -11011,13 +11011,13 @@
 "<출판문화운동협의회는>"
 	"출판+문화+운동+협의회+는" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시기에>"
 	"시기+에" ADV
 "<가해졌던>"
@@ -11055,12 +11055,12 @@
 	"나누+어" SCONJ
 	"나누+어" VERB
 "<설명하고>"
-	"설명+하+고" VERB
-	"설명+하+고" CCONJ
+	"설명+하+고" CCONJ SELECT:128:r2e
+;	"설명+하+고" VERB SELECT:128:r2e
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11172,9 +11172,9 @@
 "<악용되어>"
 	"악용+되+어" VERB
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -11185,13 +11185,13 @@
 "<동안에>"
 	"동안+에" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<법이>"
 	"법+이" NOUN
 "<적용되어>"
@@ -11213,12 +11213,12 @@
 "<회에>"
 	"회+에" ADV
 "<이르고>"
-	"이르+고" VERB SELECT:23:r1
-;	"이르+고" CCONJ SELECT:23:r1
+	"이르+고" VERB SELECT:27:r1
+;	"이르+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11263,9 +11263,9 @@
 	"않+고" AUX
 	"않+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -11297,10 +11297,10 @@
 "<하고자>"
 	"하+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -11350,15 +11350,15 @@
 "<할동은>"
 	"할동+은" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<나라에만>"
 	"나라+에+만" ADV
 "<국한되는>"
@@ -11406,9 +11406,9 @@
 "<넓혀가고>"
 	"넓히+어+가+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -11472,17 +11472,17 @@
 "<형태도>"
 	"형태+도" ADV
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" ADJ SELECT:85:r8
+	"있+을" ADJ SELECT:85:r8
+;	"있+ㄹ" AUX SELECT:85:r8
+;	"있+을" AUX SELECT:85:r8
+;	"있+ㄹ" VERB SELECT:85:r8
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -11515,9 +11515,9 @@
 "<미치고>"
 	"미치+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11540,12 +11540,12 @@
 "<노력을>"
 	"노력+을" NOUN
 "<기울이고>"
-	"기울이+고" VERB SELECT:27:r1a
-;	"기울이+고" CCONJ SELECT:27:r1a
+	"기울이+고" VERB SELECT:31:r1a
+;	"기울이+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11593,10 +11593,10 @@
 "<달하고>"
 	"달하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11617,9 +11617,9 @@
 "<독점하고>"
 	"독점+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11682,21 +11682,21 @@
 "<직원이>"
 	"직원+이" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<자회사를>"
 	"자회사+를" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<등>"
 	"등" NOUN
 "<아프리카>"
@@ -11759,21 +11759,21 @@
 "<지사를>"
 	"지사+를" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<홍콩>"
 	"홍콩" PROPN
 "<,>"
@@ -11793,13 +11793,13 @@
 "<독자를>"
 	"독자+를" NOUN
 "<확보하고>"
-	"확보+하+고" VERB SELECT:27:r1a
-;	"확보+하+고" CCONJ SELECT:27:r1a
+	"확보+하+고" VERB SELECT:31:r1a
+;	"확보+하+고" CCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11863,9 +11863,9 @@
 	"벌이+고" VERB
 	"벌+이+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11909,9 +11909,9 @@
 "<유포하고>"
 	"유포+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -11975,13 +11975,13 @@
 "<사이에서>"
 	"사이+에서" ADV
 "<발생하고>"
-	"발생+하+고" VERB SELECT:23:r1
-;	"발생+하+고" CCONJ SELECT:23:r1
+	"발생+하+고" VERB SELECT:27:r1
+;	"발생+하+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<문제점을>"
 	"문제점+을" NOUN
 "<개발도상국들이>"
@@ -11996,9 +11996,9 @@
 	"않+는다+고" VERB
 	"않+는다고" SCONJ
 "<하여>"
-	"하+어" VERB
-	"하+어" SCONJ
-	"하+어" AUX
+	"하+어" AUX SELECT:111:r2c
+;	"하+어" VERB SELECT:111:r2c
+;	"하+어" SCONJ SELECT:111:r2c
 "<개발도상국들로>"
 	"개발+도상국+들+로" ADV
 "<그>"
@@ -12008,13 +12008,13 @@
 "<화살을>"
 	"화살+을" NOUN
 "<돌리고>"
-	"돌리+고" VERB SELECT:27:r1a
-;	"돌리+고" SCONJ SELECT:27:r1a
-;	"돌리+고" CCONJ SELECT:27:r1a
+	"돌리+고" VERB SELECT:31:r1a
+;	"돌리+고" SCONJ SELECT:31:r1a
+;	"돌리+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -12054,9 +12054,9 @@
 	"않+고" AUX
 	"않+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -12106,24 +12106,24 @@
 	"꾸준+히" ADV
 	"꾸준히" ADV
 "<발전시켜>"
-	"발전+시키+어" VERB SELECT:23:r1
-;	"발전+시키+어" SCONJ SELECT:23:r1
+	"발전+시키+어" VERB SELECT:27:r1
+;	"발전+시키+어" SCONJ SELECT:27:r1
 "<올>"
-	"오+ㄹ" AUX SELECT:33:r1b
-;	"올" DET SELECT:33:r1b
-;	"오+ㄹ" VERB SELECT:33:r1b
-;	"올" NOUN SELECT:33:r1b
+	"오+ㄹ" AUX SELECT:37:r1b
+;	"올" DET SELECT:37:r1b
+;	"오+ㄹ" VERB SELECT:37:r1b
+;	"올" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -12211,10 +12211,10 @@
 	"가능하+게" ADJ
 	"가능+하+게" SCONJ
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<글의>"
 	"글+의" NOUN
 "<형태가>"
@@ -12222,16 +12222,16 @@
 "<적합하다고>"
 	"적합+하+다+고" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -12306,14 +12306,14 @@
 "<압도해>"
 	"압도+하+어" VERB
 "<나가고>"
-	"나가+고" AUX
-	"나가+고" VERB
-	"나가+고" CCONJ
+	"나가+고" AUX SELECT:111:r2c
+;	"나가+고" VERB SELECT:111:r2c
+;	"나가+고" CCONJ SELECT:111:r2c
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -12335,9 +12335,9 @@
 "<자랑을>"
 	"자랑+을" NOUN
 "<하여>"
-	"하+어" VERB
-	"하+어" SCONJ
-	"하+어" AUX
+	"하+어" VERB SELECT:153:r3b
+;	"하+어" SCONJ SELECT:153:r3b
+;	"하+어" AUX SELECT:153:r3b
 "<출판의>"
 	"출판+의" NOUN
 "<양적>"
@@ -12351,10 +12351,10 @@
 "<치우치고>"
 	"치우치+고" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -12366,24 +12366,24 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<'>"
 	"'" PUNCT
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<권의>"
 	"권+의" NOUN
 "<책>"
@@ -12442,23 +12442,23 @@
 "<성격을>"
 	"성격+을" NOUN
 "<강조하고>"
-	"강조+하+고" VERB SELECT:27:r1a
-;	"강조+하+고" CCONJ SELECT:27:r1a
+	"강조+하+고" VERB SELECT:31:r1a
+;	"강조+하+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시기>"
 	"시기" NOUN
 "<활동했던>"
@@ -12543,11 +12543,11 @@
 	"경험+하+고" VERB
 	"경험+하+고" CCONJ
 "<난>"
-	"나+ㄴ" AUX SELECT:33:r1b
-;	"나+ㄴ" VERB SELECT:33:r1b
-;	"나+는" PRON SELECT:33:r1b
-;	"난" NOUN SELECT:33:r1b
-;	"나+ㄴ" PRON SELECT:33:r1b
+	"나+ㄴ" AUX SELECT:37:r1b
+;	"나+ㄴ" VERB SELECT:37:r1b
+;	"나+는" PRON SELECT:37:r1b
+;	"난" NOUN SELECT:37:r1b
+;	"나+ㄴ" PRON SELECT:37:r1b
 "<뒤에는>"
 	"뒤+에+는" NOUN
 "<출판운동에도>"
@@ -12560,10 +12560,10 @@
 "<변화가>"
 	"변화+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -12590,8 +12590,8 @@
 "<기반을>"
 	"기반+을" NOUN
 "<둔>"
-	"두+ㄴ" VERB
-	"두+ㄴ" AUX
+	"두+ㄴ" VERB SELECT:153:r3b
+;	"두+ㄴ" AUX SELECT:153:r3b
 "<출판물이>"
 	"출판물+이" NOUN
 "<공동논문집>"
@@ -12613,8 +12613,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<80년대에는>"
 	"80+년대+에+는" NUM
 "<사회변혁이>"
@@ -12653,7 +12653,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<출판의>"
 	"출판+의" NOUN
 "<변혁운동이>"
@@ -12675,10 +12675,10 @@
 "<,>"
 	"," PUNCT
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<주장과>"
 	"주장+과" CCONJ
 "<주의가>"
@@ -12697,10 +12697,10 @@
 "<측면도>"
 	"측면+도" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -12747,8 +12747,8 @@
 "<끌게>"
 	"끌+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -12768,13 +12768,13 @@
 "<변모해>"
 	"변모+하+어" VERB
 "<나가고>"
-	"나가+고" AUX
-	"나가+고" VERB
-	"나가+고" CCONJ
+	"나가+고" AUX SELECT:111:r2c
+;	"나가+고" VERB SELECT:111:r2c
+;	"나가+고" CCONJ SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -12802,10 +12802,10 @@
 "<자연도태되고>"
 	"자연+도태+되+고" VERB
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<실정이다>"
 	"실정+이+다" VERB
 "<.>"
@@ -12821,8 +12821,8 @@
 "<사회변혁이라는>"
 	"사회+변혁+이+라는" VERB
 "<말>"
-	"말+ㄹ" AUX SELECT:57:r5
-;	"말" NOUN SELECT:57:r5
+	"말+ㄹ" AUX SELECT:66:r5
+;	"말" NOUN SELECT:66:r5
 "<자체가>"
 	"자체+가" NOUN
 "<진부하고>"
@@ -12837,11 +12837,11 @@
 "<인식되고>"
 	"인식+되+고" VERB
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" AUX SELECT:78:r7
+	"있+을" AUX SELECT:78:r7
+;	"있+ㄹ" ADJ SELECT:78:r7
+;	"있+을" ADJ SELECT:78:r7
+;	"있+ㄹ" VERB SELECT:78:r7
 "<정도이다>"
 	"정도+이+다" VERB
 "<.>"
@@ -12862,10 +12862,10 @@
 	"모으+아" VERB
 	"모+아" SCONJ
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<말들>"
 	"말+들" NOUN
 "<중의>"
@@ -12894,10 +12894,10 @@
 "<어렵다고>"
 	"어렵+다+고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -12931,9 +12931,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -12967,11 +12967,11 @@
 "<부합할>"
 	"부합+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -12980,16 +12980,16 @@
 "<방향으로>"
 	"방향+으로" ADV
 "<이루어>"
-	"이루+어" VERB SELECT:23:r1
-;	"이루+어" SCONJ SELECT:23:r1
+	"이루+어" VERB SELECT:27:r1
+;	"이루+어" SCONJ SELECT:27:r1
 "<져야>"
-	"지+어야" AUX
-	"지+어야" VERB
+	"지+어야" AUX SELECT:111:r2c
+;	"지+어야" VERB SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -13010,11 +13010,11 @@
 "<추구할>"
 	"추구+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -13025,16 +13025,16 @@
 "<생각할>"
 	"생각+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<책의>"
 	"책+의" NOUN
 "<생산이>"
@@ -13066,11 +13066,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -13215,9 +13215,9 @@
 "<이중성에>"
 	"이중성+에" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -13315,13 +13315,13 @@
 "<특성을>"
 	"특성+을" NOUN
 "<지니고>"
-	"지니+고" VERB SELECT:27:r1a
-;	"지니+고" SCONJ SELECT:27:r1a
-;	"지니+고" CCONJ SELECT:27:r1a
+	"지니+고" VERB SELECT:31:r1a
+;	"지니+고" SCONJ SELECT:31:r1a
+;	"지니+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -13440,23 +13440,23 @@
 "<활동도>"
 	"활동+도" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<나라에만>"
 	"나라+에+만" ADV
 "<국한되지>"
 	"국한+되+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<자본의>"
 	"자본+의" NOUN
 "<수출>"
@@ -13502,10 +13502,10 @@
 "<확대라고>"
 	"확대+이+라+고" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -13564,11 +13564,11 @@
 "<중단될>"
 	"중단+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -13624,11 +13624,11 @@
 "<내세울>"
 	"내세우+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -13729,8 +13729,8 @@
 	"속+에서" ADV
 	"속+에서" NOUN
 "<보고자>"
-	"보+고자" VERB SELECT:23:r1
-;	"보+고자" AUX SELECT:23:r1
+	"보+고자" VERB SELECT:27:r1
+;	"보+고자" AUX SELECT:27:r1
 "<했으나>"
 	"하+었+으나" SCONJ
 "<여전히>"
@@ -13747,7 +13747,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<출판학도>"
 	"출판학+도" ADV
 "<사회적>"
@@ -13760,16 +13760,16 @@
 "<바라볼>"
 	"바라보+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<인식의>"
 	"인식+의" NOUN
 "<지평확대에>"
@@ -13802,9 +13802,9 @@
 "<정의하고>"
 	"정의+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -13825,28 +13825,28 @@
 "<맺어주는>"
 	"맺+어+주+는" AUX
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<중계자라고>"
 	"중계자+이+라+고" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -13857,9 +13857,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<출판사는>"
 	"출판사+는" NOUN
 "<환상과>"
@@ -13888,21 +13888,21 @@
 	"맡+고" VERB
 	"맡+고" CCONJ
 "<있다고>"
-	"있+다+고" VERB
-	"있+다고" SCONJ
-	"있+다+고" SCONJ
-	"있+다고" CCONJ
+	"있+다고" CCONJ SELECT:128:r2e
+;	"있+다+고" VERB SELECT:128:r2e
+;	"있+다고" SCONJ SELECT:128:r2e
+;	"있+다+고" SCONJ SELECT:128:r2e
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -13942,10 +13942,10 @@
 "<차지하고>"
 	"차지+하+고" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<영상매체가>"
 	"영상+매체+가" NOUN
 "<등장하기>"
@@ -13976,28 +13976,28 @@
 "<주종을>"
 	"주종+을" NOUN
 "<이루고>"
-	"이루+고" VERB SELECT:27:r1a
-;	"이루+고" CCONJ SELECT:27:r1a
+	"이루+고" VERB SELECT:31:r1a
+;	"이루+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<서적이라>"
 	"서적+이+라" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -14019,8 +14019,8 @@
 	"거치+어" SCONJ
 	"거치+어" VERB
 "<생산되고>"
-	"생산+되+고" VERB
-	"생산+되+고" CCONJ
+	"생산+되+고" CCONJ SELECT:128:r2e
+;	"생산+되+고" VERB SELECT:128:r2e
 "<있으나>"
 	"있+으나" SCONJ
 "<,>"
@@ -14036,12 +14036,12 @@
 "<성격을>"
 	"성격+을" NOUN
 "<띠고>"
-	"띠+고" VERB SELECT:27:r1a
-;	"띠+고" CCONJ SELECT:27:r1a
+	"띠+고" VERB SELECT:31:r1a
+;	"띠+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -14076,24 +14076,24 @@
 "<취사선택할>"
 	"취사+선택+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<가능성을>"
 	"가능성+을" NOUN
 "<제공해주고>"
 	"제공+하+어+주+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -14134,16 +14134,16 @@
 "<펴내고>"
 	"펴내+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이렇듯>"
 	"이렇+듯" SCONJ
-	"이렇듯" ADV
 	"이러하+듯" CCONJ
+;	"이렇듯" ADV REMOVE:69:r6
 "<출판사는>"
 	"출판사+는" NOUN
 "<다양한>"
@@ -14169,13 +14169,13 @@
 "<,>"
 	"," PUNCT
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<통해>"
 	"통하+어" SCONJ
 	"통+하+어" SCONJ
@@ -14187,9 +14187,9 @@
 "<제공하게>"
 	"제공+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -14266,9 +14266,9 @@
 "<프로그램을>"
 	"프로그램+을" NOUN
 "<만들어>"
-	"만들+어" VERB
-	"만들+어" SCONJ
-	"만들+어" AUX
+	"만들+어" VERB SELECT:153:r3b
+;	"만들+어" SCONJ SELECT:153:r3b
+;	"만들+어" AUX SELECT:153:r3b
 "<독자층을>"
 	"독자+층+을" NOUN
 "<겨냥한>"
@@ -14280,10 +14280,10 @@
 "<벌려야>"
 	"벌리+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -14326,9 +14326,9 @@
 "<표현되고>"
 	"표현+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -14340,11 +14340,11 @@
 "<넘길>"
 	"넘기+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -14357,13 +14357,13 @@
 	"아직도" ADV
 	"아직+도" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -14392,9 +14392,9 @@
 	"." PUNCT
 
 "<이에>"
-	"이+에" ADV
 	"이에" CCONJ
-	"이에" ADV
+;	"이+에" ADV REMOVE:69:r6
+;	"이에" ADV REMOVE:69:r6
 "<대한>"
 	"대하+ㄴ" VERB
 "<홍보는>"
@@ -14410,22 +14410,22 @@
 "<않고>"
 	"않+고" CCONJ
 	"않+고" AUX
-	"않+고" SCONJ
+;	"않+고" SCONJ REMOVE:56:r3
 "<들어>"
 	"들+어" SCONJ
 	"들+어" VERB
 	"듣+어" VERB
 	"듣+어" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이는>"
 	"이+는" PRON
 	"일+는" VERB
@@ -14449,9 +14449,9 @@
 	"않+고" AUX
 	"않+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -14494,10 +14494,10 @@
 "<시정되어야>"
 	"시정+되+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -14529,8 +14529,8 @@
 "<역사를>"
 	"역사+를" NOUN
 "<보는>"
-	"보+는" VERB
-	"보+는" AUX
+	"보+는" VERB SELECT:153:r3b
+;	"보+는" AUX SELECT:153:r3b
 "<관행이>"
 	"관행+이" NOUN
 "<자연스럽게>"
@@ -14571,9 +14571,9 @@
 	"기억+하+고" VERB
 	"기억+하+고" CCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -14586,11 +14586,11 @@
 "<예외일>"
 	"예외+이+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -14628,10 +14628,10 @@
 "<돌려야>"
 	"돌리+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -14663,15 +14663,15 @@
 "<공헌을>"
 	"공헌+을" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<일면도>"
 	"일면+도" ADV
 "<있지만>"
@@ -14713,24 +14713,24 @@
 "<지식산업의>"
 	"지식+산업+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<분야이다>"
 	"분야+이+다" VERB
 "<.>"
 	"." PUNCT
 
 "<이러한>"
-	"이러하+ㄴ" ADJ SELECT:52:r4
-;	"이러하+ㄴ" VERB SELECT:52:r4
-;	"이러한+ㄴ" VERB SELECT:52:r4
+	"이러하+ㄴ" ADJ SELECT:61:r4
+;	"이러하+ㄴ" VERB SELECT:61:r4
+;	"이러한+ㄴ" VERB SELECT:61:r4
 "<심오하고>"
 	"심오+하+고" CCONJ
 "<정교한>"
@@ -14765,15 +14765,15 @@
 "<확보하게>"
 	"확보+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이렇듯>"
 	"이렇+듯" SCONJ
-	"이렇듯" ADV
 	"이러하+듯" CCONJ
+;	"이렇듯" ADV REMOVE:69:r6
 "<출판은>"
 	"출판+은" NOUN
 "<'>"
@@ -14787,8 +14787,8 @@
 "<탈피하지>"
 	"탈피+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -14812,10 +14812,10 @@
 "<더듬어보고자>"
 	"더듬+어+보+고자" AUX
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -14837,7 +14837,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이렇게>"
@@ -14918,26 +14918,26 @@
 "<홍보도>"
 	"홍보+도" ADV
 "<알게>"
-	"알+게" VERB SELECT:23:r1
-;	"알+게" SCONJ SELECT:23:r1
+	"알+게" VERB SELECT:27:r1
+;	"알+게" SCONJ SELECT:27:r1
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<고대>"
 	"고대" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<저작품의>"
 	"저작품+의" NOUN
 "<홍보는>"
@@ -14964,25 +14964,25 @@
 "<광고전문가가>"
 	"광고+전문가+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<그는>"
 	"그+는" PRON
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<작품의>"
 	"작품+의" NOUN
 "<원고를>"
@@ -15032,21 +15032,21 @@
 "<필사공방이>"
 	"필사+공방+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -15108,13 +15108,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -15123,25 +15123,25 @@
 "<대량생산의>"
 	"대량+생산+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<형식을>"
 	"형식+을" NOUN
 "<이루고>"
-	"이루+고" VERB SELECT:27:r1a
-;	"이루+고" CCONJ SELECT:27:r1a
+	"이루+고" VERB SELECT:31:r1a
+;	"이루+고" CCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -15150,15 +15150,15 @@
 "<원고를>"
 	"원고+를" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<사람이>"
 	"사람+이" NOUN
 	"사람+의" NOUN
@@ -15197,7 +15197,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<전문직으로서의>"
 	"전문직+으로서+의" NOUN
 "<출판업은>"
@@ -15215,17 +15215,17 @@
 "<자리잡게>"
 	"자리잡+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그리고>"
-	"길+ㄴ" ADJ SELECT:52:r4
-;	"그리+고" VERB SELECT:52:r4
-;	"그리고" CCONJ SELECT:52:r4
-;	"그리고" ADV SELECT:52:r4
-;	"그리+고" SCONJ SELECT:52:r4
+	"길+ㄴ" ADJ SELECT:61:r4
+;	"그리+고" VERB SELECT:61:r4
+;	"그리고" CCONJ SELECT:61:r4
+;	"그리고" ADV SELECT:61:r4
+;	"그리+고" SCONJ SELECT:61:r4
 "<대학들과>"
 	"대학+들+과" CCONJ
 "<협조관계에>"
@@ -15248,10 +15248,10 @@
 "<자영서적상들도>"
 	"자영+서적상+들+도" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -15367,27 +15367,27 @@
 "<발전에는>"
 	"발전+에+는" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<가지>"
-	"가+지" AUX SELECT:33:r1b
-;	"가지" NOUN SELECT:33:r1b
-;	"가+지" VERB SELECT:33:r1b
+	"가+지" AUX SELECT:37:r1b
+;	"가지" NOUN SELECT:37:r1b
+;	"가+지" VERB SELECT:37:r1b
 "<공통점이>"
 	"공통점+이" NOUN
 	"공통+점+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -15418,23 +15418,23 @@
 "<확신을>"
 	"확신+을" NOUN
 "<가지고>"
-	"가지+고" VERB SELECT:27:r1a
-;	"가지+고" CCONJ SELECT:27:r1a
-;	"가지+고" SCONJ SELECT:27:r1a
+	"가지+고" VERB SELECT:31:r1a
+;	"가지+고" CCONJ SELECT:31:r1a
+;	"가지+고" SCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<그들의>"
 	"그+들+의" PRON
 "<내세를>"
@@ -15452,9 +15452,9 @@
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<이러한>"
 	"이러하+ㄴ" ADJ
 	"이러하+ㄴ" VERB
@@ -15477,8 +15477,8 @@
 "<요구하게>"
 	"요구+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -15575,7 +15575,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이미>"
 	"이미" ADV
 "<716년>"
@@ -15662,10 +15662,10 @@
 	"설치+되+어" VERB
 	"설치+되+어" SCONJ
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -15696,26 +15696,26 @@
 "<전념할>"
 	"전념+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<여건이>"
 	"여건+이" NOUN
 "<조성되어>"
 	"조성+되+어" VERB
 	"조성+되+어" SCONJ
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -15760,19 +15760,19 @@
 "<사용할>"
 	"사용+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있으나>"
 	"있+으나" SCONJ
 "<일반적으로>"
 	"일반+적+으로" ADV
 	"일반적+으로" ADV
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<접착되어>"
 	"접착+되+어" SCONJ
 "<필기가>"
@@ -15782,15 +15782,15 @@
 	"가능하+ㄴ" ADJ
 	"가능한" ADV
 "<한>"
-	"하+ㄴ" AUX SELECT:33:r1b
-	"있+ㄴ" AUX SELECT:33:r1b
-;	"한" NUM SELECT:33:r1b
-;	"하+ㄴ" VERB SELECT:33:r1b
-;	"한" NOUN SELECT:33:r1b
-;	"하+ㄴ" PART SELECT:33:r1b
-;	"한" ADJ SELECT:33:r1b
-;	"한" PROPN SELECT:33:r1b
-;	"한" DET SELECT:33:r1b
+	"하+ㄴ" AUX SELECT:37:r1b
+	"있+ㄴ" AUX SELECT:37:r1b
+;	"한" NUM SELECT:37:r1b
+;	"하+ㄴ" VERB SELECT:37:r1b
+;	"한" NOUN SELECT:37:r1b
+;	"하+ㄴ" PART SELECT:37:r1b
+;	"한" ADJ SELECT:37:r1b
+;	"한" PROPN SELECT:37:r1b
+;	"한" DET SELECT:37:r1b
 "<면만을>"
 	"면+만+을" NOUN
 "<사용했다>"
@@ -15799,13 +15799,13 @@
 	"." PUNCT
 
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<다시>"
 	"다시" ADV
 "<각>"
@@ -15954,8 +15954,8 @@
 "<부딪치게>"
 	"부딪치+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -16107,7 +16107,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<날로>"
 	"날로" ADV
 "<책의>"
@@ -16161,12 +16161,12 @@
 	"계속" ADV
 	"계속" NOUN
 "<생산되고>"
-	"생산+되+고" VERB SELECT:23:r1
-;	"생산+되+고" CCONJ SELECT:23:r1
+	"생산+되+고" VERB SELECT:27:r1
+;	"생산+되+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -16185,14 +16185,14 @@
 "<점차>"
 	"점차" ADV
 "<바뀌어>"
-	"바뀌+어" VERB SELECT:23:r1
-;	"바뀌+어" SCONJ SELECT:23:r1
+	"바뀌+어" VERB SELECT:27:r1
+;	"바뀌+어" SCONJ SELECT:27:r1
 "<갔다>"
-	"가+ㅆ+다" VERB
-	"가+ㅆ+다" AUX
-	"가+았+다" SCONJ
-	"가+ㅆ+다" SCONJ
-	"가+았+다" AUX
+	"가+ㅆ+다" AUX SELECT:111:r2c
+	"가+았+다" AUX SELECT:111:r2c
+;	"가+ㅆ+다" VERB SELECT:111:r2c
+;	"가+았+다" SCONJ SELECT:111:r2c
+;	"가+ㅆ+다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -16222,7 +16222,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<5>"
 	"5" NUM
 "<세기>"
@@ -16260,8 +16260,8 @@
 "<형태를>"
 	"형태+를" NOUN
 "<이루고>"
-	"이루+고" VERB SELECT:27:r1a
-;	"이루+고" CCONJ SELECT:27:r1a
+	"이루+고" VERB SELECT:31:r1a
+;	"이루+고" CCONJ SELECT:31:r1a
 "<있던>"
 	"있+던" AUX
 	"있+더+ㄴ" AUX
@@ -16403,13 +16403,13 @@
 "<개혁운동도>"
 	"개혁+운동+도" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시기에>"
 	"시기+에" ADV
 "<나타난>"
@@ -16421,15 +16421,15 @@
 "<발달을>"
 	"발달+을" NOUN
 "<빼놓을>"
-	"빼+어+놓+ㄹ" AUX
-	"빼놓+ㄹ" VERB
-	"빼+어+놓+을" AUX
+	"빼놓+ㄹ" VERB SELECT:153:r3b
+;	"빼+어+놓+ㄹ" AUX SELECT:153:r3b
+;	"빼+어+놓+을" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -16488,8 +16488,8 @@
 "<뒤흔들어>"
 	"뒤흔들+어" VERB
 "<놓았다>"
-	"놓+았+다" AUX
-	"놓+았+다" VERB
+	"놓+았+다" AUX SELECT:111:r2c
+;	"놓+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -16502,13 +16502,13 @@
 	"이어지+는" VERB
 	"잇+어+지+는" AUX
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<개혁운동도>"
 	"개혁+운동+도" ADV
 "<당시의>"
@@ -16520,10 +16520,10 @@
 "<인식하게>"
 	"인식+하+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<데>"
 	"데" NOUN
 "<중요한>"
@@ -16541,15 +16541,15 @@
 	"고마움+을" NOUN
 	"고맙+ㅁ+을" NOUN
 "<빼놓을>"
-	"빼+어+놓+ㄹ" AUX
-	"빼놓+ㄹ" VERB
-	"빼+어+놓+을" AUX
+	"빼놓+ㄹ" VERB SELECT:153:r3b
+;	"빼+어+놓+ㄹ" AUX SELECT:153:r3b
+;	"빼+어+놓+을" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -16560,10 +16560,10 @@
 	"이러하+ㄴ" VERB
 	"이러한+ㄴ" VERB
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<것은>"
 	"것+은" NOUN
 "<르네상스시대에>"
@@ -16596,9 +16596,9 @@
 "<차지하고>"
 	"차지+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -16650,10 +16650,10 @@
 "<얽매어>"
 	"얽매+어" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -16692,19 +16692,19 @@
 "<상승하게>"
 	"상승+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -16732,8 +16732,8 @@
 "<개척하게>"
 	"개척+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -16782,9 +16782,9 @@
 "<부여하고>"
 	"부여+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -16821,19 +16821,19 @@
 "<간주하게>"
 	"간주+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -16853,8 +16853,8 @@
 	"보+지" AUX
 	"보+지" SCONJ
 "<못한>"
-	"못하+ㄴ" AUX SELECT:33:r1b
-;	"못하+ㄴ" VERB SELECT:33:r1b
+	"못하+ㄴ" AUX SELECT:37:r1b
+;	"못하+ㄴ" VERB SELECT:37:r1b
 "<혼란이>"
 	"혼란+이" NOUN
 "<계속되었다>"
@@ -16865,9 +16865,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<자연과학의>"
 	"자연+과학+의" NOUN
 	"자연과학+의" NOUN
@@ -16880,8 +16880,8 @@
 	"보+지" AUX
 	"보+지" SCONJ
 "<못한>"
-	"못하+ㄴ" AUX
-	"못하+ㄴ" VERB
+	"못하+ㄴ" AUX SELECT:111:r2c
+;	"못하+ㄴ" VERB SELECT:111:r2c
 "<상태였다>"
 	"상태+이+었+다" VERB
 "<.>"
@@ -16924,10 +16924,10 @@
 "<파괴되어가고>"
 	"파괴+되+어+가+고" AUX
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:132:r2g
+;	"있+었+다" ADJ SELECT:132:r2g
+;	"있+었+다" VERB SELECT:132:r2g
+;	"있+었+다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -16974,18 +16974,18 @@
 "<비잔틴에>"
 	"비잔틴+에" ADV
 "<비해>"
-	"비하+어" VERB SELECT:23:r1
-;	"비하+어" SCONJ SELECT:23:r1
-;	"비+하+어" SCONJ SELECT:23:r1
+	"비하+어" VERB SELECT:27:r1
+;	"비하+어" SCONJ SELECT:27:r1
+;	"비+하+어" SCONJ SELECT:27:r1
 "<크게>"
 	"크+게" SCONJ
 	"크게" ADV
 "<뒤져>"
-	"뒤지+어" VERB SELECT:23:r1
-;	"뒤지+어" SCONJ SELECT:23:r1
+	"뒤지+어" VERB SELECT:27:r1
+;	"뒤지+어" SCONJ SELECT:27:r1
 "<있었을>"
-	"있+었+ㄹ" AUX SELECT:57:r5
-;	"있+었+ㄹ" ADJ SELECT:57:r5
+	"있+었+ㄹ" AUX SELECT:66:r5
+;	"있+었+ㄹ" ADJ SELECT:66:r5
 "<뿐>"
 	"뿐" NOUN
 "<아니라>"
@@ -17000,10 +17000,10 @@
 "<타락해>"
 	"타락+하+어" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -17060,9 +17060,9 @@
 "<문화를>"
 	"문화+를" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있던>"
 	"있+던" AUX
 	"있+더+ㄴ" AUX
@@ -17133,13 +17133,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -17179,8 +17179,8 @@
 "<띠게>"
 	"띠+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -17215,10 +17215,10 @@
 "<등>"
 	"등" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<분야에서>"
 	"분야+에서" ADV
 "<합리적이고>"
@@ -17241,7 +17241,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<교육>"
 	"교육" NOUN
 "<및>"
@@ -17309,18 +17309,18 @@
 "<논란이>"
 	"논란+이" NOUN
 "<일고>"
-	"일+고" VERB SELECT:27:r1a
-;	"일+고" CCONJ SELECT:27:r1a
+	"일+고" VERB SELECT:31:r1a
+;	"일+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<유사한>"
 	"유사+하+ㄴ" VERB
 	"유사하+ㄴ" ADJ
@@ -17340,11 +17340,11 @@
 "<접할>"
 	"접하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -17354,12 +17354,12 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<역사가>"
 	"역사+가" NOUN
 	"역사가" NOUN
@@ -17393,8 +17393,8 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -17409,13 +17409,13 @@
 "<모델로>"
 	"모델+로" ADV
 "<되고>"
-	"되+고" VERB SELECT:23:r1
-;	"되+고" CCONJ SELECT:23:r1
+	"되+고" VERB SELECT:27:r1
+;	"되+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<'>"
 	"'" PUNCT
 "<산학협동>"
@@ -17446,15 +17446,15 @@
 	"찾+아" SCONJ
 	"찾+아" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -17493,9 +17493,9 @@
 	"가지+어+오+게" AUX
 	"가져오+게" VERB
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -17516,16 +17516,16 @@
 "<동참하고>"
 	"동참+하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<동시에>"
 	"동시+에" ADV
 	"동시에" ADV
@@ -17599,10 +17599,10 @@
 "<떨치게>"
 	"떨치+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<계기가>"
 	"계기+가" NOUN
 "<되었다>"
@@ -17622,10 +17622,10 @@
 "<상용하고>"
 	"상용+하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -17650,9 +17650,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<교정원까지도>"
 	"교정원+까지도" ADV
 "<대부분>"
@@ -17704,9 +17704,9 @@
 "<집합장소이기도>"
 	"집합+장소+이+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -17718,10 +17718,10 @@
 "<열망하는>"
 	"열망+하+는" VERB
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<분야의>"
 	"분야+의" NOUN
 "<그리스어와>"
@@ -17738,13 +17738,13 @@
 "<,>"
 	"," PUNCT
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<통해>"
 	"통하+어" SCONJ
 	"통+하+어" SCONJ
@@ -17758,8 +17758,8 @@
 	"보+게" VERB
 	"보+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -17768,10 +17768,10 @@
 "<바셀에>"
 	"바셀+에" ADV
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<요한프로벤도>"
 	"요한프로벤+도" ADV
 "<유명한>"
@@ -17813,14 +17813,14 @@
 "<학위를>"
 	"학위+를" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<요한아메르바흐>"
 	"요한아메르바흐" PROPN
 "<,>"
@@ -17849,13 +17849,13 @@
 "<없이>"
 	"없+이" SCONJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<출판사에도>"
 	"출판사+에+도" ADV
 "<젊은>"
@@ -17866,12 +17866,12 @@
 	"많이" ADV
 	"많+이" SCONJ
 "<모여>"
-	"모이+어" VERB SELECT:23:r1
-;	"모이+어" SCONJ SELECT:23:r1
+	"모이+어" VERB SELECT:27:r1
+;	"모이+어" SCONJ SELECT:27:r1
 "<들었다>"
-	"들+었+다" AUX
-	"들+었+다" VERB
-	"듣+었+다" VERB
+	"들+었+다" AUX SELECT:111:r2c
+;	"들+었+다" VERB SELECT:111:r2c
+;	"듣+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -17955,14 +17955,14 @@
 	"책+을" NOUN
 	"책+의" NOUN
 "<낼>"
-	"내+ㄹ" VERB
-	"내+ㄹ" AUX
+	"내+ㄹ" VERB SELECT:153:r3b
+;	"내+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었기>"
 	"없+었+기" ADJ
 "<때문이다>"
@@ -18081,10 +18081,10 @@
 "<바셀에>"
 	"바셀+에" ADV
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<그의>"
 	"그+의" PRON
 "<친구>"
@@ -18118,9 +18118,9 @@
 "<머무르기도>"
 	"머무르+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -18214,8 +18214,8 @@
 	"가능하+게" ADJ
 	"가능+하+게" SCONJ
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -18242,8 +18242,8 @@
 	"보+게" VERB
 	"보+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -18275,8 +18275,8 @@
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -18298,12 +18298,12 @@
 "<주언어로>"
 	"주언어+로" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있었다는>"
-	"있+었+다는" AUX SELECT:57:r5
-;	"있+었+다는" ADJ SELECT:57:r5
+	"있+었+다는" AUX SELECT:66:r5
+;	"있+었+다는" ADJ SELECT:66:r5
 "<사실을>"
 	"사실+을" NOUN
 	"사실+은" NOUN
@@ -18340,13 +18340,13 @@
 "<일으킨>"
 	"일으키+ㄴ" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<개혁운동은>"
 	"개혁+운동+은" NOUN
 "<북방>"
@@ -18450,11 +18450,11 @@
 	"찾+ㄹ" VERB
 	"찾+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -18480,16 +18480,16 @@
 "<성공시킬>"
 	"성공+시키+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<정신적>"
 	"정신+적" NOUN
 "<토대가>"
@@ -18499,10 +18499,10 @@
 "<자리잡혀>"
 	"자리잡히+어" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -18533,7 +18533,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<면죄부판매의>"
@@ -18555,13 +18555,13 @@
 "<'>"
 	"'" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<당시>"
 	"당시" NOUN
 	"당시" ADV
@@ -18584,13 +18584,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<95>"
 	"95" NUM
 "<개조의>"
@@ -18610,8 +18610,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<라틴어를>"
 	"라틴어+를" NOUN
 	"라틴어+를" PROPN
@@ -18628,14 +18628,14 @@
 "<받지>"
 	"받+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이는>"
 	"이+는" PRON
 	"일+는" VERB
@@ -18688,13 +18688,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -18723,13 +18723,13 @@
 "<출판이>"
 	"출판+이" NOUN
 "<시작되고>"
-	"시작+되+고" VERB SELECT:27:r1a
-;	"시작+되+고" CCONJ SELECT:27:r1a
+	"시작+되+고" VERB SELECT:31:r1a
+;	"시작+되+고" CCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -18743,16 +18743,16 @@
 "<상상을>"
 	"상상+을" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없을>"
 	"없+ㄹ" ADJ
 	"없+을" ADJ
@@ -18772,7 +18772,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<대량의>"
@@ -18801,13 +18801,13 @@
 	"이+들+은" PROPN
 	"이+들+은" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<팸플릿을>"
 	"팸플릿+을" NOUN
 "<다시금>"
@@ -18815,34 +18815,34 @@
 "<돌려보게>"
 	"돌리+어+보+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:132:r2g
+;	"되+었+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
 "<라틴어가>"
 	"라틴어+가" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<걸음>"
 	"걸음" NOUN
 "<뒤로>"
@@ -18864,25 +18864,25 @@
 "<접할>"
 	"접하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<루터의>"
 	"루터+의" PROPN
 "<독어판>"
@@ -19083,13 +19083,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -19111,7 +19111,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<플룩슈리프트는>"
 	"플룩슈리프트+는" NOUN
 "<점성가나>"
@@ -19123,20 +19123,20 @@
 "<악용되기도>"
 	"악용+되+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<새로운>"
 	"새롭+ㄴ" ADJ
 	"새+롭+ㄴ" VERB
@@ -19175,9 +19175,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<때로는>"
 	"때+로+는" NOUN
 	"때로+는" NOUN
@@ -19263,15 +19263,15 @@
 "<당하게>"
 	"당하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이에>"
-	"이+에" ADV
 	"이에" CCONJ
-	"이에" ADV
+;	"이+에" ADV REMOVE:69:r6
+;	"이에" ADV REMOVE:69:r6
 "<대한>"
 	"대하+ㄴ" VERB
 "<희생자는>"
@@ -19325,15 +19325,15 @@
 "<그가>"
 	"그+가" PRON
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<혁명적인>"
 	"혁명+적+이+ㄴ" VERB
 "<내용이>"
@@ -19407,13 +19407,13 @@
 	"바람+이" NOUN
 	"바라+ㅁ+이" NOUN
 "<불고>"
-	"불+고" VERB SELECT:27:r1a
-;	"불+고" CCONJ SELECT:27:r1a
+	"불+고" VERB SELECT:31:r1a
+;	"불+고" CCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -19446,7 +19446,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<르네상스의>"
@@ -19467,7 +19467,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<중세>"
@@ -19517,8 +19517,8 @@
 
 "<이렇듯>"
 	"이렇+듯" SCONJ
-	"이렇듯" ADV
 	"이러하+듯" CCONJ
+;	"이렇듯" ADV REMOVE:69:r6
 "<르네상스가>"
 	"르네상스+가" PROPN
 "<신>"
@@ -19536,8 +19536,8 @@
 "<전환하게>"
 	"전환+하+게" VERB
 "<된>"
-	"되+ㄴ" AUX SELECT:33:r1b
-;	"되+ㄴ" VERB SELECT:33:r1b
+	"되+ㄴ" AUX SELECT:37:r1b
+;	"되+ㄴ" VERB SELECT:37:r1b
 "<데는>"
 	"데+는" NOUN
 "<대략>"
@@ -19557,11 +19557,11 @@
 	"들" PART
 	"들" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -19603,11 +19603,11 @@
 	"들" PART
 	"들" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -19653,11 +19653,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -19675,10 +19675,10 @@
 "<겸비하고>"
 	"겸비+하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -19770,11 +19770,11 @@
 	"들" PART
 	"들" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -19864,20 +19864,20 @@
 "<숙원도>"
 	"숙원+도" ADV
 "<이루어지지>"
-	"이루어지+지" VERB SELECT:23:r1
-;	"이루+어+지+지" AUX SELECT:23:r1
+	"이루어지+지" VERB SELECT:27:r1
+;	"이루+어+지+지" AUX SELECT:27:r1
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<종교개혁을>"
 	"종교+개혁+을" NOUN
 "<통해>"
@@ -19892,14 +19892,14 @@
 "<거두지>"
 	"거두+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -19930,9 +19930,9 @@
 "<평가되고>"
 	"평가+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -19962,9 +19962,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<종교개혁을>"
 	"종교+개혁+을" NOUN
 "<통해>"
@@ -19978,13 +19978,13 @@
 "<출판활동과>"
 	"출판+활동+과" CCONJ
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<통한>"
 	"통하+ㄴ" VERB
 	"통+하+ㄴ" VERB
@@ -20043,15 +20043,15 @@
 "<꼽히고>"
 	"꼽히+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<동시에>"
 	"동시+에" ADV
 	"동시에" ADV
@@ -20106,14 +20106,14 @@
 "<작품을>"
 	"작품+을" NOUN
 "<만들>"
-	"만들+ㄹ" VERB
-	"만들+ㄹ" AUX
+	"만들+ㄹ" VERB SELECT:153:r3b
+;	"만들+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었던>"
 	"있+었+던" ADJ
 	"있+었+던" AUX
@@ -20121,13 +20121,13 @@
 	"있+었+더+ㄴ" ADJ
 	"있+었+ㄴ" ADJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<발전단계는>"
 	"발전+단계+는" NOUN
 "<'>"
@@ -20157,10 +20157,10 @@
 "<인쇄소까지>"
 	"인쇄소+까지" ADV
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -20216,8 +20216,8 @@
 "<서게>"
 	"서+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -20241,10 +20241,10 @@
 "<속해>"
 	"속하+어" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -20282,8 +20282,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<고판본>"
 	"고판본" NOUN
 "<인쇄공방엔>"
@@ -20315,8 +20315,8 @@
 "<보장해>"
 	"보장+하+어" VERB
 "<주었다>"
-	"주+었+다" AUX
-	"주+었+다" VERB
+	"주+었+다" AUX SELECT:111:r2c
+;	"주+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -20337,8 +20337,8 @@
 "<떨치게>"
 	"떨치+게" VERB
 "<된>"
-	"되+ㄴ" AUX SELECT:33:r1b
-;	"되+ㄴ" VERB SELECT:33:r1b
+	"되+ㄴ" AUX SELECT:37:r1b
+;	"되+ㄴ" VERB SELECT:37:r1b
 "<인쇄인은>"
 	"인쇄인+은" NOUN
 "<상류사회의>"
@@ -20348,14 +20348,14 @@
 "<작위를>"
 	"작위+를" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<사람들까지>"
 	"사람+들+까지" ADV
 "<속했는데>"
@@ -20371,15 +20371,15 @@
 	"그" PRON
 	"그" ADJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<예이다>"
 	"예+이+다" VERB
 "<.>"
@@ -20388,9 +20388,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<지성인들인>"
 	"지성인+들+이+ㄴ" VERB
 "<학자들>"
@@ -20417,10 +20417,10 @@
 "<경우도>"
 	"경우+도" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -20457,24 +20457,24 @@
 "<발행할>"
 	"발행+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<기회를>"
 	"기회+를" NOUN
 "<갖기도>"
 	"갖+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -20486,24 +20486,24 @@
 "<끝마칠>"
 	"끝마치+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었던>"
 	"없+었+던" ADJ
 	"없+었+더+ㄴ" ADJ
 "<지성인에게는>"
 	"지성인+에게+는" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<새로운>"
 	"새롭+ㄴ" ADJ
 	"새+롭+ㄴ" VERB
@@ -20514,18 +20514,18 @@
 "<제공해주기도>"
 	"제공+하+어+주+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<성직자들도>"
 	"성직자+들+도" ADV
 "<개별적으로>"
@@ -20552,9 +20552,9 @@
 "<인쇄되기도>"
 	"인쇄+되+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -20575,9 +20575,9 @@
 "<보여주고있다>"
 	"보이+어+주+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -20617,16 +20617,16 @@
 "<성공할>"
 	"성공+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -20654,7 +20654,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<인쇄소>"
 	"인쇄소" NOUN
 "<설립엔>"
@@ -20705,7 +20705,7 @@
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<마찬가지로>"
 	"마찬가지+로" ADV
 "<고판본>"
@@ -20728,8 +20728,8 @@
 
 "<이렇듯>"
 	"이렇+듯" SCONJ
-	"이렇듯" ADV
 	"이러하+듯" CCONJ
+;	"이렇듯" ADV REMOVE:69:r6
 "<새로운>"
 	"새롭+ㄴ" ADJ
 	"새+롭+ㄴ" VERB
@@ -20744,16 +20744,16 @@
 "<의존하고>"
 	"의존+하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<많은>"
 	"많+ㄴ" ADJ
 	"많+은" ADJ
@@ -20780,9 +20780,9 @@
 "<맛보아야>"
 	"맛보+아야" VERB
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -20841,16 +20841,16 @@
 "<구매할>"
 	"구매+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<사람은>"
 	"사람+은" NOUN
 "<소수에>"
@@ -20867,7 +20867,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<발행부수가>"
 	"발행+부수+가" NOUN
 "<많을수록>"
@@ -20888,17 +20888,17 @@
 "<100부에>"
 	"100+부+에" ADV
 "<이르게>"
-	"이르+게" VERB SELECT:23:r1
-;	"이르+게" SCONJ SELECT:23:r1
+	"이르+게" VERB SELECT:27:r1
+;	"이르+게" SCONJ SELECT:27:r1
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<책>"
 	"책" NOUN
 "<수요와>"
@@ -20929,11 +20929,11 @@
 "<이길>"
 	"이기+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -20941,7 +20941,7 @@
 
 "<그러므로>"
 	"그러므로" CCONJ
-	"그러므로" ADV
+;	"그러므로" ADV REMOVE:69:r6
 "<그것은>"
 	"그것+은" PRON
 	"그것+ㄴ" PRON
@@ -21001,7 +21001,7 @@
 
 "<그러므로>"
 	"그러므로" CCONJ
-	"그러므로" ADV
+;	"그러므로" ADV REMOVE:69:r6
 "<우리의>"
 	"우리+의" PRON
 "<민족운동사는>"
@@ -21033,10 +21033,10 @@
 "<시작되어야>"
 	"시작+되+어야" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -21097,8 +21097,8 @@
 "<국가의식으로>"
 	"국가+의식+으로" ADV
 "<뭉쳐>"
-	"뭉치+어" VERB SELECT:23:r1
-;	"뭉치+어" SCONJ SELECT:23:r1
+	"뭉치+어" VERB SELECT:27:r1
+;	"뭉치+어" SCONJ SELECT:27:r1
 "<있었다는>"
 	"있+었+다는" AUX
 	"있+었+다는" ADJ
@@ -21180,13 +21180,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" ADJ SELECT:52:r4
-;	"이" DET SELECT:52:r4
-;	"이" ADP SELECT:52:r4
-;	"이" PRON SELECT:52:r4
-;	"이" PROPN SELECT:52:r4
-;	"이" NUM SELECT:52:r4
-;	"이" NOUN SELECT:52:r4
+	"이" ADJ SELECT:61:r4
+;	"이" DET SELECT:61:r4
+;	"이" ADP SELECT:61:r4
+;	"이" PRON SELECT:61:r4
+;	"이" PROPN SELECT:61:r4
+;	"이" NUM SELECT:61:r4
+;	"이" NOUN SELECT:61:r4
 "<때문에>"
 	"때문+에" ADV
 	"때문에" CCONJ
@@ -21211,7 +21211,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이것도>"
 	"이것+도" ADV
 "<근대적>"
@@ -21265,15 +21265,15 @@
 "<계기로>"
 	"계기+로" ADV
 "<한>"
-	"하+ㄴ" VERB SELECT:23:r1
-;	"한" NUM SELECT:23:r1
-;	"하+ㄴ" AUX SELECT:23:r1
-;	"한" NOUN SELECT:23:r1
-;	"하+ㄴ" PART SELECT:23:r1
-;	"한" ADJ SELECT:23:r1
-;	"한" PROPN SELECT:23:r1
-;	"한" DET SELECT:23:r1
-;	"있+ㄴ" AUX SELECT:23:r1
+	"하+ㄴ" VERB SELECT:27:r1
+;	"한" NUM SELECT:27:r1
+;	"하+ㄴ" AUX SELECT:27:r1
+;	"한" NOUN SELECT:27:r1
+;	"하+ㄴ" PART SELECT:27:r1
+;	"한" ADJ SELECT:27:r1
+;	"한" PROPN SELECT:27:r1
+;	"한" DET SELECT:27:r1
+;	"있+ㄴ" AUX SELECT:27:r1
 "<인종혼합이랬자>"
 	"인종+혼합+이+랬자" SCONJ
 "<주로>"
@@ -21298,13 +21298,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시기에>"
 	"시기+에" ADV
 "<이르러>"
@@ -21341,13 +21341,13 @@
 	"바로" ADV
 	"바로" ADJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<문제시하지도>"
 	"문제시+하+지+도" ADV
 "<않던>"
@@ -21364,9 +21364,9 @@
 	"새로이" ADV
 	"새롭+이" SCONJ
 "<하지>"
-	"하+지" VERB SELECT:23:r1
-;	"하+지" AUX SELECT:23:r1
-;	"하지" NOUN SELECT:23:r1
+	"하+지" VERB SELECT:27:r1
+;	"하+지" AUX SELECT:27:r1
+;	"하지" NOUN SELECT:27:r1
 "<않으면>"
 	"않+으면" SCONJ
 "<안>"
@@ -21374,11 +21374,11 @@
 	"안" NOUN
 	"알+ㄴ" VERB
 "<되게>"
-	"되+게" VERB SELECT:23:r1
-;	"되+게" SCONJ SELECT:23:r1
+	"되+게" VERB SELECT:27:r1
+;	"되+게" SCONJ SELECT:27:r1
 "<되었던>"
-	"되+었+던" AUX
-	"되+었+던" VERB
+	"되+었+던" AUX SELECT:111:r2c
+;	"되+었+던" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -21424,11 +21424,11 @@
 	"않+ㄹ" AUX
 	"않+을" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -21456,8 +21456,8 @@
 "<규명해>"
 	"규명+하+어" VERB
 "<보았다>"
-	"보+았+다" VERB
-	"보+았+다" AUX
+	"보+았+다" AUX SELECT:111:r2c
+;	"보+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -21485,10 +21485,10 @@
 "<긋느냐>"
 	"긋+느냐" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<문제는>"
 	"문제+는" NOUN
 	"문제+는" PROPN
@@ -21507,7 +21507,7 @@
 
 "<그러므로>"
 	"그러므로" CCONJ
-	"그러므로" ADV
+;	"그러므로" ADV REMOVE:69:r6
 "<선조>"
 	"선조" PROPN
 "<,>"
@@ -21540,11 +21540,11 @@
 	"보+ㄹ" AUX
 	"볼" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -21579,10 +21579,10 @@
 "<슬퍼지게>"
 	"슬퍼지+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<돈키호테>"
 	"돈키호테" PROPN
 "<.>"
@@ -21709,16 +21709,16 @@
 "<던질>"
 	"던지+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<사람은>"
 	"사람+은" NOUN
 "<없을>"
@@ -21755,9 +21755,9 @@
 "<지니게>"
 	"지니+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -21823,14 +21823,14 @@
 "<우뚝>"
 	"우뚝" ADV
 "<서>"
-	"서+어" VERB SELECT:23:r1
-;	"서" NOUN SELECT:23:r1
-;	"서+어" SCONJ SELECT:23:r1
+	"서+어" VERB SELECT:27:r1
+;	"서" NOUN SELECT:27:r1
+;	"서+어" SCONJ SELECT:27:r1
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않은가>"
 	"않+ㄴ가" AUX
 "<.>"
@@ -21853,15 +21853,15 @@
 "<싸워서>"
 	"싸우+어서" SCONJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<놈도>"
 	"놈+도" ADV
 "<남기지>"
@@ -21875,8 +21875,8 @@
 "<없애>"
 	"없애+어" VERB
 "<버릴>"
-	"버리+ㄹ" VERB
-	"버리+ㄹ" AUX
+	"버리+ㄹ" AUX SELECT:111:r2c
+;	"버리+ㄹ" VERB SELECT:111:r2c
 "<테야>"
 	"터+이+야" VERB
 "<.>"
@@ -21949,13 +21949,13 @@
 "<죽이는>"
 	"죽이+는" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<악독한>"
 	"악독+하+ㄴ" VERB
 "<전쟁에서>"
@@ -21996,13 +21996,13 @@
 "<무섭거든>"
 	"무섭+거든" SCONJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<자리를>"
 	"자리+를" NOUN
 "<비켜나서>"
@@ -22030,13 +22030,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<천하에>"
 	"천하+에" ADV
 "<비겁하고>"
@@ -22087,10 +22087,10 @@
 "<여기면서>"
 	"여기+면서" CCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<것을>"
 	"것+을" NOUN
 	"것+은" NOUN
@@ -22164,9 +22164,9 @@
 	"만들+어" SCONJ
 	"만들+어" AUX
 "<가지고>"
-	"가지+고" CCONJ
-	"가지+고" VERB
-	"가지+고" SCONJ
+	"가지+고" CCONJ SELECT:128:r2e
+;	"가지+고" VERB SELECT:128:r2e
+;	"가지+고" SCONJ SELECT:128:r2e
 "<자네한테>"
 	"자네+한테" ADV
 "<주면>"
@@ -22250,8 +22250,8 @@
 "<먹지>"
 	"먹+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -22291,23 +22291,23 @@
 "<약속을>"
 	"약속+을" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<적이>"
 	"적+이" NOUN
 	"적이" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -22316,9 +22316,9 @@
 "<편력기사들을>"
 	"편력+기사+들+을" NOUN
 "<볼>"
-	"보+ㄹ" VERB
-	"보+ㄹ" AUX
-	"볼" NOUN
+	"보+ㄹ" VERB SELECT:153:r3b
+;	"보+ㄹ" AUX SELECT:153:r3b
+;	"볼" NOUN SELECT:153:r3b
 "<것>"
 	"것" NOUN
 "<같으면>"
@@ -22341,10 +22341,10 @@
 "<다스리게>"
 	"다스리+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것쯤은>"
 	"것+쯤+은" NOUN
 "<너무나>"
@@ -22396,9 +22396,9 @@
 	"왜" ADV
 	"왜" PROPN
 "<오지>"
-	"오+지" VERB SELECT:23:r1
-;	"오지" NOUN SELECT:23:r1
-;	"오+지" AUX SELECT:23:r1
+	"오+지" VERB SELECT:27:r1
+;	"오지" NOUN SELECT:27:r1
+;	"오+지" AUX SELECT:27:r1
 "<않았을까>"
 	"않+았+ㄹ까" AUX
 "<?>"
@@ -22431,10 +22431,10 @@
 	"거치+어야" SCONJ
 	"거치+어야" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<법이다>"
 	"법+이+다" VERB
 "<.>"
@@ -22455,10 +22455,10 @@
 "<국민의>"
 	"국민+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<계급과>"
 	"계급+과" CCONJ
 "<계층의>"
@@ -22517,15 +22517,15 @@
 "<혁명은>"
 	"혁명+은" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<국가에서>"
 	"국가+에서" ADV
 "<승리했다>"
@@ -22551,8 +22551,8 @@
 "<치르지>"
 	"치르+지" VERB
 "<못한>"
-	"못하+ㄴ" AUX
-	"못하+ㄴ" VERB
+	"못하+ㄴ" AUX SELECT:111:r2c
+;	"못하+ㄴ" VERB SELECT:111:r2c
 "<그런>"
 	"그런" DET
 	"그렇+ㄴ" VERB
@@ -22603,8 +22603,8 @@
 "<앉게>"
 	"앉+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -22657,19 +22657,19 @@
 "<그만둘>"
 	"그만두+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -22723,10 +22723,10 @@
 	"적+이" NOUN
 	"적이" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -22770,13 +22770,13 @@
 "<불구로>"
 	"불구+로" ADV
 "<만들고>"
-	"만들+고" VERB SELECT:23:r1
-;	"만들+고" CCONJ SELECT:23:r1
-;	"만들+고" AUX SELECT:23:r1
+	"만들+고" VERB SELECT:27:r1
+;	"만들+고" CCONJ SELECT:27:r1
+;	"만들+고" AUX SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -22797,23 +22797,23 @@
 "<위원직을>"
 	"위원직+을" NOUN
 "<맡고>"
-	"맡+고" VERB SELECT:27:r1a
-;	"맡+고" CCONJ SELECT:27:r1a
+	"맡+고" VERB SELECT:31:r1a
+;	"맡+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<참을>"
 	"참+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -22858,15 +22858,15 @@
 	"." PUNCT
 
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<목격자는>"
 	"목격자+는" NOUN
 "<다음과>"
@@ -22887,13 +22887,13 @@
 "<사람들이>"
 	"사람+들+이" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때문에>"
 	"때문+에" ADV
 	"때문에" CCONJ
@@ -22902,12 +22902,12 @@
 "<궁지에>"
 	"궁지+에" ADV
 "<빠져>"
-	"빠지+어" VERB SELECT:23:r1
-;	"빠지+어" SCONJ SELECT:23:r1
+	"빠지+어" VERB SELECT:27:r1
+;	"빠지+어" SCONJ SELECT:27:r1
 "<들었다>"
-	"들+었+다" AUX
-	"들+었+다" VERB
-	"듣+었+다" VERB
+	"들+었+다" AUX SELECT:111:r2c
+;	"들+었+다" VERB SELECT:111:r2c
+;	"듣+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -23009,10 +23009,10 @@
 "<엄혹함이>"
 	"엄혹+하+ㅁ+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -23089,10 +23089,10 @@
 	"지속+되+어" VERB
 	"지속+되+어" SCONJ
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<토지>"
 	"토지" NOUN
 "<소유에서의>"
@@ -23105,8 +23105,8 @@
 	"뿌리채" ADV
 	"뿌리+채" NOUN
 "<뽑아>"
-	"뽑+아" VERB SELECT:23:r1
-;	"뽑+아" SCONJ SELECT:23:r1
+	"뽑+아" VERB SELECT:27:r1
+;	"뽑+아" SCONJ SELECT:27:r1
 "<버렸다>"
 	"버리+었+다" AUX
 "<.>"
@@ -23177,10 +23177,10 @@
 "<활동의>"
 	"활동+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<분야에서>"
 	"분야+에서" ADV
 "<남성과>"
@@ -23229,15 +23229,15 @@
 "<러시아에>"
 	"러시아+에" ADV
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<민족의>"
 	"민족+의" NOUN
 "<자유로운>"
@@ -23273,10 +23273,10 @@
 "<자결권이>"
 	"자결권+이" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<민족에게>"
 	"민족+에게" ADV
 "<보장되었다>"
@@ -23360,10 +23360,10 @@
 	"필요+하+ㄴ" VERB
 	"필요하+ㄴ" ADJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<수단을>"
 	"수단+을" NOUN
 "<사용했다>"
@@ -23414,19 +23414,19 @@
 "<교육받을>"
 	"교육받+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -23576,7 +23576,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<중세의>"
 	"중세+의" NOUN
 "<잔재들을>"
@@ -23607,9 +23607,9 @@
 "<청소해>"
 	"청소+하+어" VERB
 "<내는>"
-	"내+는" VERB
-	"내+는" AUX
-	"내+는" PRON
+	"내+는" AUX SELECT:111:r2c
+;	"내+는" VERB SELECT:111:r2c
+;	"내+는" PRON SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -23667,10 +23667,10 @@
 "<진행시켜>"
 	"진행+시키+어" VERB
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<것>"
 	"것" NOUN
 "<.>"
@@ -23723,10 +23723,10 @@
 	"." PUNCT
 
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<자본주의적>"
 	"자본주의+적" NOUN
 "<관계는>"
@@ -23783,10 +23783,10 @@
 "<분야의>"
 	"분야+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<기업이>"
 	"기업+이" NOUN
 "<국유화되었다>"
@@ -23816,11 +23816,11 @@
 "<믿을>"
 	"믿+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없을>"
 	"없+ㄹ" ADJ
 	"없+을" ADJ
@@ -23846,9 +23846,9 @@
 "<심해지고>"
 	"심+하+어+지+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -23857,8 +23857,8 @@
 "<정지하게>"
 	"정지+하+게" VERB
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -23879,8 +23879,8 @@
 "<정지되게>"
 	"정지+되+게" VERB
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -23915,10 +23915,10 @@
 	"수행+하+어야" SCONJ
 	"수행+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<발전>"
 	"발전" NOUN
 "<단계에>"
@@ -23964,11 +23964,11 @@
 	"부르+ㄹ" VERB
 	"부+를" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있단>"
 	"있+단" VERB
 	"있+단" ADJ
@@ -24082,16 +24082,16 @@
 "<진행될>"
 	"진행+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는가>"
-	"있+는가" VERB
-	"있+는가" ADJ
-	"있+는가" AUX
-	"있+는가" SCONJ
+	"있+는가" VERB SELECT:92:r9
+;	"있+는가" ADJ SELECT:92:r9
+;	"있+는가" AUX SELECT:92:r9
+;	"있+는가" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -24100,10 +24100,10 @@
 "<문제가>"
 	"문제+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -24112,10 +24112,10 @@
 "<중간에>"
 	"중간+에" ADV
 "<있지>"
-	"있+지" VERB SELECT:23:r1
-;	"있+지" AUX SELECT:23:r1
-;	"있+지" ADJ SELECT:23:r1
-;	"있+지" SCONJ SELECT:23:r1
+	"있+지" VERB SELECT:27:r1
+;	"있+지" AUX SELECT:27:r1
+;	"있+지" ADJ SELECT:27:r1
+;	"있+지" SCONJ SELECT:27:r1
 "<않고>"
 	"않+고" CCONJ
 	"않+고" AUX
@@ -24130,15 +24130,15 @@
 	"어느" PRON
 	"어느" ADJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<편에>"
 	"편+에" ADV
 "<있으며>"
@@ -24161,11 +24161,11 @@
 "<판별될>"
 	"판별+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -24176,7 +24176,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<분명한>"
 	"분명+하+ㄴ" VERB
 	"분명하+ㄴ" ADJ
@@ -24215,9 +24215,9 @@
 "<보완하게>"
 	"보완+하+게" VERB
 "<된다는>"
-	"되+ㄴ다는" AUX
-	"되+ㄴ다는" VERB
-	"되+는" VERB
+	"되+ㄴ다는" AUX SELECT:111:r2c
+;	"되+ㄴ다는" VERB SELECT:111:r2c
+;	"되+는" VERB SELECT:111:r2c
 "<점이다>"
 	"점+이+다" VERB
 "<.>"
@@ -24239,7 +24239,7 @@
 
 "<왜냐하면>"
 	"왜냐하면" CCONJ
-	"왜냐하면" ADV
+;	"왜냐하면" ADV REMOVE:69:r6
 "<재연에서는>"
 	"재연+에서+는" NOUN
 "<등장인물들이>"
@@ -24249,9 +24249,9 @@
 "<대단원을>"
 	"대단원+을" NOUN
 "<알고>"
-	"알+고" VERB SELECT:27:r1a
-;	"알+고" CCONJ SELECT:27:r1a
-;	"알+고" SCONJ SELECT:27:r1a
+	"알+고" VERB SELECT:31:r1a
+;	"알+고" CCONJ SELECT:31:r1a
+;	"알+고" SCONJ SELECT:31:r1a
 "<있기>"
 	"있+기" AUX
 	"있+기" ADJ
@@ -24282,9 +24282,9 @@
 	"되+어야" SCONJ
 	"되+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX
-	"하+ㄴ다는" VERB
-	"하+ㄴ다+는" NOUN
+	"하+ㄴ다는" AUX SELECT:111:r2c
+;	"하+ㄴ다는" VERB SELECT:111:r2c
+;	"하+ㄴ다+는" NOUN SELECT:111:r2c
 "<것으로>"
 	"것+으로" ADV
 "<귀착된다>"
@@ -24347,8 +24347,8 @@
 "<빼>"
 	"빼+어" VERB
 "<버린>"
-	"버리+ㄴ" AUX SELECT:33:r1b
-;	"버리+ㄴ" VERB SELECT:33:r1b
+	"버리+ㄴ" AUX SELECT:37:r1b
+;	"버리+ㄴ" VERB SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<혁명적>"
@@ -24384,9 +24384,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<볼셰비키>"
 	"볼셰비키" PROPN
 "<당은>"
@@ -24412,7 +24412,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<이렇게>"
 	"이렇+게" SCONJ
 	"이렇+게" VERB
@@ -24469,9 +24469,9 @@
 	"적+이" NOUN
 	"적이" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -24482,9 +24482,9 @@
 "<잉태하고>"
 	"잉태+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -24508,8 +24508,8 @@
 "<촉발하게>"
 	"촉발+하+게" VERB
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것이라고>"
 	"것+이+라+고" VERB
 	"것+이+라고" SCONJ
@@ -24576,12 +24576,12 @@
 "<도가니로>"
 	"도가니+로" ADV
 "<빠져>"
-	"빠지+어" VERB SELECT:23:r1
-;	"빠지+어" SCONJ SELECT:23:r1
+	"빠지+어" VERB SELECT:27:r1
+;	"빠지+어" SCONJ SELECT:27:r1
 "<들었다>"
-	"들+었+다" AUX
-	"들+었+다" VERB
-	"듣+었+다" VERB
+	"들+었+다" AUX SELECT:111:r2c
+;	"들+었+다" VERB SELECT:111:r2c
+;	"듣+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -24640,21 +24640,21 @@
 	"시작+되+어" SCONJ
 	"시작+되+어" VERB
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<나라에서>"
 	"나라+에서" ADV
 "<세력을>"
 	"세력+을" NOUN
 "<얻고>"
-	"얻+고" VERB SELECT:27:r1a
-;	"얻+고" CCONJ SELECT:27:r1a
+	"얻+고" VERB SELECT:31:r1a
+;	"얻+고" CCONJ SELECT:31:r1a
 "<있습니다>"
-	"있+습니다" AUX
-	"있+습니다" ADJ
-	"있+습니다" VERB
+	"있+습니다" AUX SELECT:78:r7
+;	"있+습니다" ADJ SELECT:78:r7
+;	"있+습니다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -24685,11 +24685,11 @@
 "<늦추어질>"
 	"늦추+어+지+ㄹ" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -24703,7 +24703,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<발달한>"
 	"발달+하+ㄴ" VERB
 "<자본주의>"
@@ -24743,9 +24743,9 @@
 "<묻게>"
 	"묻+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -24760,16 +24760,16 @@
 "<거리를>"
 	"거리+를" NOUN
 "<두고>"
-	"두+고" VERB SELECT:27:r1a
-;	"두+고" AUX SELECT:27:r1a
-;	"두+고" CCONJ SELECT:27:r1a
-;	"두+고" SCONJ SELECT:27:r1a
-;	"두고" PROPN SELECT:27:r1a
+	"두+고" VERB SELECT:31:r1a
+;	"두+고" AUX SELECT:31:r1a
+;	"두+고" CCONJ SELECT:31:r1a
+;	"두+고" SCONJ SELECT:31:r1a
+;	"두고" PROPN SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<우리들은>"
 	"우리+들+은" PRON
 "<격동의>"
@@ -24785,35 +24785,35 @@
 "<관찰할>"
 	"관찰+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<여유를>"
 	"여유+를" NOUN
 "<지니고>"
-	"지니+고" VERB SELECT:27:r1a
-;	"지니+고" SCONJ SELECT:27:r1a
-;	"지니+고" CCONJ SELECT:27:r1a
+	"지니+고" VERB SELECT:31:r1a
+;	"지니+고" SCONJ SELECT:31:r1a
+;	"지니+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<그들이>"
 	"그+들+이" PRON
 "<무대에서>"
@@ -24833,16 +24833,16 @@
 "<파악할>"
 	"파악+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<우리는>"
 	"우리+는" PRON
 	"우리+는" NOUN
@@ -24904,29 +24904,29 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<사회주의적>"
 	"사회주의+적" NOUN
 "<조치들이>"
 	"조치+들+이" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<나라의>"
 	"나라+의" NOUN
 "<역사발전>"
@@ -24938,15 +24938,15 @@
 "<뛰어넘게>"
 	"뛰어넘+게" VERB
 "<해>"
-	"하+어" AUX SELECT:33:r1b
-;	"해" NOUN SELECT:33:r1b
-;	"하+어" VERB SELECT:33:r1b
-;	"하+어" SCONJ SELECT:33:r1b
+	"하+어" AUX SELECT:37:r1b
+;	"해" NOUN SELECT:37:r1b
+;	"하+어" VERB SELECT:37:r1b
+;	"하+어" SCONJ SELECT:37:r1b
 "<주는>"
-	"주+는" VERB
-	"주+는" AUX
-	"주+는" NOUN
-	"주+는" PROPN
+	"주+는" AUX SELECT:132:r2g
+;	"주+는" VERB SELECT:132:r2g
+;	"주+는" NOUN SELECT:132:r2g
+;	"주+는" PROPN SELECT:132:r2g
 "<것은>"
 	"것+은" NOUN
 "<아님을>"
@@ -24958,10 +24958,10 @@
 "<필요가>"
 	"필요+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -24984,17 +24984,17 @@
 	"많이" ADV
 	"많+이" SCONJ
 "<남겨>"
-	"남기+어" VERB SELECT:23:r1
-;	"남기+어" SCONJ SELECT:23:r1
+	"남기+어" VERB SELECT:27:r1
+;	"남기+어" SCONJ SELECT:27:r1
 "<놓았다>"
-	"놓+았+다" AUX
-	"놓+았+다" VERB
+	"놓+았+다" AUX SELECT:111:r2c
+;	"놓+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그런>"
 	"그런" DET
 	"그렇+ㄴ" VERB
@@ -25025,7 +25025,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<식의>"
 	"식+의" NOUN
 "<논의는>"
@@ -25049,7 +25049,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<자본주의는>"
 	"자본주의+는" NOUN
 "<봉건제>"
@@ -25115,11 +25115,11 @@
 "<피할>"
 	"피하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -25191,11 +25191,11 @@
 "<들어설>"
 	"들어서+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -25228,7 +25228,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<앙가라는>"
 	"앙가라+는" PROPN
 "<1930>"
@@ -25244,12 +25244,12 @@
 "<않고>"
 	"않+고" CCONJ
 	"않+고" AUX
-	"않+고" SCONJ
+;	"않+고" SCONJ REMOVE:56:r3
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:132:r2g
+;	"있+었+다" ADJ SELECT:132:r2g
+;	"있+었+다" VERB SELECT:132:r2g
+;	"있+었+다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -25289,16 +25289,16 @@
 	"얻+ㄹ" VERB
 	"얻+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -25335,13 +25335,13 @@
 "<강화와>"
 	"강화+와" CCONJ
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<통한>"
 	"통하+ㄴ" VERB
 	"통+하+ㄴ" VERB
@@ -25386,15 +25386,15 @@
 "<해당한다고>"
 	"해당+하+ㄴ다+고" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -25403,8 +25403,8 @@
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -25420,16 +25420,16 @@
 "<문턱에>"
 	"문턱+에" ADV
 "<와>"
-	"오+아" VERB SELECT:23:r1
-;	"와" CCONJ SELECT:23:r1
-;	"와" ADP SELECT:23:r1
-;	"오+아" SCONJ SELECT:23:r1
-;	"와" NOUN SELECT:23:r1
+	"오+아" VERB SELECT:27:r1
+;	"와" CCONJ SELECT:27:r1
+;	"와" ADP SELECT:27:r1
+;	"오+아" SCONJ SELECT:27:r1
+;	"와" NOUN SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -25446,18 +25446,18 @@
 	"막" ADV
 	"막" NOUN
 "<빠져>"
-	"빠지+어" VERB SELECT:23:r1
-;	"빠지+어" SCONJ SELECT:23:r1
+	"빠지+어" VERB SELECT:27:r1
+;	"빠지+어" SCONJ SELECT:27:r1
 "<나온>"
-	"나오+ㄴ" AUX
-	"나오+ㄴ" VERB
+	"나오+ㄴ" AUX SELECT:111:r2c
+;	"나오+ㄴ" VERB SELECT:111:r2c
 "<지점에>"
 	"지점+에" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -25491,7 +25491,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<정치와>"
 	"정치+와" CCONJ
 "<경제의>"
@@ -25518,8 +25518,8 @@
 "<건설할>"
 	"건설+하+ㄹ" VERB
 "<만한>"
-	"만하+ㄴ" AUX SELECT:33:r1b
-;	"만+하+ㄴ" VERB SELECT:33:r1b
+	"만하+ㄴ" AUX SELECT:37:r1b
+;	"만+하+ㄴ" VERB SELECT:37:r1b
 "<준비가>"
 	"준비+가" NOUN
 "<되어>"
@@ -25529,10 +25529,10 @@
 "<있었던가>"
 	"있+었+더+ㄴ가" AUX
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:132:r2g
+;	"하+는" VERB SELECT:132:r2g
+;	"하+는" PROPN SELECT:132:r2g
+;	"하+는" PART SELECT:132:r2g
 "<물음>"
 	"물음" NOUN
 "<앞에>"
@@ -25546,13 +25546,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<취약함은>"
 	"취약하+ㅁ+은" NOUN
 "<제헌>"
@@ -25620,9 +25620,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<볼셰비키>"
 	"볼셰비키" PROPN
 "<당은>"
@@ -25638,13 +25638,13 @@
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<해체>"
 	"해체" NOUN
 "<조치의>"
@@ -25672,11 +25672,11 @@
 	"않+ㄹ" AUX
 	"않+을" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없을>"
 	"없+ㄹ" ADJ
 	"없+을" ADJ
@@ -25689,17 +25689,17 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<협애함은>"
 	"협애하+ㅁ+은" NOUN
 "<기본적으로>"
@@ -25712,13 +25712,13 @@
 	"긴밀+히" ADV
 	"긴밀히" ADV
 "<연관되어>"
-	"연관+되+어" VERB SELECT:23:r1
-;	"연관+되+어" SCONJ SELECT:23:r1
+	"연관+되+어" VERB SELECT:27:r1
+;	"연관+되+어" SCONJ SELECT:27:r1
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않았던가>"
 	"않+았+더+ㄴ가" AUX
 	"않+았+던가" AUX
@@ -25767,9 +25767,9 @@
 "<소멸하게>"
 	"소멸+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -25818,13 +25818,13 @@
 	"우리+는" PRON
 	"우리+는" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<새>"
 	"새" ADJ
 	"새" NOUN
@@ -25854,20 +25854,20 @@
 "<발육에>"
 	"발육+에" ADV
 "<온>"
-	"온" ADJ
-	"오+ㄴ" AUX
-	"오+ㄴ" VERB
-	"온" NOUN
+	"온" ADJ SELECT:85:r8
+;	"오+ㄴ" AUX SELECT:85:r8
+;	"오+ㄴ" VERB SELECT:85:r8
+;	"온" NOUN SELECT:85:r8
 "<힘을>"
 	"힘+을" NOUN
 "<기울여야>"
 	"기울이+어야" VERB
 	"기울이+어야" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -25883,20 +25883,20 @@
 	"어찌하+ㄹ" VERB
 	"어쩌+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없이>"
 	"없+이" SCONJ
 "<죽기도>"
 	"죽+기+도" ADV
 "<할>"
-	"하+ㄹ" VERB SELECT:23:r1
-	"살+아야" VERB SELECT:23:r1
-;	"하+ㄹ" AUX SELECT:23:r1
-;	"할" NOUN SELECT:23:r1
+	"하+ㄹ" VERB SELECT:27:r1
+	"살+아야" VERB SELECT:27:r1
+;	"하+ㄹ" AUX SELECT:27:r1
+;	"할" NOUN SELECT:27:r1
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -26033,13 +26033,13 @@
 	"바로" ADV
 	"바로" ADJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<악순환의>"
 	"악순환+의" NOUN
 "<사슬을>"
@@ -26049,12 +26049,12 @@
 "<노동자들이>"
 	"노동자+들+이" NOUN
 "<깨고>"
-	"깨+고" VERB SELECT:27:r1a
-;	"깨+고" SCONJ SELECT:27:r1a
-;	"깨+고" CCONJ SELECT:27:r1a
+	"깨+고" VERB SELECT:31:r1a
+;	"깨+고" SCONJ SELECT:31:r1a
+;	"깨+고" CCONJ SELECT:31:r1a
 "<나왔다>"
-	"나오+았+다" VERB
-	"나오+았+다" AUX
+	"나오+았+다" AUX SELECT:111:r2c
+;	"나오+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -26094,10 +26094,10 @@
 "<사회의>"
 	"사회+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<생산물에>"
 	"생산물+에" ADV
 "<대한>"
@@ -26203,9 +26203,9 @@
 "<이름하고>"
 	"이름+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -26229,10 +26229,10 @@
 "<이해하고자>"
 	"이해+하+고자" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<독자들과>"
 	"독자+들+과" CCONJ
 "<애호가들은>"
@@ -26240,13 +26240,13 @@
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<이름된>"
 	"이름+되+ㄴ" VERB
 "<것들로부터>"
@@ -26260,11 +26260,11 @@
 	"얻+ㄹ" VERB
 	"얻+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -26273,8 +26273,8 @@
 	"." PUNCT
 
 "<하기야>"
-	"하기야" ADV
 	"하기야" CCONJ
+;	"하기야" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<그들에게>"
@@ -26303,7 +26303,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이러한>"
@@ -26345,12 +26345,12 @@
 "<관계를>"
 	"관계+를" NOUN
 "<맺고>"
-	"맺+고" VERB SELECT:27:r1a
-;	"맺+고" CCONJ SELECT:27:r1a
+	"맺+고" VERB SELECT:31:r1a
+;	"맺+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -26370,10 +26370,10 @@
 	"대립+하+고" VERB
 	"대립+하+고" CCONJ
 "<있다는>"
-	"있+다는" AUX SELECT:33:r1b
-;	"있+다는" ADJ SELECT:33:r1b
-;	"있+다는" VERB SELECT:33:r1b
-;	"있+다+는" NOUN SELECT:33:r1b
+	"있+다는" AUX SELECT:37:r1b
+;	"있+다는" ADJ SELECT:37:r1b
+;	"있+다는" VERB SELECT:37:r1b
+;	"있+다+는" NOUN SELECT:37:r1b
 "<관행은>"
 	"관행+은" NOUN
 "<왜>"
@@ -26384,10 +26384,10 @@
 "<수용되고>"
 	"수용+되+고" VERB
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<것일까>"
 	"것+이+ㄹ까" VERB
 "<.>"
@@ -26424,18 +26424,18 @@
 "<보이는>"
 	"보이+는" VERB
 "<듯한>"
-	"듯하+ㄴ" AUX SELECT:33:r1b
-;	"듯+하+ㄴ" VERB SELECT:33:r1b
+	"듯하+ㄴ" AUX SELECT:37:r1b
+;	"듯+하+ㄴ" VERB SELECT:37:r1b
 "<영역이>"
 	"영역+이" NOUN
 "<소유하고>"
-	"소유+하+고" VERB SELECT:27:r1a
-;	"소유+하+고" CCONJ SELECT:27:r1a
+	"소유+하+고" VERB SELECT:31:r1a
+;	"소유+하+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<특성과>"
 	"특성+과" CCONJ
 "<미덕과>"
@@ -26447,8 +26447,8 @@
 "<데에>"
 	"데+에" ADV
 "<익숙해>"
-	"익숙+하+어" VERB SELECT:23:r1
-;	"익숙하+어" ADJ SELECT:23:r1
+	"익숙+하+어" VERB SELECT:27:r1
+;	"익숙하+어" ADJ SELECT:27:r1
 "<져>"
 	"지+어" AUX
 	"지+어" SCONJ
@@ -26500,10 +26500,10 @@
 "<놓여>"
 	"놓이+어" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<사실을>"
 	"사실+을" NOUN
 	"사실+은" NOUN
@@ -26516,7 +26516,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<전자는>"
@@ -26526,11 +26526,11 @@
 "<구현하고자>"
 	"구현+하+고자" VERB
 "<하고>"
-	"하+고" AUX SELECT:33:r1b
-;	"하+고" CCONJ SELECT:33:r1b
-;	"하+고" VERB SELECT:33:r1b
-;	"하+고" SCONJ SELECT:33:r1b
-;	"하고" ADP SELECT:33:r1b
+	"하+고" AUX SELECT:37:r1b
+;	"하+고" CCONJ SELECT:37:r1b
+;	"하+고" VERB SELECT:37:r1b
+;	"하+고" SCONJ SELECT:37:r1b
+;	"하고" ADP SELECT:37:r1b
 "<후자는>"
 	"후자+는" NOUN
 "<가치중립을>"
@@ -26539,8 +26539,8 @@
 "<유지하고자>"
 	"유지+하+고자" VERB
 "<하기>"
-	"하+기" VERB
-	"하+기" AUX
+	"하+기" AUX SELECT:111:r2c
+;	"하+기" VERB SELECT:111:r2c
 "<때문에>"
 	"때문+에" ADV
 	"때문에" CCONJ
@@ -26571,11 +26571,11 @@
 "<거부될>"
 	"거부+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -26630,9 +26630,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -26664,13 +26664,13 @@
 	"뜻밖+에+도" ADV
 	"뜻+밖+에+도" ADV
 "<악화되어>"
-	"악화+되+어" VERB SELECT:23:r1
-;	"악화+되+어" SCONJ SELECT:23:r1
+	"악화+되+어" VERB SELECT:27:r1
+;	"악화+되+어" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -26713,7 +26713,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<손으로>"
@@ -26730,9 +26730,9 @@
 "<선별해>"
 	"선별+하+어" VERB
 "<내는>"
-	"내+는" VERB
-	"내+는" AUX
-	"내+는" PRON
+	"내+는" AUX SELECT:111:r2c
+;	"내+는" VERB SELECT:111:r2c
+;	"내+는" PRON SELECT:111:r2c
 "<과정인>"
 	"과정+이+ㄴ" VERB
 "<것이다>"
@@ -26783,25 +26783,25 @@
 "<일으키게>"
 	"일으키+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<다툼은>"
 	"다툼+은" NOUN
 "<매우>"
@@ -26816,11 +26816,11 @@
 	"보+ㄹ" AUX
 	"볼" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -26831,15 +26831,15 @@
 "<어머니로부터>"
 	"어머니+로+부터" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<어린이가>"
 	"어린이+가" NOUN
 "<동화책>"
@@ -26849,10 +26849,10 @@
 "<받았다고>"
 	"받+았+다+고" VERB
 "<하자>"
-	"하+자" VERB
-	"하+자" CCONJ
-	"하+자" SCONJ
-	"하+자" AUX
+	"하+자" AUX SELECT:111:r2c
+;	"하+자" VERB SELECT:111:r2c
+;	"하+자" CCONJ SELECT:111:r2c
+;	"하+자" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -26874,9 +26874,9 @@
 "<내포되어>"
 	"내포+되+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -26893,21 +26893,21 @@
 "<이미>"
 	"이미" ADV
 "<읽어>"
-	"읽+어" VERB SELECT:23:r1
-;	"읽+어" SCONJ SELECT:23:r1
+	"읽+어" VERB SELECT:27:r1
+;	"읽+어" SCONJ SELECT:27:r1
 "<본>"
-	"보+ㄴ" AUX SELECT:33:r1b
-;	"본" DET SELECT:33:r1b
-;	"보+ㄴ" VERB SELECT:33:r1b
-;	"본" NOUN SELECT:33:r1b
+	"보+ㄴ" AUX SELECT:37:r1b
+;	"본" DET SELECT:37:r1b
+;	"보+ㄴ" VERB SELECT:37:r1b
+;	"본" NOUN SELECT:37:r1b
 "<만화책을>"
 	"만화책+을" NOUN
 "<또다시>"
 	"또다시" ADV
 "<읽고>"
-	"읽+고" VERB SELECT:23:r1
-;	"읽+고" CCONJ SELECT:23:r1
-;	"읽+고" SCONJ SELECT:23:r1
+	"읽+고" VERB SELECT:27:r1
+;	"읽+고" CCONJ SELECT:27:r1
+;	"읽+고" SCONJ SELECT:27:r1
 "<싶었던>"
 	"싶+었+던" AUX
 "<것이다>"
@@ -26917,13 +26917,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<대목에서도>"
 	"대목+에서+도" ADV
 "<어머니와>"
@@ -26953,22 +26953,22 @@
 "<것이냐>"
 	"것+이+냐" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<가치의>"
 	"가치+의" NOUN
 "<다툼이>"
 	"다툼+이" NOUN
 	"다투+ㅁ+이" NOUN
 "<발생하고>"
-	"발생+하+고" VERB SELECT:27:r1a
-;	"발생+하+고" CCONJ SELECT:27:r1a
+	"발생+하+고" VERB SELECT:31:r1a
+;	"발생+하+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -27007,14 +27007,14 @@
 "<중에서>"
 	"중+에서" ADV
 "<생겨>"
-	"생기+어" VERB SELECT:23:r1
-;	"생기+어" SCONJ SELECT:23:r1
+	"생기+어" VERB SELECT:27:r1
+;	"생기+어" SCONJ SELECT:27:r1
 "<난>"
-	"나+ㄴ" AUX SELECT:33:r1b
-;	"나+ㄴ" VERB SELECT:33:r1b
-;	"나+는" PRON SELECT:33:r1b
-;	"난" NOUN SELECT:33:r1b
-;	"나+ㄴ" PRON SELECT:33:r1b
+	"나+ㄴ" AUX SELECT:37:r1b
+;	"나+ㄴ" VERB SELECT:37:r1b
+;	"나+는" PRON SELECT:37:r1b
+;	"난" NOUN SELECT:37:r1b
+;	"나+ㄴ" PRON SELECT:37:r1b
 "<가치의>"
 	"가치+의" NOUN
 "<다툼에>"
@@ -27113,9 +27113,9 @@
 "<놓여>"
 	"놓이+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -27191,9 +27191,9 @@
 	"마련+하+어" VERB
 	"마련+하+어" SCONJ
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -27210,8 +27210,8 @@
 	"." PUNCT
 
 "<예컨대>"
-	"예컨대" ADV
 	"예컨대" CCONJ
+;	"예컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<작가의>"
@@ -27259,7 +27259,7 @@
 
 "<또는>"
 	"또는" CCONJ
-	"또는" ADV
+;	"또는" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<사회문화의>"
@@ -27333,20 +27333,20 @@
 "<절차들에>"
 	"절차+들+에" ADV
 "<따라>"
-	"따라오+던" VERB SELECT:23:r1
-	"따르+아" VERB SELECT:23:r1
-;	"따르+아" SCONJ SELECT:23:r1
-;	"따르+아" CCONJ SELECT:23:r1
-;	"따+라" SCONJ SELECT:23:r1
-;	"따라+아" SCONJ SELECT:23:r1
+	"따라오+던" VERB SELECT:27:r1
+	"따르+아" VERB SELECT:27:r1
+;	"따르+아" SCONJ SELECT:27:r1
+;	"따르+아" CCONJ SELECT:27:r1
+;	"따+라" SCONJ SELECT:27:r1
+;	"따라+아" SCONJ SELECT:27:r1
 "<얻어>"
 	"얻+어" VERB
 	"얻+어" SCONJ
 "<진>"
-	"지+ㄴ" AUX SELECT:33:r1b
-;	"지+ㄴ" VERB SELECT:33:r1b
-;	"진" PROPN SELECT:33:r1b
-;	"진" NOUN SELECT:33:r1b
+	"지+ㄴ" AUX SELECT:37:r1b
+;	"지+ㄴ" VERB SELECT:37:r1b
+;	"진" PROPN SELECT:37:r1b
+;	"진" NOUN SELECT:37:r1b
 "<가치는>"
 	"가치+는" NOUN
 "<본질적으로>"
@@ -27404,10 +27404,10 @@
 "<실현하고자>"
 	"실현+하+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -27449,22 +27449,22 @@
 "<남기고자>"
 	"남기+고자" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<욕망까지>"
 	"욕망+까지" ADV
 "<물론>"
 	"물론" ADV
 	"물론" NOUN
 "<포함하고>"
-	"포함+하+고" VERB SELECT:23:r1
-;	"포함+하+고" CCONJ SELECT:23:r1
+	"포함+하+고" VERB SELECT:27:r1
+;	"포함+하+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -27488,15 +27488,15 @@
 	"만들+어" SCONJ
 	"만들+어" AUX
 "<간다>"
-	"가+ㄴ다" VERB
-	"가+ㄴ다" AUX
+	"가+ㄴ다" AUX SELECT:111:r2c
+;	"가+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러자>"
 	"그러자" CCONJ
 	"그러+자" SCONJ
-	"그러자" ADV
+;	"그러자" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<그>"
@@ -27568,20 +27568,20 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<경우에>"
 	"경우+에" ADV
 "<그것은>"
@@ -27654,14 +27654,14 @@
 	"자명+하+어" VERB
 	"자명+하+어" SCONJ
 "<진다>"
-	"지+ㄴ다" AUX
-	"지+ㄴ다" VERB
+	"지+ㄴ다" AUX SELECT:111:r2c
+;	"지+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<요컨대>"
-	"요컨대" ADV
 	"요컨대" CCONJ
+;	"요컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문학비평은>"
@@ -27678,10 +27678,10 @@
 "<격식>"
 	"격식" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<삶의>"
 	"삶+의" NOUN
 	"살+ㅁ+의" NOUN
@@ -27735,10 +27735,10 @@
 "<중시해>"
 	"중시+하+어" VERB
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<영미권에서는>"
 	"영미권+에서+는" NOUN
 "<문학연구와>"
@@ -27769,7 +27769,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<관념과>"
@@ -27779,10 +27779,10 @@
 "<중시해>"
 	"중시+하+어" VERB
 "<온>"
-	"온" ADJ
-	"오+ㄴ" AUX
-	"오+ㄴ" VERB
-	"온" NOUN
+	"오+ㄴ" AUX SELECT:78:r7
+;	"온" ADJ SELECT:78:r7
+;	"오+ㄴ" VERB SELECT:78:r7
+;	"온" NOUN SELECT:78:r7
 "<독일의>"
 	"독일+의" PROPN
 "<경우는>"
@@ -27831,13 +27831,13 @@
 "<비평을>"
 	"비평+을" NOUN
 "<포함하고>"
-	"포함+하+고" VERB SELECT:27:r1a
-;	"포함+하+고" CCONJ SELECT:27:r1a
+	"포함+하+고" VERB SELECT:31:r1a
+;	"포함+하+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<셈이>"
 	"셈+이" NOUN
 "<된다>"
@@ -27885,7 +27885,7 @@
 
 "<왜냐하면>"
 	"왜냐하면" CCONJ
-	"왜냐하면" ADV
+;	"왜냐하면" ADV REMOVE:69:r6
 "<비평행위를>"
 	"비평+행위+를" NOUN
 "<근본적으로>"
@@ -27910,7 +27910,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<과학적인>"
@@ -27952,7 +27952,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문학연구와>"
@@ -27990,7 +27990,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문학연구는>"
@@ -28014,13 +28014,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<진술에는>"
 	"진술+에+는" NOUN
 "<상당히>"
@@ -28034,9 +28034,9 @@
 "<내장되어>"
 	"내장+되+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -28189,10 +28189,10 @@
 "<극복해야>"
 	"극복+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -28276,11 +28276,11 @@
 "<영합할>"
 	"영합+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -28500,11 +28500,11 @@
 "<기대할>"
 	"기대+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없으며>"
 	"없+으며" SCONJ
 	"없+으며" CCONJ
@@ -28531,11 +28531,11 @@
 "<만족할>"
 	"만족+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없기>"
 	"없+기" ADJ
 "<때문이다>"
@@ -28648,13 +28648,13 @@
 "<?>"
 	"?" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<문제적인>"
 	"문제+적+이+ㄴ" VERB
 "<상황에>"
@@ -28695,14 +28695,14 @@
 "<기술해>"
 	"기술+하+어" VERB
 "<보려고>"
-	"보+려고" VERB
-	"보+려고" AUX
-	"보+려고" SCONJ
+	"보+려고" AUX SELECT:111:r2c
+;	"보+려고" VERB SELECT:111:r2c
+;	"보+려고" SCONJ SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -28796,8 +28796,8 @@
 "<척도가>"
 	"척도+가" NOUN
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" VERB SELECT:153:r3b
+;	"되+는" AUX SELECT:153:r3b
 "<까닭을>"
 	"까닭+을" NOUN
 "<나는>"
@@ -28807,8 +28807,8 @@
 "<알지>"
 	"알+지" VERB
 "<못한다>"
-	"못하+ㄴ다" AUX
-	"못하+ㄴ다" VERB
+	"못하+ㄴ다" AUX SELECT:111:r2c
+;	"못하+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -28853,8 +28853,8 @@
 	"중+이+ㄴ" VERB
 	"중인" NOUN
 "<듯하다>"
-	"듯하+다" AUX
-	"듯+하+다" VERB
+	"듯하+다" AUX SELECT:111:r2c
+;	"듯+하+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -28874,9 +28874,9 @@
 	"아직도" ADV
 	"아직+도" ADV
 "<오지>"
-	"오+지" VERB SELECT:23:r1
-;	"오지" NOUN SELECT:23:r1
-;	"오+지" AUX SELECT:23:r1
+	"오+지" VERB SELECT:27:r1
+;	"오지" NOUN SELECT:27:r1
+;	"오+지" AUX SELECT:27:r1
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -28914,13 +28914,13 @@
 "<것처럼>"
 	"것+처럼" ADV
 "<보이게>"
-	"보이+게" VERB SELECT:23:r1
-;	"보이+게" SCONJ SELECT:23:r1
+	"보이+게" VERB SELECT:27:r1
+;	"보이+게" SCONJ SELECT:27:r1
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<정도이다>"
 	"정도+이+다" VERB
 "<.>"
@@ -28962,11 +28962,11 @@
 	"던지+어" VERB
 	"던지+어" SCONJ
 "<보고>"
-	"보+고" AUX
-	"보+고" CCONJ
-	"보+고" VERB
-	"보+고" SCONJ
-	"보고" NOUN
+	"보+고" AUX SELECT:111:r2c
+;	"보+고" CCONJ SELECT:111:r2c
+;	"보+고" VERB SELECT:111:r2c
+;	"보+고" SCONJ SELECT:111:r2c
+;	"보고" NOUN SELECT:111:r2c
 "<싶은>"
 	"싶+ㄴ" AUX
 	"싶+은" ADJ
@@ -28986,20 +28986,20 @@
 "<유추해>"
 	"유추+하+어" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<어원을>"
 	"어원+을" NOUN
 "<고려할>"
@@ -29032,8 +29032,8 @@
 "<배제하지>"
 	"배제+하+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<범위>"
 	"범위" NOUN
 "<내에서>"
@@ -29057,7 +29057,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<오늘날의>"
@@ -29081,10 +29081,10 @@
 "<도피하고자>"
 	"도피+하+고자" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<욕망으로>"
 	"욕망+으로" ADV
 "<표출되는>"
@@ -29111,8 +29111,8 @@
 "<괴리하는>"
 	"괴리+하+는" VERB
 "<듯한>"
-	"듯하+ㄴ" AUX SELECT:33:r1b
-;	"듯+하+ㄴ" VERB SELECT:33:r1b
+	"듯하+ㄴ" AUX SELECT:37:r1b
+;	"듯+하+ㄴ" VERB SELECT:37:r1b
 "<인상은>"
 	"인상+은" NOUN
 "<과학이>"
@@ -29156,8 +29156,8 @@
 "<극히>"
 	"극히" ADV
 "<당연한>"
-	"당연+하+ㄴ" VERB SELECT:23:r1
-;	"당연하+ㄴ" ADJ SELECT:23:r1
+	"당연+하+ㄴ" VERB SELECT:27:r1
+;	"당연하+ㄴ" ADJ SELECT:27:r1
 "<명제이겠지만>"
 	"명제+이+겠+지만" SCONJ
 "<비평의>"
@@ -29175,9 +29175,9 @@
 "<놓여>"
 	"놓이+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -29205,9 +29205,9 @@
 	"." PUNCT
 
 "<이에>"
-	"이+에" ADV
 	"이에" CCONJ
-	"이에" ADV
+;	"이+에" ADV REMOVE:69:r6
+;	"이에" ADV REMOVE:69:r6
 "<대한>"
 	"대하+ㄴ" VERB
 "<반론으로서>"
@@ -29241,28 +29241,28 @@
 	"사실+을" NOUN
 	"사실+은" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<번쯤>"
 	"번+쯤" ADV
 "<음미해>"
-	"음미+하+어" VERB SELECT:23:r1
-;	"음미+하+어" SCONJ SELECT:23:r1
+	"음미+하+어" VERB SELECT:27:r1
+;	"음미+하+어" SCONJ SELECT:27:r1
 "<봄직하다>"
 	"보+ㅁ직하+다" AUX
 "<.>"
 	"." PUNCT
 
 "<예컨대>"
-	"예컨대" ADV
 	"예컨대" CCONJ
+;	"예컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<지동설이>"
@@ -29299,9 +29299,9 @@
 	"생각+하+어" VERB
 	"생각+하+어" SCONJ
 "<보자>"
-	"보+자" AUX
-	"보+자" VERB
-	"보+자" SCONJ
+	"보+자" AUX SELECT:111:r2c
+;	"보+자" VERB SELECT:111:r2c
+;	"보+자" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -29323,13 +29323,13 @@
 "<만약>"
 	"만약" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<환자에게>"
 	"환자+에게" ADV
 "<다량의>"
@@ -29343,11 +29343,11 @@
 "<참을>"
 	"참+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -29362,8 +29362,8 @@
 "<죽게>"
 	"죽+게" VERB
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -29371,13 +29371,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<경우에>"
 	"경우+에" ADV
 "<환자에게>"
@@ -29404,18 +29404,18 @@
 "<덜어>"
 	"덜+어" VERB
 "<줄>"
-	"주+ㄹ" VERB
-	"주+ㄹ" AUX
-	"줄" NOUN
-	"줄+ㄹ" VERB
+	"주+ㄹ" AUX SELECT:111:r2c
+;	"주+ㄹ" VERB SELECT:111:r2c
+;	"줄" NOUN SELECT:111:r2c
+;	"줄+ㄹ" VERB SELECT:111:r2c
 "<것인가>"
 	"것+이+ㄴ가" VERB
 	"것+이+ㄴ가" SCONJ
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<결정은>"
 	"결정+은" NOUN
 "<과학적인>"
@@ -29455,7 +29455,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<인간의>"
@@ -29538,15 +29538,15 @@
 "<함축되어>"
 	"함축+되+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문학은>"
@@ -29559,11 +29559,11 @@
 "<해명할>"
 	"해명+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -29577,10 +29577,10 @@
 	"지+어" AUX
 	"지+어" SCONJ
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:132:r2g
+;	"있+는" ADJ SELECT:132:r2g
+;	"있+는" VERB SELECT:132:r2g
+;	"있+ㄴ" ADJ SELECT:132:r2g
 "<가치관의>"
 	"가치관+의" NOUN
 "<세계이다>"
@@ -29591,13 +29591,13 @@
 "<우리가>"
 	"우리+가" PRON
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<같은>"
 	"같+ㄴ" ADJ
 	"같+은" ADJ
@@ -29619,14 +29619,14 @@
 "<기능을>"
 	"기능+을" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<세계인식>"
 	"세계+인식" NOUN
 "<,>"
@@ -29642,20 +29642,20 @@
 	"안" NOUN
 	"알+ㄴ" VERB
 "<된다는>"
-	"되+ㄴ다는" AUX SELECT:33:r1b
-;	"되+ㄴ다는" VERB SELECT:33:r1b
-;	"되+는" VERB SELECT:33:r1b
+	"되+ㄴ다는" AUX SELECT:37:r1b
+;	"되+ㄴ다는" VERB SELECT:37:r1b
+;	"되+는" VERB SELECT:37:r1b
 "<사실을>"
 	"사실+을" NOUN
 	"사실+은" NOUN
 "<유추할>"
 	"유추+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -29715,8 +29715,8 @@
 	"간추리+어" VERB
 	"간추리+어" SCONJ
 "<보겠다>"
-	"보+겠+다" AUX
-	"보+겠+다" VERB
+	"보+겠+다" AUX SELECT:111:r2c
+;	"보+겠+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -29749,9 +29749,9 @@
 "<개선해야>"
 	"개선+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX
-	"하+ㄴ다는" VERB
-	"하+ㄴ다+는" NOUN
+	"하+ㄴ다는" AUX SELECT:111:r2c
+;	"하+ㄴ다는" VERB SELECT:111:r2c
+;	"하+ㄴ다+는" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -29791,15 +29791,15 @@
 "<터앝>"
 	"터앝" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<켠의>"
 	"켠+의" NOUN
 "<장독>"
@@ -29813,13 +29813,13 @@
 "<시들어>"
 	"시들+어" VERB
 "<가고>"
-	"가+고" AUX
-	"가+고" CCONJ
-	"가+고" VERB
+	"가+고" AUX SELECT:111:r2c
+;	"가+고" CCONJ SELECT:111:r2c
+;	"가+고" VERB SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -29845,13 +29845,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<명제야말로>"
 	"명제+야말로" ADV
 "<문학비평이>"
@@ -29863,15 +29863,15 @@
 	"걷+어" VERB
 	"걸+어" VERB
 "<가야>"
-	"가+아야" AUX SELECT:33:r1b
-;	"가+아야" VERB SELECT:33:r1b
-;	"가+아야" SCONJ SELECT:33:r1b
-;	"가야" PROPN SELECT:33:r1b
+	"가+아야" AUX SELECT:37:r1b
+;	"가+아야" VERB SELECT:37:r1b
+;	"가+아야" SCONJ SELECT:37:r1b
+;	"가야" PROPN SELECT:37:r1b
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<자기운명의>"
 	"자기+운명+의" PRON
 "<길일>"
@@ -29887,13 +29887,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -29914,9 +29914,9 @@
 "<머금고>"
 	"머금+고" VERB
 "<있습니다>"
-	"있+습니다" AUX
-	"있+습니다" ADJ
-	"있+습니다" VERB
+	"있+습니다" AUX SELECT:78:r7
+;	"있+습니다" ADJ SELECT:78:r7
+;	"있+습니다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -29941,17 +29941,17 @@
 	"있+었+다+고" VERB
 	"있+었+다고" SCONJ
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<인간성을>"
@@ -29967,9 +29967,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있습니다>"
-	"있+습니다" AUX
-	"있+습니다" ADJ
-	"있+습니다" VERB
+	"있+습니다" ADJ SELECT:85:r8
+;	"있+습니다" AUX SELECT:85:r8
+;	"있+습니다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -30007,14 +30007,14 @@
 "<도전을>"
 	"도전+을" NOUN
 "<받고>"
-	"받+고" VERB SELECT:27:r1a
-;	"받+고" CCONJ SELECT:27:r1a
-;	"받+고" SCONJ SELECT:27:r1a
+	"받+고" VERB SELECT:31:r1a
+;	"받+고" CCONJ SELECT:31:r1a
+;	"받+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<오늘날일수록>"
 	"오늘날+이+ㄹ수록" SCONJ
 "<,>"
@@ -30066,17 +30066,17 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<대목에서>"
 	"대목+에서" ADV
 "<우리가>"
@@ -30084,10 +30084,10 @@
 "<주의해야>"
 	"주의+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<인문주의가>"
@@ -30128,11 +30128,11 @@
 "<간과할>"
 	"간과+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -30152,25 +30152,25 @@
 "<시간에>"
 	"시간+에" ADV
 "<걸쳐>"
-	"걸치+어" VERB SELECT:23:r1
-;	"걸치+어" SCONJ SELECT:23:r1
+	"걸치+어" VERB SELECT:27:r1
+;	"걸치+어" SCONJ SELECT:27:r1
 "<해야>"
-	"하+어야" AUX SELECT:33:r1b
-;	"하+어야" VERB SELECT:33:r1b
-;	"하+어야" SCONJ SELECT:33:r1b
+	"하+어야" AUX SELECT:37:r1b
+;	"하+어야" VERB SELECT:37:r1b
+;	"하+어야" SCONJ SELECT:37:r1b
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<내>"
-	"내+어" AUX SELECT:57:r5
-;	"내" ADJ SELECT:57:r5
-;	"내" PRON SELECT:57:r5
-;	"내" NOUN SELECT:57:r5
-;	"내+어" SCONJ SELECT:57:r5
-;	"나+의" PRON SELECT:57:r5
-;	"내" PROPN SELECT:57:r5
+	"내+어" AUX SELECT:66:r5
+;	"내" ADJ SELECT:66:r5
+;	"내" PRON SELECT:66:r5
+;	"내" NOUN SELECT:66:r5
+;	"내+어" SCONJ SELECT:66:r5
+;	"나+의" PRON SELECT:66:r5
+;	"내" PROPN SELECT:66:r5
 "<강의의>"
 	"강의+의" NOUN
 "<결론을>"
@@ -30178,11 +30178,11 @@
 "<미리>"
 	"미리" ADV
 "<밝히고자>"
-	"밝히+고자" VERB SELECT:23:r1
-;	"밝히+고자" SCONJ SELECT:23:r1
+	"밝히+고자" VERB SELECT:27:r1
+;	"밝히+고자" SCONJ SELECT:27:r1
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -30194,10 +30194,10 @@
 	"무관+하+ㄴ" VERB
 	"무관하+ㄴ" ADJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<분야도>"
 	"분야+도" ADV
 "<가치를>"
@@ -30216,8 +30216,8 @@
 "<이념에>"
 	"이념+에" ADV
 "<두어야>"
-	"두+어야" VERB SELECT:23:r1
-;	"두+어야" AUX SELECT:23:r1
+	"두+어야" VERB SELECT:27:r1
+;	"두+어야" AUX SELECT:27:r1
 "<한다고>"
 	"하+ㄴ다+고" VERB
 	"하+ㄴ다고" SCONJ
@@ -30227,8 +30227,8 @@
 	"." PUNCT
 
 "<예컨대>"
-	"예컨대" ADV
 	"예컨대" CCONJ
+;	"예컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<전통적으로>"
@@ -30253,11 +30253,11 @@
 "<종교여야>"
 	"종교+이+어야" VERB
 "<하고>"
-	"하+고" CCONJ
-	"하+고" VERB
-	"하+고" AUX
-	"하+고" SCONJ
-	"하고" ADP
+	"하+고" AUX SELECT:111:r2c
+;	"하+고" CCONJ SELECT:111:r2c
+;	"하+고" VERB SELECT:111:r2c
+;	"하+고" SCONJ SELECT:111:r2c
+;	"하고" ADP SELECT:111:r2c
 "<,>"
 	"," PUNCT
 "<과학도>"
@@ -30270,9 +30270,9 @@
 "<과학이어야>"
 	"과학+이+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX
-	"하+ㄴ다는" VERB
-	"하+ㄴ다+는" NOUN
+	"하+ㄴ다는" AUX SELECT:111:r2c
+;	"하+ㄴ다는" VERB SELECT:111:r2c
+;	"하+ㄴ다+는" NOUN SELECT:111:r2c
 "<것입니다>"
 	"것+이+ㅂ니다" VERB
 "<.>"
@@ -30298,10 +30298,10 @@
 	"접근+하+고" VERB
 	"접근+하+고" CCONJ
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<문학연구는>"
 	"문학+연구+는" NOUN
 "<새삼>"
@@ -30329,10 +30329,10 @@
 "<선두주자여야>"
 	"선두주자+이+어야" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것입니다>"
 	"것+이+ㅂ니다" VERB
 "<.>"
@@ -30346,13 +30346,13 @@
 	"면면히" ADV
 	"면면+히" ADV
 "<계승되어>"
-	"계승+되+어" VERB SELECT:23:r1
-;	"계승+되+어" SCONJ SELECT:23:r1
+	"계승+되+어" VERB SELECT:27:r1
+;	"계승+되+어" SCONJ SELECT:27:r1
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<인문주의의>"
 	"인문주의+의" NOUN
 "<전통은>"
@@ -30380,10 +30380,10 @@
 	"거치+어" SCONJ
 	"거치+어" VERB
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -30547,11 +30547,11 @@
 	"찾+ㄹ" VERB
 	"찾+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다면>"
 	"있+다면" SCONJ
 "<,>"
@@ -30575,11 +30575,11 @@
 	"찾+ㄹ" VERB
 	"찾+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있습니다>"
 	"있+습니다" AUX
 	"있+습니다" ADJ
@@ -30588,13 +30588,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시기의>"
 	"시기+의" NOUN
 "<인문주의는>"
@@ -30621,7 +30621,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<권력을>"
@@ -30657,10 +30657,10 @@
 "<한계라>"
 	"한계+이+라" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것입니다>"
 	"것+이+ㅂ니다" VERB
 "<.>"
@@ -30668,7 +30668,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<그것은>"
@@ -30713,13 +30713,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시대의>"
 	"시대+의" NOUN
 "<인문주의는>"
@@ -30786,10 +30786,10 @@
 "<가해>"
 	"가하+어" VERB
 "<진>"
-	"지+ㄴ" AUX
-	"지+ㄴ" VERB
-	"진" PROPN
-	"진" NOUN
+	"지+ㄴ" AUX SELECT:111:r2c
+;	"지+ㄴ" VERB SELECT:111:r2c
+;	"진" PROPN SELECT:111:r2c
+;	"진" NOUN SELECT:111:r2c
 "<지속적인>"
 	"지속+적+이+ㄴ" VERB
 "<도전이라고>"
@@ -30823,8 +30823,8 @@
 "<부정하게>"
 	"부정+하+게" VERB
 "<된>"
-	"되+ㄴ" AUX SELECT:33:r1b
-;	"되+ㄴ" VERB SELECT:33:r1b
+	"되+ㄴ" AUX SELECT:37:r1b
+;	"되+ㄴ" VERB SELECT:37:r1b
 "<계기가>"
 	"계기+가" NOUN
 "<됩니다>"
@@ -30857,13 +30857,13 @@
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<사건은>"
 	"사건+은" NOUN
 "<전체주의에>"
@@ -30890,11 +30890,11 @@
 	"않+ㄹ" AUX
 	"않+을" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었습니다>"
 	"없+었+습니다" ADJ
 "<.>"
@@ -30967,8 +30967,8 @@
 	"." PUNCT
 
 "<예컨대>"
-	"예컨대" ADV
 	"예컨대" CCONJ
+;	"예컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<파괴>"
@@ -31018,9 +31018,9 @@
 "<직면해>"
 	"직면+하+어" VERB
 "<있습니다>"
-	"있+습니다" AUX
-	"있+습니다" ADJ
-	"있+습니다" VERB
+	"있+습니다" AUX SELECT:78:r7
+;	"있+습니다" ADJ SELECT:78:r7
+;	"있+습니다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -31044,10 +31044,10 @@
 "<환원하고자>"
 	"환원+하+고자" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -31081,13 +31081,13 @@
 	"흔히+들" NOUN
 	"흔히+들" ADV
 "<생각하고>"
-	"생각+하+고" VERB SELECT:23:r1
-;	"생각+하+고" CCONJ SELECT:23:r1
+	"생각+하+고" VERB SELECT:27:r1
+;	"생각+하+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것>"
 	"것" NOUN
 "<같습니다>"
@@ -31097,7 +31097,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<동양권에도>"
@@ -31112,15 +31112,15 @@
 "<존재했다고>"
 	"존재+하+었+다+고" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있습니다>"
 	"있+습니다" AUX
 	"있+습니다" ADJ
@@ -31183,16 +31183,16 @@
 "<실현시킬>"
 	"실현+시키+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<신뢰>"
 	"신뢰" NOUN
 "<때문이었죠>"
@@ -31216,13 +31216,13 @@
 "<주면서부터>"
 	"주+면서+부터" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<신뢰의>"
 	"신뢰+의" NOUN
 "<파괴는>"
@@ -31265,20 +31265,20 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<우리는>"
 	"우리+는" PRON
 	"우리+는" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<대목에서>"
 	"대목+에서" ADV
 "<문학연구의>"
@@ -31306,12 +31306,12 @@
 "<간과해서도>"
 	"간과+하+어서+도" ADV
 "<안>"
-	"알+ㄴ" VERB SELECT:23:r1
-;	"안" ADV SELECT:23:r1
-;	"안" NOUN SELECT:23:r1
+	"알+ㄴ" VERB SELECT:27:r1
+;	"안" ADV SELECT:27:r1
+;	"안" NOUN SELECT:27:r1
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" AUX SELECT:111:r2c
+;	"되+ㄹ" VERB SELECT:111:r2c
 "<것입니다>"
 	"것+이+ㅂ니다" VERB
 "<.>"
@@ -31360,11 +31360,11 @@
 "<말할>"
 	"말하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -31411,24 +31411,24 @@
 "<결코>"
 	"결코" ADV
 "<살아>"
-	"살+아" VERB SELECT:23:r1
-;	"살+아" SCONJ SELECT:23:r1
+	"살+아" VERB SELECT:27:r1
+;	"살+아" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<인간성이>"
 	"인간성+이" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없습니다>"
 	"없+습니다" ADJ
 "<.>"
@@ -31458,7 +31458,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<문학은>"
 	"문학+은" NOUN
 "<어디까지나>"
@@ -31484,11 +31484,11 @@
 "<배치될>"
 	"배치+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없습니다>"
 	"없+습니다" ADJ
 "<.>"
@@ -31538,7 +31538,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<데까르뜨적>"
@@ -31551,17 +31551,17 @@
 	"말하+어" SCONJ
 	"말하+어" VERB
 "<질>"
-	"지+ㄹ" AUX SELECT:33:r1b
-;	"지+ㄹ" VERB SELECT:33:r1b
-;	"질" NOUN SELECT:33:r1b
+	"지+ㄹ" AUX SELECT:37:r1b
+;	"지+ㄹ" VERB SELECT:37:r1b
+;	"질" NOUN SELECT:37:r1b
 "<수도>"
 	"수+도" ADV
 	"수도" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<방법론이>"
 	"방법론+이" NOUN
 "<인간해석이나>"
@@ -31646,11 +31646,11 @@
 "<니체에게서>"
 	"니체+에게서" ADV
 "<나타났다고>"
-	"나타나+ㅆ+다+고" VERB SELECT:23:r1
-;	"나타나+ㅆ+다고" SCONJ SELECT:23:r1
+	"나타나+ㅆ+다+고" VERB SELECT:27:r1
+;	"나타나+ㅆ+다고" SCONJ SELECT:27:r1
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -31771,7 +31771,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이러한>"
@@ -31825,19 +31825,19 @@
 "<가정해>"
 	"가정+하+어" VERB
 "<봅시다>"
-	"보+ㅂ시다" AUX
-	"보+ㅂ시다" VERB
+	"보+ㅂ시다" AUX SELECT:111:r2c
+;	"보+ㅂ시다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<환자에게>"
 	"환자+에게" ADV
 "<다량의>"
@@ -31882,7 +31882,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<환자에게>"
@@ -31919,10 +31919,10 @@
 	"것+이+ㄴ가" VERB
 	"것+이+ㄴ가" SCONJ
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<최종적인>"
 	"최종+적+이+ㄴ" VERB
 "<가치판단은>"
@@ -31950,7 +31950,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이것은>"
@@ -32119,7 +32119,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그>"
 	"그" DET
 	"그" PRON
@@ -32165,13 +32165,13 @@
 "<가장>"
 	"가장" ADV
 "<인간답게>"
-	"인간+답+게" VERB SELECT:23:r1
-;	"인간+답+게" SCONJ SELECT:23:r1
+	"인간+답+게" VERB SELECT:27:r1
+;	"인간+답+게" SCONJ SELECT:27:r1
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<요인입니다>"
 	"요인+이+ㅂ니다" VERB
 "<.>"
@@ -32254,8 +32254,8 @@
 "<도달하고자>"
 	"도달+하+고자" VERB
 "<했습니다>"
-	"하+었+습니다" AUX
-	"하+었+습니다" VERB
+	"하+었+습니다" AUX SELECT:111:r2c
+;	"하+었+습니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -32305,14 +32305,14 @@
 	"인간+답+게" VERB
 	"인간+답+게" SCONJ
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<부단한>"
-	"부단하+ㄴ" ADJ SELECT:52:r4
-;	"부단+하+ㄴ" VERB SELECT:52:r4
+	"부단하+ㄴ" ADJ SELECT:61:r4
+;	"부단+하+ㄴ" VERB SELECT:61:r4
 "<자기반성과>"
 	"자기+반성+과" CCONJ
 "<자기계발을>"
@@ -32328,11 +32328,11 @@
 	"벗어나+ㄹ" VERB
 	"벗+어+나+ㄹ" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있기>"
 	"있+기" AUX
 	"있+기" ADJ
@@ -32424,14 +32424,14 @@
 "<전망하고자>"
 	"전망+하+고자" VERB
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<또는>"
 	"또는" CCONJ
-	"또는" ADV
+;	"또는" ADV REMOVE:69:r6
 "<이는>"
 	"이+는" PRON
 	"일+는" VERB
@@ -32441,13 +32441,13 @@
 "<하나로>"
 	"하나+로" ADV
 "<묶어>"
-	"묶+어" VERB SELECT:23:r1
-;	"묶+어" SCONJ SELECT:23:r1
+	"묶+어" VERB SELECT:27:r1
+;	"묶+어" SCONJ SELECT:27:r1
 "<주는>"
-	"주+는" AUX SELECT:33:r1b
-;	"주+는" VERB SELECT:33:r1b
-;	"주+는" NOUN SELECT:33:r1b
-;	"주+는" PROPN SELECT:33:r1b
+	"주+는" AUX SELECT:37:r1b
+;	"주+는" VERB SELECT:37:r1b
+;	"주+는" NOUN SELECT:37:r1b
+;	"주+는" PROPN SELECT:37:r1b
 "<고리>"
 	"고리" NOUN
 "<역할을>"
@@ -32522,8 +32522,8 @@
 "<주제로>"
 	"주제+로" ADV
 "<삼아>"
-	"삼+아" VERB SELECT:23:r1
-;	"삼+아" SCONJ SELECT:23:r1
+	"삼+아" VERB SELECT:27:r1
+;	"삼+아" SCONJ SELECT:27:r1
 "<왔습니다>"
 	"오+았+습니다" AUX
 "<.>"
@@ -32532,8 +32532,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<언어와>"
@@ -32596,10 +32596,10 @@
 "<출발해야>"
 	"출발+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<문학연구가>"
 	"문학+연구+가" NOUN
 "<한동안>"
@@ -32625,11 +32625,11 @@
 "<묵과할>"
 	"묵과+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -32638,13 +32638,13 @@
 "<사실로>"
 	"사실+로" ADV
 "<받아들여야>"
-	"받아들이+어야" VERB SELECT:23:r1
-;	"받아들이+어야" SCONJ SELECT:23:r1
+	"받아들이+어야" VERB SELECT:27:r1
+;	"받아들이+어야" SCONJ SELECT:27:r1
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<것>"
 	"것" NOUN
 "<같습니다>"
@@ -32654,7 +32654,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문제는>"
@@ -32687,8 +32687,8 @@
 	"적+지" ADJ
 	"적+지" SCONJ
 "<않다는>"
-	"않+다는" AUX SELECT:57:r5
-;	"않+다는" ADJ SELECT:57:r5
+	"않+다는" AUX SELECT:66:r5
+;	"않+다는" ADJ SELECT:66:r5
 "<데>"
 	"데" NOUN
 "<있습니다>"
@@ -32723,7 +32723,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<작품은>"
@@ -32769,11 +32769,11 @@
 "<말할>"
 	"말하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있겠습니다>"
 	"있+겠+습니다" ADJ
 "<.>"
@@ -32809,18 +32809,18 @@
 	"않+고" AUX
 	"않+고" SCONJ
 "<있습니다>"
-	"있+습니다" AUX
-	"있+습니다" ADJ
-	"있+습니다" VERB
+	"있+습니다" AUX SELECT:132:r2g
+;	"있+습니다" ADJ SELECT:132:r2g
+;	"있+습니다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<마무리>"
 	"마무리" NOUN
 "<문학연구와>"
@@ -32832,13 +32832,13 @@
 "<관련을>"
 	"관련+을" NOUN
 "<맺고>"
-	"맺+고" VERB SELECT:27:r1a
-;	"맺+고" CCONJ SELECT:27:r1a
+	"맺+고" VERB SELECT:31:r1a
+;	"맺+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<문학비평의>"
 	"문학+비평+의" NOUN
 "<경우도>"
@@ -32866,10 +32866,10 @@
 	"두+어야" VERB
 	"두+어야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것입니다>"
 	"것+이+ㅂ니다" VERB
 "<.>"
@@ -32902,8 +32902,8 @@
 "<마감할까>"
 	"마감+하+ㄹ까" VERB
 "<합니다>"
-	"하+ㅂ니다" VERB
-	"하+ㅂ니다" AUX
+	"하+ㅂ니다" AUX SELECT:111:r2c
+;	"하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -32924,8 +32924,8 @@
 "<종속성을>"
 	"종속성+을" NOUN
 "<벗어날>"
-	"벗어나+ㄹ" VERB
-	"벗+어+나+ㄹ" AUX
+	"벗어나+ㄹ" VERB SELECT:153:r3b
+;	"벗+어+나+ㄹ" AUX SELECT:153:r3b
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -32944,9 +32944,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<서구적>"
@@ -32962,9 +32962,9 @@
 "<이루지>"
 	"이루+지" VERB
 "<못할>"
-	"못하+ㄹ" AUX SELECT:33:r1b
-;	"못하+ㄹ" VERB SELECT:33:r1b
-;	"못하+ㄹ" ADJ SELECT:33:r1b
+	"못하+ㄹ" AUX SELECT:37:r1b
+;	"못하+ㄹ" VERB SELECT:37:r1b
+;	"못하+ㄹ" ADJ SELECT:37:r1b
 "<국면이>"
 	"국면+이" NOUN
 "<적지>"
@@ -32996,19 +32996,19 @@
 "<탈피해야>"
 	"탈피+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX
-	"하+ㄴ다는" VERB
-	"하+ㄴ다+는" NOUN
+	"하+ㄴ다는" AUX SELECT:111:r2c
+;	"하+ㄴ다는" VERB SELECT:111:r2c
+;	"하+ㄴ다+는" NOUN SELECT:111:r2c
 "<비슷한>"
 	"비슷하+ㄴ" ADJ
 	"비슷+하+ㄴ" VERB
 "<생각도>"
 	"생각+도" ADV
 "<해>"
-	"하+어" VERB SELECT:23:r1
-;	"해" NOUN SELECT:23:r1
-;	"하+어" AUX SELECT:23:r1
-;	"하+어" SCONJ SELECT:23:r1
+	"하+어" VERB SELECT:27:r1
+;	"해" NOUN SELECT:27:r1
+;	"하+어" AUX SELECT:27:r1
+;	"하+어" SCONJ SELECT:27:r1
 "<보았습니다>"
 	"보+았+습니다" AUX
 "<.>"
@@ -33017,9 +33017,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<문학연구의>"
@@ -33051,7 +33051,7 @@
 
 "<그러므로>"
 	"그러므로" CCONJ
-	"그러므로" ADV
+;	"그러므로" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<내가>"
@@ -33090,10 +33090,10 @@
 "<여기에>"
 	"여기+에" ADV
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<여러분들>"
 	"여러분+들" NOUN
 "<가운데>"
@@ -33121,11 +33121,11 @@
 "<데>"
 	"데" NOUN
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" VERB SELECT:153:r3b
+;	"있+ㄹ" ADJ SELECT:153:r3b
+;	"있+ㄹ" AUX SELECT:153:r3b
+;	"있+을" ADJ SELECT:153:r3b
+;	"있+을" AUX SELECT:153:r3b
 "<것>"
 	"것" NOUN
 "<같습니다>"
@@ -33134,8 +33134,8 @@
 	"." PUNCT
 
 "<예컨대>"
-	"예컨대" ADV
 	"예컨대" CCONJ
+;	"예컨대" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<학자가>"
@@ -33219,8 +33219,8 @@
 "<비판하는>"
 	"비판+하+는" VERB
 "<듯합니다>"
-	"듯하+ㅂ니다" AUX
-	"듯+하+ㅂ니다" VERB
+	"듯하+ㅂ니다" AUX SELECT:111:r2c
+;	"듯+하+ㅂ니다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -33244,7 +33244,7 @@
 "<갖고>"
 	"갖+고" VERB
 	"갖+고" CCONJ
-	"갖+고" SCONJ
+;	"갖+고" SCONJ REMOVE:56:r3
 "<있을지도>"
 	"있+ㄹ지+도" ADV
 	"있+ㄹ지도" SCONJ
@@ -33256,7 +33256,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<인간의>"
@@ -33286,11 +33286,11 @@
 "<예상할>"
 	"예상+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다고>"
 	"없+다+고" VERB
 	"없+다고" SCONJ
@@ -33354,10 +33354,10 @@
 "<데>"
 	"데" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -33462,11 +33462,11 @@
 "<아닐>"
 	"아니+ㄹ" ADJ
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없습니다>"
 	"없+습니다" ADJ
 "<.>"
@@ -33485,13 +33485,13 @@
 "<깃들여>"
 	"깃들이+어" VERB
 "<져>"
-	"지+어" AUX SELECT:57:r5
-;	"지+어" SCONJ SELECT:57:r5
+	"지+어" AUX SELECT:66:r5
+;	"지+어" SCONJ SELECT:66:r5
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" AUX SELECT:132:r2g
+;	"있+다는" ADJ SELECT:132:r2g
+;	"있+다는" VERB SELECT:132:r2g
+;	"있+다+는" NOUN SELECT:132:r2g
 "<일치된>"
 	"일치+되+ㄴ" VERB
 "<생각을>"
@@ -33499,21 +33499,21 @@
 "<공유하고>"
 	"공유+하+고" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<언어신성관이라고>"
 	"언어신성관+이+라+고" VERB
 "<두루>"
@@ -33521,11 +33521,11 @@
 "<포괄할>"
 	"포괄+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있겠다>"
 	"있+겠+다" ADJ
 "<.>"
@@ -33533,17 +33533,17 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<언어신성관은>"
 	"언어신성관+은" NOUN
 "<인간의>"
@@ -33555,8 +33555,8 @@
 "<도전받게>"
 	"도전받+게" VERB
 "<되고>"
-	"되+고" CCONJ
-	"되+고" VERB
+	"되+고" CCONJ SELECT:128:r2e
+;	"되+고" VERB SELECT:128:r2e
 "<필경>"
 	"필경" ADV
 "<언어적대관이>"
@@ -33569,8 +33569,8 @@
 "<지배하게>"
 	"지배+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -33601,10 +33601,10 @@
 "<신성시해>"
 	"신성시+하+어" VERB
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<언어를>"
 	"언어+를" NOUN
 "<끊임없이>"
@@ -33613,9 +33613,9 @@
 "<적대시해>"
 	"적대시+하+어" VERB
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -33659,11 +33659,11 @@
 "<지을>"
 	"짓+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -33671,7 +33671,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<神의>"
 	"神+의" NOUN
 "<상태에>"
@@ -33719,7 +33719,7 @@
 "<말하자면>"
 	"말하+자면" SCONJ
 	"말하자면" CCONJ
-	"말하자면" ADV
+;	"말하자면" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<시인들은>"
@@ -33772,10 +33772,10 @@
 	"들뜨+어" VERB
 	"들뜨+어" SCONJ
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -33920,23 +33920,23 @@
 "<質을>"
 	"質+을" NOUN
 "<구현하고>"
-	"구현+하+고" VERB SELECT:27:r1a
-;	"구현+하+고" CCONJ SELECT:27:r1a
+	"구현+하+고" VERB SELECT:31:r1a
+;	"구현+하+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<것도>"
 	"것+도" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때문이다>"
 	"때문+이+다" VERB
 "<.>"
@@ -33957,10 +33957,10 @@
 "<사례가>"
 	"사례+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -34053,14 +34053,14 @@
 "<사람들이>"
 	"사람+들+이" NOUN
 "<살고>"
-	"살+고" VERB SELECT:27:r1a
-;	"살+고" CCONJ SELECT:27:r1a
-;	"살+고" SCONJ SELECT:27:r1a
+	"살+고" VERB SELECT:31:r1a
+;	"살+고" CCONJ SELECT:31:r1a
+;	"살+고" SCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -34086,15 +34086,15 @@
 "<저편>"
 	"저편" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<古木에>"
 	"古木+에" ADV
 "<등을>"
@@ -34151,8 +34151,8 @@
 "<발견하지>"
 	"발견+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -34170,9 +34170,9 @@
 	"듣+어" VERB
 	"듣+어" SCONJ
 "<보지>"
-	"보+지" VERB
-	"보+지" AUX
-	"보+지" SCONJ
+	"보+지" AUX SELECT:111:r2c
+;	"보+지" VERB SELECT:111:r2c
+;	"보+지" SCONJ SELECT:111:r2c
 "<못했다고>"
 	"못하+었+다+고" VERB
 	"못하+었+다고" SCONJ
@@ -34319,7 +34319,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<세월이>"
@@ -34398,8 +34398,8 @@
 "<金으로>"
 	"金+으로" ADV
 "<만든>"
-	"만들+ㄴ" VERB SELECT:23:r1
-;	"만들+ㄴ" AUX SELECT:23:r1
+	"만들+ㄴ" VERB SELECT:27:r1
+;	"만들+ㄴ" AUX SELECT:27:r1
 "<것이라고>"
 	"것+이+라+고" VERB
 	"것+이+라고" SCONJ
@@ -34563,9 +34563,9 @@
 "<기다려야>"
 	"기다리+어야" VERB
 "<했던>"
-	"하+었+던" AUX
-	"하+었+던" VERB
-	"하+ㅆ+던" AUX
+	"하+었+던" AUX SELECT:111:r2c
+	"하+ㅆ+던" AUX SELECT:111:r2c
+;	"하+었+던" VERB SELECT:111:r2c
 "<열정적인>"
 	"열정+적+이+ㄴ" VERB
 "<번민이었다>"
@@ -34575,7 +34575,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<근대이후에도>"
@@ -34612,11 +34612,11 @@
 "<움직이게>"
 	"움직이+게" VERB
 "<하고>"
-	"하+고" CCONJ
-	"하+고" VERB
-	"하+고" AUX
-	"하+고" SCONJ
-	"하고" ADP
+	"하+고" AUX SELECT:111:r2c
+;	"하+고" CCONJ SELECT:111:r2c
+;	"하+고" VERB SELECT:111:r2c
+;	"하+고" SCONJ SELECT:111:r2c
+;	"하고" ADP SELECT:111:r2c
 "<새로운>"
 	"새롭+ㄴ" ADJ
 	"새+롭+ㄴ" VERB
@@ -34625,10 +34625,10 @@
 "<창조하게>"
 	"창조+하+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<겨레의>"
 	"겨레+의" NOUN
 "<얼과>"
@@ -34640,21 +34640,21 @@
 "<깃을>"
 	"깃+을" NOUN
 "<치고>"
-	"치+고" VERB SELECT:27:r1a
-;	"치+고" SCONJ SELECT:27:r1a
-;	"치+고" CCONJ SELECT:27:r1a
+	"치+고" VERB SELECT:31:r1a
+;	"치+고" SCONJ SELECT:31:r1a
+;	"치+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<언어공동체와>"
@@ -34680,11 +34680,11 @@
 "<확인할>"
 	"확인+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -34726,8 +34726,8 @@
 "<확인시켜>"
 	"확인+시키+어" VERB
 "<준>"
-	"주+ㄴ" AUX
-	"주+ㄴ" VERB
+	"주+ㄴ" AUX SELECT:111:r2c
+;	"주+ㄴ" VERB SELECT:111:r2c
 "<,>"
 	"," PUNCT
 "<그리고>"
@@ -34741,11 +34741,11 @@
 "<매몰될>"
 	"매몰+되+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없을>"
 	"없+ㄹ" ADJ
 	"없+을" ADJ
@@ -34757,13 +34757,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<제의는>"
 	"제의+는" NOUN
 "<역사적>"
@@ -34813,15 +34813,15 @@
 	"." PUNCT
 
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<시대의>"
 	"시대+의" NOUN
 "<비감을>"
@@ -34837,10 +34837,10 @@
 "<해탈하고자>"
 	"해탈+하+고자" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<자유의지의>"
 	"자유의지+의" NOUN
 "<몸짓이자>"
@@ -34866,12 +34866,12 @@
 	"동시+에" ADV
 	"동시에" ADV
 "<얻고>"
-	"얻+고" VERB SELECT:23:r1
-;	"얻+고" CCONJ SELECT:23:r1
+	"얻+고" VERB SELECT:27:r1
+;	"얻+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -34988,21 +34988,21 @@
 "<기억해야>"
 	"기억+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<분위기>"
 	"분위기" NOUN
 "<자체가>"
@@ -35021,10 +35021,10 @@
 "<세계상이라>"
 	"세계상+이+라" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -35033,7 +35033,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<서정주는>"
@@ -35066,10 +35066,10 @@
 "<적대시해>"
 	"적대시+하+어" VERB
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<관점은>"
 	"관점+은" NOUN
 "<스스로>"
@@ -35091,8 +35091,8 @@
 "<복권된>"
 	"복권+되+ㄴ" VERB
 "<듯했다>"
-	"듯하+었+다" AUX
-	"듯+하+었+다" VERB
+	"듯하+었+다" AUX SELECT:111:r2c
+;	"듯+하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -35130,16 +35130,16 @@
 "<형성할>"
 	"형성+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<신뢰감이>"
 	"신뢰감+이" NOUN
 "<부여되기>"
@@ -35325,10 +35325,10 @@
 "<발견해야>"
 	"발견+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -35434,11 +35434,11 @@
 	"얻+ㄹ" VERB
 	"얻+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -35487,10 +35487,10 @@
 "<승화되어야>"
 	"승화+되+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -35505,13 +35505,13 @@
 	"보+면서" CCONJ
 	"보+면서" SCONJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<글을>"
 	"글+을" NOUN
 "<마감한다>"
@@ -35547,10 +35547,10 @@
 	"있+어야" ADJ
 	"있+어야" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -35592,18 +35592,18 @@
 "<양식화되어>"
 	"양식화+되+어" VERB
 "<온>"
-	"온" ADJ
-	"오+ㄴ" AUX
-	"오+ㄴ" VERB
-	"온" NOUN
+	"오+ㄴ" AUX SELECT:78:r7
+;	"온" ADJ SELECT:78:r7
+;	"오+ㄴ" VERB SELECT:78:r7
+;	"온" NOUN SELECT:78:r7
 "<개념이다>"
 	"개념+이+다" VERB
 "<.>"
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<그>"
@@ -35617,23 +35617,23 @@
 "<행위의>"
 	"행위+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<장르로>"
 	"장르+로" ADV
 "<인식되기도>"
 	"인식+되+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -35692,10 +35692,10 @@
 	"하+어" VERB
 	"하+어" SCONJ
 "<온>"
-	"오+ㄴ" AUX SELECT:33:r1b
-;	"온" ADJ SELECT:33:r1b
-;	"오+ㄴ" VERB SELECT:33:r1b
-;	"온" NOUN SELECT:33:r1b
+	"오+ㄴ" AUX SELECT:37:r1b
+;	"온" ADJ SELECT:37:r1b
+;	"오+ㄴ" VERB SELECT:37:r1b
+;	"온" NOUN SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -35740,16 +35740,16 @@
 "<小들이>"
 	"小+들+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<어쨌든>"
 	"어쨌든" CCONJ
-	"어쨌든" ADV
+;	"어쨌든" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<시문집에>"
@@ -35770,22 +35770,22 @@
 	"상당+히" ADV
 	"상당히" ADV
 "<거슬러>"
-	"거스르+어" VERB SELECT:23:r1
-;	"거스르+어" SCONJ SELECT:23:r1
+	"거스르+어" VERB SELECT:27:r1
+;	"거스르+어" SCONJ SELECT:27:r1
 "<올라간다>"
-	"올라가+ㄴ다" VERB
-	"오르+아+가+ㄴ다" AUX
+	"오르+아+가+ㄴ다" AUX SELECT:111:r2c
+;	"올라가+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<간과할>"
 	"간과+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -35811,10 +35811,10 @@
 "<명시되어>"
 	"명시+되+어" VERB
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" AUX SELECT:78:r7
+;	"있+다는" ADJ SELECT:78:r7
+;	"있+다는" VERB SELECT:78:r7
+;	"있+다+는" NOUN SELECT:78:r7
 "<점이다>"
 	"점+이+다" VERB
 "<.>"
@@ -35854,13 +35854,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<생각이>"
 	"생각+이" NOUN
 "<양주동과>"
@@ -35877,11 +35877,11 @@
 "<것도>"
 	"것+도" ADV
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<알려진>"
-	"알려지+ㄴ" VERB
-	"알리+어+지+ㄴ" AUX
+	"알리+어+지+ㄴ" AUX SELECT:111:r2c
+;	"알려지+ㄴ" VERB SELECT:111:r2c
 "<사실이다>"
 	"사실+이+다" VERB
 "<.>"
@@ -35913,15 +35913,15 @@
 "<부합되고>"
 	"부합+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그는>"
 	"그+는" PRON
 "<불과>"
@@ -35952,13 +35952,13 @@
 "<이듬해에>"
 	"이듬해+에" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<격조시론이>"
 	"격조+시론+이" NOUN
 "<동아일보에>"
@@ -35995,15 +35995,15 @@
 "<내포하고>"
 	"내포+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<그의>"
@@ -36035,9 +36035,9 @@
 "<메시지이기도>"
 	"메시지+이+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -36052,10 +36052,10 @@
 "<제한>"
 	"제한" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<詩가>"
 	"詩+가" NOUN
 "<읊기에>"
@@ -36067,13 +36067,13 @@
 "<이유로>"
 	"이유+로" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시집에는>"
 	"시집+에+는" NOUN
 "<전부>"
@@ -36249,7 +36249,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<너희는>"
 	"너희+는" PRON
 "<이름>"
@@ -36301,10 +36301,10 @@
 	"나+는" VERB
 	"날+는" VERB
 "<해>"
-	"해" NOUN
-	"하+어" AUX
-	"하+어" VERB
-	"하+어" SCONJ
+	"하+어" AUX SELECT:111:r2c
+;	"해" NOUN SELECT:111:r2c
+;	"하+어" VERB SELECT:111:r2c
+;	"하+어" SCONJ SELECT:111:r2c
 "<저문>"
 	"저물+ㄴ" VERB
 "<벌판에서>"
@@ -36328,13 +36328,13 @@
 "<기루어서>"
 	"기루+어서" SCONJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시를>"
 	"시+를" NOUN
 "<쓴다>"
@@ -36385,8 +36385,8 @@
 "<읽히고>"
 	"읽히+고" VERB
 "<싶은>"
-	"싶+ㄴ" AUX SELECT:57:r5
-;	"싶+은" ADJ SELECT:57:r5
+	"싶+ㄴ" AUX SELECT:66:r5
+;	"싶+은" ADJ SELECT:66:r5
 "<마음은>"
 	"마음+은" NOUN
 "<없습니다>"
@@ -36497,8 +36497,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<그는>"
 	"그+는" PRON
 "<길을>"
@@ -36540,8 +36540,8 @@
 "<촉구하기에>"
 	"촉구+하+기+에" ADV
 "<이른>"
-	"이르+ㄴ" VERB SELECT:23:r1
-;	"이르+ㄴ" ADJ SELECT:23:r1
+	"이르+ㄴ" VERB SELECT:27:r1
+;	"이르+ㄴ" ADJ SELECT:27:r1
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -36595,8 +36595,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<모더니스트다운>"
@@ -36608,11 +36608,11 @@
 "<엿볼>"
 	"엿보+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -36671,23 +36671,23 @@
 	"만들+어" SCONJ
 	"만들+어" AUX
 "<놓았다>"
-	"놓+았+다" AUX
-	"놓+았+다" VERB
+	"놓+았+다" AUX SELECT:111:r2c
+;	"놓+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<비유컨대>"
 	"비유+하+건대" SCONJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<시대의>"
 	"시대+의" NOUN
 "<유언과>"
@@ -36716,10 +36716,10 @@
 	"쓰+어" VERB
 	"쓰+어" SCONJ
 "<본>"
-	"보+ㄴ" AUX SELECT:33:r1b
-;	"본" DET SELECT:33:r1b
-;	"보+ㄴ" VERB SELECT:33:r1b
-;	"본" NOUN SELECT:33:r1b
+	"보+ㄴ" AUX SELECT:37:r1b
+;	"본" DET SELECT:37:r1b
+;	"보+ㄴ" VERB SELECT:37:r1b
+;	"본" NOUN SELECT:37:r1b
 "<적이>"
 	"적+이" NOUN
 	"적이" ADV
@@ -36737,14 +36737,14 @@
 "<생각도>"
 	"생각+도" ADV
 "<해>"
-	"하+어" VERB SELECT:23:r1
-;	"해" NOUN SELECT:23:r1
-;	"하+어" AUX SELECT:23:r1
-;	"하+어" SCONJ SELECT:23:r1
+	"하+어" VERB SELECT:27:r1
+;	"해" NOUN SELECT:27:r1
+;	"하+어" AUX SELECT:27:r1
+;	"하+어" SCONJ SELECT:27:r1
 "<보지>"
-	"보+지" VERB
-	"보+지" AUX
-	"보+지" SCONJ
+	"보+지" AUX SELECT:111:r2c
+;	"보+지" VERB SELECT:111:r2c
+;	"보+지" SCONJ SELECT:111:r2c
 "<아니>"
 	"아니" ADV
 	"아니" INTJ
@@ -36755,27 +36755,27 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<대목에서>"
 	"대목+에서" ADV
 "<짚고>"
 	"짚+고" CCONJ
-	"짚+고" SCONJ
+;	"짚+고" SCONJ REMOVE:56:r3
 "<넘어가야>"
 	"넘어가+아야" VERB
 	"넘+어+가+아야" AUX
 	"넘+어+가+야" SCONJ
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<사실이>"
 	"사실+이" NOUN
 "<있다>"
@@ -36800,8 +36800,8 @@
 	"남기+어" VERB
 	"남기+어" SCONJ
 "<둔>"
-	"두+ㄴ" VERB
-	"두+ㄴ" AUX
+	"두+ㄴ" AUX SELECT:111:r2c
+;	"두+ㄴ" VERB SELECT:111:r2c
 "<서문일>"
 	"서문+이+ㄹ" VERB
 "<따름이다>"
@@ -36830,10 +36830,10 @@
 "<쓰여>"
 	"쓰이+어" VERB
 "<진>"
-	"지+ㄴ" AUX SELECT:33:r1b
-;	"지+ㄴ" VERB SELECT:33:r1b
-;	"진" PROPN SELECT:33:r1b
-;	"진" NOUN SELECT:33:r1b
+	"지+ㄴ" AUX SELECT:37:r1b
+;	"지+ㄴ" VERB SELECT:37:r1b
+;	"진" PROPN SELECT:37:r1b
+;	"진" NOUN SELECT:37:r1b
 "<서>"
 	"서+어" VERB
 	"서" NOUN
@@ -36863,12 +36863,12 @@
 "<풍모를>"
 	"풍모+를" NOUN
 "<묘사하고>"
-	"묘사+하+고" VERB SELECT:27:r1a
-;	"묘사+하+고" CCONJ SELECT:27:r1a
+	"묘사+하+고" VERB SELECT:31:r1a
+;	"묘사+하+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -36950,27 +36950,27 @@
 "<인상으로써>"
 	"인상+으로써" ADV
 "<맺고>"
-	"맺+고" VERB SELECT:23:r1
-;	"맺+고" CCONJ SELECT:23:r1
+	"맺+고" VERB SELECT:27:r1
+;	"맺+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그는>"
 	"그+는" PRON
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<군데>"
 	"군데" NOUN
 "<自安하는>"
@@ -36985,10 +36985,10 @@
 "<개척자이려>"
 	"개척자+이+려" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -37032,10 +37032,10 @@
 "<스러지게>"
 	"스러지+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -37061,10 +37061,10 @@
 "<고평하고>"
 	"고평+하+고" VERB
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" AUX SELECT:78:r7
+;	"있+다는" ADJ SELECT:78:r7
+;	"있+다는" VERB SELECT:78:r7
+;	"있+다+는" NOUN SELECT:78:r7
 "<점에서>"
 	"점+에서" ADV
 "<급진적인>"
@@ -37072,46 +37072,46 @@
 "<인상비평의>"
 	"인상+비평+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<유형을>"
 	"유형+을" NOUN
 "<보여>"
 	"보이+어" VERB
 	"보이+어" SCONJ
 "<주고>"
-	"주+고" AUX
-	"주+고" CCONJ
-	"주+고" SCONJ
-	"주+고" VERB
+	"주+고" AUX SELECT:111:r2c
+;	"주+고" CCONJ SELECT:111:r2c
+;	"주+고" SCONJ SELECT:111:r2c
+;	"주+고" VERB SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<한편>"
 	"한편" CCONJ
 	"한편" NOUN
-	"한편" ADV
+;	"한편" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시집의>"
 	"시집+의" NOUN
 "<발문은>"
@@ -37162,8 +37162,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<서문의>"
@@ -37189,9 +37189,9 @@
 "<기억되고>"
 	"기억+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -37238,12 +37238,12 @@
 "<형식을>"
 	"형식+을" NOUN
 "<갖추고>"
-	"갖추+고" VERB SELECT:27:r1a
-;	"갖추+고" CCONJ SELECT:27:r1a
+	"갖추+고" VERB SELECT:31:r1a
+;	"갖추+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -37282,10 +37282,10 @@
 "<충족시켜>"
 	"충족+시키+어" VERB
 "<주는>"
-	"주+는" AUX SELECT:33:r1b
-;	"주+는" VERB SELECT:33:r1b
-;	"주+는" NOUN SELECT:33:r1b
-;	"주+는" PROPN SELECT:33:r1b
+	"주+는" AUX SELECT:37:r1b
+;	"주+는" VERB SELECT:37:r1b
+;	"주+는" NOUN SELECT:37:r1b
+;	"주+는" PROPN SELECT:37:r1b
 "<일종의>"
 	"일종+의" NOUN
 "<인상비평이다>"
@@ -37306,9 +37306,9 @@
 "<만연해>"
 	"만연+하+어" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -37338,8 +37338,8 @@
 	"생각+하+어" VERB
 	"생각+하+어" SCONJ
 "<본다>"
-	"보+ㄴ다" AUX
-	"보+ㄴ다" VERB
+	"보+ㄴ다" AUX SELECT:111:r2c
+;	"보+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -37358,10 +37358,10 @@
 	"알리+어+지+어" AUX
 	"알리+어+지+어" SCONJ
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않지만>"
 	"않+지만" SCONJ
 "<,>"
@@ -37387,13 +37387,13 @@
 "<화석으로>"
 	"화석+으로" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -37454,9 +37454,9 @@
 	"남+아" ADJ
 	"남+아" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -37514,7 +37514,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<표면을>"
 	"표면+을" NOUN
 "<해석하는>"
@@ -37539,8 +37539,8 @@
 	"가볍+이" SCONJ
 	"가벼이" ADV
 "<여겨>"
-	"여기+어" VERB SELECT:23:r1
-;	"여기+어" SCONJ SELECT:23:r1
+	"여기+어" VERB SELECT:27:r1
+;	"여기+어" SCONJ SELECT:27:r1
 "<왔던>"
 	"오+았+던" AUX
 "<것이다>"
@@ -37588,10 +37588,10 @@
 "<맺고자>"
 	"맺+고자" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<심정적>"
 	"심정+적" NOUN
 "<정신적>"
@@ -37622,11 +37622,11 @@
 "<포함시킬>"
 	"포함+시키+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있지만>"
 	"있+지만" SCONJ
 	"있+지만" CCONJ
@@ -37699,11 +37699,11 @@
 	"않+ㄹ" AUX
 	"않+을" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -37712,8 +37712,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<원시사회나>"
 	"원시+사회+나" CCONJ
 	"원시사회+나" CCONJ
@@ -37787,21 +37787,21 @@
 "<제천행사가>"
 	"제천+행사+가" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -37837,13 +37837,13 @@
 "<드문드문>"
 	"드문드문" ADV
 "<비추어>"
-	"비추+어" VERB SELECT:23:r1
-;	"비추+어" SCONJ SELECT:23:r1
+	"비추+어" VERB SELECT:27:r1
+;	"비추+어" SCONJ SELECT:27:r1
 "<진>"
-	"지+ㄴ" AUX
-	"지+ㄴ" VERB
-	"진" PROPN
-	"진" NOUN
+	"지+ㄴ" AUX SELECT:111:r2c
+;	"지+ㄴ" VERB SELECT:111:r2c
+;	"진" PROPN SELECT:111:r2c
+;	"진" NOUN SELECT:111:r2c
 "<희미한>"
 	"희미+하+ㄴ" VERB
 "<잔상을>"
@@ -37853,18 +37853,18 @@
 "<전혀>"
 	"전혀" ADV
 "<알아>"
-	"알+아" VERB SELECT:23:r1
-;	"알+아" SCONJ SELECT:23:r1
+	"알+아" VERB SELECT:27:r1
+;	"알+아" SCONJ SELECT:27:r1
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -37902,9 +37902,9 @@
 	"강화+하+고자" VERB
 	"강화+하+고자" SCONJ
 "<했던>"
-	"하+었+던" AUX SELECT:33:r1b
-	"하+ㅆ+던" AUX SELECT:33:r1b
-;	"하+었+던" VERB SELECT:33:r1b
+	"하+었+던" AUX SELECT:37:r1b
+	"하+ㅆ+던" AUX SELECT:37:r1b
+;	"하+었+던" VERB SELECT:37:r1b
 "<것>"
 	"것" NOUN
 "<같다>"
@@ -37943,13 +37943,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
@@ -37972,13 +37972,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<세계은>"
 	"세계+는" NOUN
 "<자아와>"
@@ -38007,7 +38007,7 @@
 "<한편>"
 	"한편" CCONJ
 	"한편" NOUN
-	"한편" ADV
+;	"한편" ADV REMOVE:69:r6
 "<고통받는>"
 	"고통받+는" VERB
 "<서정적>"
@@ -38024,13 +38024,13 @@
 "<극대화시킨>"
 	"극대화+시키+ㄴ" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<심오한>"
 	"심오+하+ㄴ" VERB
 "<사상은>"
@@ -38071,7 +38071,7 @@
 "<말하자면>"
 	"말하+자면" SCONJ
 	"말하자면" CCONJ
-	"말하자면" ADV
+;	"말하자면" ADV REMOVE:69:r6
 "<,>"
 	"," PUNCT
 "<중세의>"
@@ -38132,13 +38132,13 @@
 "<반영한>"
 	"반영+하+ㄴ" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<노래는>"
 	"노래+는" NOUN
 "<君民을>"
@@ -38174,12 +38174,12 @@
 "<한층>"
 	"한층" ADV
 "<강화하고자>"
-	"강화+하+고자" VERB SELECT:23:r1
-;	"강화+하+고자" SCONJ SELECT:23:r1
+	"강화+하+고자" VERB SELECT:27:r1
+;	"강화+하+고자" SCONJ SELECT:27:r1
 "<했던>"
-	"하+었+던" AUX SELECT:33:r1b
-	"하+ㅆ+던" AUX SELECT:33:r1b
-;	"하+었+던" VERB SELECT:33:r1b
+	"하+었+던" AUX SELECT:37:r1b
+	"하+ㅆ+던" AUX SELECT:37:r1b
+;	"하+었+던" VERB SELECT:37:r1b
 "<것>"
 	"것" NOUN
 "<같다>"
@@ -38192,15 +38192,15 @@
 "<산출하게>"
 	"산출+하+게" VERB
 "<한>"
-	"하+ㄴ" AUX SELECT:33:r1b
-	"있+ㄴ" AUX SELECT:33:r1b
-;	"한" NUM SELECT:33:r1b
-;	"하+ㄴ" VERB SELECT:33:r1b
-;	"한" NOUN SELECT:33:r1b
-;	"하+ㄴ" PART SELECT:33:r1b
-;	"한" ADJ SELECT:33:r1b
-;	"한" PROPN SELECT:33:r1b
-;	"한" DET SELECT:33:r1b
+	"하+ㄴ" AUX SELECT:37:r1b
+	"있+ㄴ" AUX SELECT:37:r1b
+;	"한" NUM SELECT:37:r1b
+;	"하+ㄴ" VERB SELECT:37:r1b
+;	"한" NOUN SELECT:37:r1b
+;	"하+ㄴ" PART SELECT:37:r1b
+;	"한" ADJ SELECT:37:r1b
+;	"한" PROPN SELECT:37:r1b
+;	"한" DET SELECT:37:r1b
 "<고려사회는>"
 	"고려+사회+는" NOUN
 "<중세적>"
@@ -38244,15 +38244,15 @@
 "<근거로>"
 	"근거+로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<근대>"
 	"근대" NOUN
 "<시민의식과>"
@@ -38268,9 +38268,9 @@
 	"." PUNCT
 
 "<또한>"
-	"또한" ADV
 	"또한" CCONJ
 	"또는" CCONJ
+;	"또한" ADV REMOVE:69:r6
 "<도덕적>"
 	"도덕+적" NOUN
 "<갈등이>"
@@ -38292,13 +38292,13 @@
 "<특성도>"
 	"특성+도" ADV
 "<지니고>"
-	"지니+고" VERB SELECT:23:r1
-;	"지니+고" SCONJ SELECT:23:r1
-;	"지니+고" CCONJ SELECT:23:r1
+	"지니+고" VERB SELECT:27:r1
+;	"지니+고" SCONJ SELECT:27:r1
+;	"지니+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -38415,10 +38415,10 @@
 "<헤어져야>"
 	"헤어지+어야" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<생활의>"
 	"생활+의" NOUN
 "<여유가>"
@@ -38448,8 +38448,8 @@
 "<따라서>"
 	"따라서" CCONJ
 	"따르+아서" SCONJ
-	"따라서" ADV
 	"따르+어서" SCONJ
+;	"따라서" ADV REMOVE:69:r6
 "<사랑이>"
 	"사랑+이" NOUN
 "<있고>"
@@ -38467,8 +38467,8 @@
 "<갈라>"
 	"갈라+아" VERB
 "<놓는>"
-	"놓+는" AUX SELECT:33:r1b
-;	"놓+는" VERB SELECT:33:r1b
+	"놓+는" AUX SELECT:37:r1b
+;	"놓+는" VERB SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<대체로>"
@@ -38485,7 +38485,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<그>"
 	"그" DET
 	"그" PRON
@@ -38516,11 +38516,11 @@
 "<것처럼>"
 	"것+처럼" ADV
 "<느껴>"
-	"느끼+어" VERB SELECT:23:r1
-;	"느끼+어" SCONJ SELECT:23:r1
+	"느끼+어" VERB SELECT:27:r1
+;	"느끼+어" SCONJ SELECT:27:r1
 "<지는>"
-	"지+는" AUX SELECT:33:r1b
-;	"지+는" VERB SELECT:33:r1b
+	"지+는" AUX SELECT:37:r1b
+;	"지+는" VERB SELECT:37:r1b
 "<까닭은>"
 	"까닭+은" NOUN
 "<무엇일까>"
@@ -38567,11 +38567,11 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있을>"
-	"있+ㄹ" VERB SELECT:23:r1
-;	"있+ㄹ" ADJ SELECT:23:r1
-;	"있+ㄹ" AUX SELECT:23:r1
-;	"있+을" ADJ SELECT:23:r1
-;	"있+을" AUX SELECT:23:r1
+	"있+ㄹ" VERB SELECT:27:r1
+;	"있+ㄹ" ADJ SELECT:27:r1
+;	"있+ㄹ" AUX SELECT:27:r1
+;	"있+을" ADJ SELECT:27:r1
+;	"있+을" AUX SELECT:27:r1
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -38606,7 +38606,7 @@
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<관련된>"
 	"관련+되+ㄴ" VERB
 	"관련되+ㄴ" VERB
@@ -38691,12 +38691,12 @@
 	"버리+고" CCONJ
 	"버리+고" AUX
 "<가는>"
-	"가+는" AUX
-	"가+는" VERB
-	"가+는" NOUN
-	"가늘+ㄴ" ADJ
-	"갈+는" VERB
-	"가늘+는" ADJ
+	"가+는" AUX SELECT:132:r2g
+;	"가+는" VERB SELECT:132:r2g
+;	"가+는" NOUN SELECT:132:r2g
+;	"가늘+ㄴ" ADJ SELECT:132:r2g
+;	"갈+는" VERB SELECT:132:r2g
+;	"가늘+는" ADJ SELECT:132:r2g
 "<님은>"
 	"님+은" NOUN
 "<미운>"
@@ -38720,14 +38720,14 @@
 "<속에>"
 	"속+에" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<실낱>"
 	"실낱" NOUN
 "<같은>"
@@ -38766,9 +38766,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<과거에도>"
 	"과거+에+도" ADV
 "<우리가>"
@@ -38792,7 +38792,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<스스로를>"
 	"스스로+를" PRON
 	"스스로+를" NOUN
@@ -38809,11 +38809,11 @@
 "<쓸>"
 	"쓰+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없어서>"
 	"없+어서" SCONJ
 "<민중민주주의라고>"
@@ -38846,9 +38846,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<어느>"
 	"어느" DET
 	"어느" NOUN
@@ -38917,16 +38917,16 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -38975,7 +38975,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<민주당>"
 	"민주당" PROPN
 "<간부들이>"
@@ -39044,10 +39044,10 @@
 "<행세를>"
 	"행세+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<생각은>"
 	"생각+은" NOUN
 "<없다>"
@@ -39057,7 +39057,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<우리가>"
 	"우리+가" PRON
 "<받은>"
@@ -39146,7 +39146,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<박정희>"
 	"박정희" PROPN
 "<,>"
@@ -39226,8 +39226,8 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<싸우고>"
-	"싸우+고" CCONJ
-	"싸우+고" VERB
+	"싸우+고" CCONJ SELECT:128:r2e
+;	"싸우+고" VERB SELECT:128:r2e
 "<못>"
 	"못" ADV
 	"못" NOUN
@@ -39258,11 +39258,11 @@
 "<비판받을>"
 	"비판받+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -39272,7 +39272,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그것을>"
 	"그것+을" PRON
 "<가지고>"
@@ -39357,12 +39357,12 @@
 "<사회주의자가>"
 	"사회주의자+가" NOUN
 "<안고>"
-	"안+고" VERB SELECT:27:r1a
-;	"안+고" CCONJ SELECT:27:r1a
+	"안+고" VERB SELECT:31:r1a
+;	"안+고" CCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -39400,9 +39400,9 @@
 	"." PUNCT
 
 "<그>"
-	"그" ADJ SELECT:52:r4
-;	"그" DET SELECT:52:r4
-;	"그" PRON SELECT:52:r4
+	"그" ADJ SELECT:61:r4
+;	"그" DET SELECT:61:r4
+;	"그" PRON SELECT:61:r4
 "<영광과>"
 	"영광+과" CCONJ
 "<좌절>"
@@ -39436,13 +39436,13 @@
 "<안에>"
 	"안+에" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -39463,13 +39463,13 @@
 	"그대로" ADV
 	"그+대로" ADV
 "<안고>"
-	"안+고" VERB SELECT:23:r1
-;	"안+고" CCONJ SELECT:23:r1
+	"안+고" VERB SELECT:27:r1
+;	"안+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<운동이다>"
 	"운동+이+다" VERB
 "<.>"
@@ -39552,13 +39552,13 @@
 "<굳이>"
 	"굳이" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<의미를>"
 	"의미+를" NOUN
 "<격하하는>"
@@ -39701,8 +39701,8 @@
 "<후보라>"
 	"후보+이+라" VERB
 "<생각하고>"
-	"생각+하+고" VERB
-	"생각+하+고" CCONJ
+	"생각+하+고" CCONJ SELECT:128:r2e
+;	"생각+하+고" VERB SELECT:128:r2e
 "<찍었다>"
 	"찍+었+다" VERB
 "<.>"
@@ -39710,7 +39710,7 @@
 
 "<그러므로>"
 	"그러므로" CCONJ
-	"그러므로" ADV
+;	"그러므로" ADV REMOVE:69:r6
 "<선거>"
 	"선거" NOUN
 "<결과는>"
@@ -39806,9 +39806,9 @@
 "<민중운동을>"
 	"민중운동+을" NOUN
 "<했던>"
-	"하+었+던" AUX
-	"하+었+던" VERB
-	"하+ㅆ+던" AUX
+	"하+었+던" VERB SELECT:153:r3b
+;	"하+었+던" AUX SELECT:153:r3b
+;	"하+ㅆ+던" AUX SELECT:153:r3b
 "<사람들에게는>"
 	"사람+들+에게+는" NOUN
 "<소련과>"
@@ -39857,9 +39857,9 @@
 	"일하+어야" VERB
 	"일+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<결의를>"
 	"결의+를" NOUN
 "<보였다>"
@@ -39869,7 +39869,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<결의와는>"
 	"결의+와+는" NOUN
 "<달리>"
@@ -39902,9 +39902,9 @@
 "<사람도>"
 	"사람+도" ADV
 "<적지>"
-	"적+지" VERB SELECT:23:r1
-;	"적+지" ADJ SELECT:23:r1
-;	"적+지" SCONJ SELECT:23:r1
+	"적+지" VERB SELECT:27:r1
+;	"적+지" ADJ SELECT:27:r1
+;	"적+지" SCONJ SELECT:27:r1
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -39957,8 +39957,8 @@
 "<늦어지게>"
 	"늦+어+지+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:132:r2g
+;	"되+었+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -39988,9 +39988,9 @@
 "<바꾸기도>"
 	"바꾸+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -40024,8 +40024,8 @@
 "<참여하게>"
 	"참여+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -40108,23 +40108,23 @@
 "<승리할>"
 	"승리+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<가능성을>"
 	"가능성+을" NOUN
 "<믿지>"
 	"믿+지" VERB
 "<못하기>"
-	"못하+기" AUX
-	"못하+기" VERB
+	"못하+기" AUX SELECT:111:r2c
+;	"못하+기" VERB SELECT:111:r2c
 "<때문이다>"
 	"때문+이+다" VERB
 "<.>"
@@ -40262,8 +40262,8 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<보여준다>"
-	"보이+어+주+ㄴ다" AUX
-	"보여주+ㄴ다" VERB
+	"보이+어+주+ㄴ다" AUX SELECT:111:r2c
+;	"보여주+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -40342,7 +40342,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<국회의원>"
 	"국회의원" NOUN
 	"국회+의원" NOUN
@@ -40385,10 +40385,10 @@
 	"동시+에" ADV
 	"동시에" ADV
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<선거구에>"
 	"선거구+에" ADV
 "<후보를>"
@@ -40411,8 +40411,8 @@
 "<얻지>"
 	"얻+지" VERB
 "<못하는>"
-	"못하+는" AUX
-	"못하+는" VERB
+	"못하+는" AUX SELECT:111:r2c
+;	"못하+는" VERB SELECT:111:r2c
 "<것도>"
 	"것+도" ADV
 "<실력이다>"
@@ -40453,8 +40453,8 @@
 "<넘지>"
 	"넘+지" VERB
 "<못한다>"
-	"못하+ㄴ다" AUX
-	"못하+ㄴ다" VERB
+	"못하+ㄴ다" AUX SELECT:111:r2c
+;	"못하+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -40502,15 +40502,15 @@
 "<힘들어>"
 	"힘들+어" SCONJ
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<사람들은>"
 	"사람+들+은" NOUN
 "<이런>"
@@ -40573,15 +40573,15 @@
 "<대상으로>"
 	"대상+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<여론조사에서도>"
 	"여론조사+에서+도" ADV
 "<충분히>"
@@ -40620,11 +40620,11 @@
 "<득표할>"
 	"득표+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -40641,9 +40641,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<평균으로>"
 	"평균+으로" ADV
 "<따져서>"
@@ -40653,13 +40653,13 @@
 "<얻으리라고>"
 	"얻+으리라+고" VERB
 "<생각하고>"
-	"생각+하+고" VERB
-	"생각+하+고" CCONJ
+	"생각+하+고" CCONJ SELECT:128:r2e
+;	"생각+하+고" VERB SELECT:128:r2e
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -40676,8 +40676,8 @@
 "<얻지>"
 	"얻+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -40699,13 +40699,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<결과>"
 	"결과" NOUN
 "<민중후보>"
@@ -40793,13 +40793,13 @@
 "<?>"
 	"?" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<문제의>"
 	"문제+의" NOUN
 "<해답을>"
@@ -40824,16 +40824,16 @@
 "<문제점을>"
 	"문제점+을" NOUN
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -40842,13 +40842,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<질문에>"
 	"질문+에" ADV
 "<제대로>"
@@ -40857,11 +40857,11 @@
 "<대답할>"
 	"대답+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있으면>"
 	"있+으면" SCONJ
 "<우리는>"
@@ -40885,11 +40885,11 @@
 "<바꿀>"
 	"바꾸+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -40905,13 +40905,13 @@
 "<반면에>"
 	"반면+에" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<질문에>"
 	"질문+에" ADV
 "<제대로>"
@@ -40951,15 +40951,15 @@
 "<4년에>"
 	"4+년+에" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<번씩>"
 	"번+씩" NOUN
 "<우리>"
@@ -40979,13 +40979,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<평가를>"
 	"평가+를" NOUN
 "<객관적으로>"
@@ -40997,11 +40997,11 @@
 "<전진할>"
 	"전진+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -41088,14 +41088,14 @@
 "<비판세력은>"
 	"비판세력+은" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있으나>"
 	"있+으나" SCONJ
 "<새로운>"
@@ -41104,8 +41104,8 @@
 "<건설자가>"
 	"건설자+가" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<수는>"
 	"수+는" NOUN
 "<없다>"
@@ -41133,13 +41133,13 @@
 "<뒤에>"
 	"뒤+에" ADV
 "<어떻게>"
-	"어떻+게" VERB SELECT:23:r1
-;	"어떻+게" SCONJ SELECT:23:r1
-;	"어떻게" ADV SELECT:23:r1
+	"어떻+게" VERB SELECT:27:r1
+;	"어떻+게" SCONJ SELECT:27:r1
+;	"어떻게" ADV SELECT:27:r1
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<것인지가>"
 	"것+이+ㄴ지+가" NOUN
 "<분명하지>"
@@ -41163,19 +41163,19 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<선거운동>"
 	"선거운동" NOUN
 "<과정에서>"
 	"과정+에서" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<주장은>"
 	"주장+은" NOUN
 "<충분히>"
@@ -41282,13 +41282,13 @@
 	"그렇+게" VERB
 	"그렇게" ADV
 "<해야>"
-	"하+어야" VERB SELECT:23:r1
-;	"하+어야" AUX SELECT:23:r1
-;	"하+어야" SCONJ SELECT:23:r1
+	"하+어야" VERB SELECT:27:r1
+;	"하+어야" AUX SELECT:27:r1
+;	"하+어야" SCONJ SELECT:27:r1
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -41333,8 +41333,8 @@
 "<시원은>"
 	"시원+은" NOUN
 "<하다는>"
-	"하+다는" VERB
-	"하+다는" AUX
+	"하+다는" VERB SELECT:153:r3b
+;	"하+다는" AUX SELECT:153:r3b
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -41396,9 +41396,9 @@
 "<구호만>"
 	"구호+만" ADV
 "<앞서>"
-	"앞서+어" VERB SELECT:23:r1
-;	"앞서" ADV SELECT:23:r1
-;	"앞서+어" SCONJ SELECT:23:r1
+	"앞서+어" VERB SELECT:27:r1
+;	"앞서" ADV SELECT:27:r1
+;	"앞서+어" SCONJ SELECT:27:r1
 "<있고>"
 	"있+고" CCONJ
 	"있+고" SCONJ
@@ -41426,7 +41426,7 @@
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<유사한>"
 	"유사+하+ㄴ" VERB
 	"유사하+ㄴ" ADJ
@@ -41435,10 +41435,10 @@
 "<곳곳에서>"
 	"곳곳+에서" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -41472,13 +41472,13 @@
 "<컴퓨터에>"
 	"컴퓨터+에" ADV
 "<앉아>"
-	"앉+아" VERB SELECT:23:r1
-;	"앉+아" SCONJ SELECT:23:r1
+	"앉+아" VERB SELECT:27:r1
+;	"앉+아" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<사진을>"
 	"사진+을" NOUN
 "<홍보물에>"
@@ -41562,7 +41562,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -41654,10 +41654,10 @@
 	"정리+되+어" VERB
 	"정리+되+어" SCONJ
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -41674,11 +41674,11 @@
 "<실현할>"
 	"실현+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -41687,9 +41687,9 @@
 "<것으로>"
 	"것+으로" ADV
 "<보지>"
-	"보+지" VERB SELECT:23:r1
-;	"보+지" AUX SELECT:23:r1
-;	"보+지" SCONJ SELECT:23:r1
+	"보+지" VERB SELECT:27:r1
+;	"보+지" AUX SELECT:27:r1
+;	"보+지" SCONJ SELECT:27:r1
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -41752,10 +41752,10 @@
 "<한계라고>"
 	"한계+라고" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -41875,11 +41875,11 @@
 "<나타날>"
 	"나타나+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -41921,9 +41921,9 @@
 "<지지하게>"
 	"지지+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -41952,11 +41952,11 @@
 	"찾+ㄹ" VERB
 	"찾+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -41984,22 +41984,22 @@
 "<대통령이>"
 	"대통령+이" NOUN
 "<될>"
-	"되+ㄹ" AUX
-	"되+ㄹ" VERB
+	"되+ㄹ" VERB SELECT:153:r3b
+;	"되+ㄹ" AUX SELECT:153:r3b
 "<자질이>"
 	"자질+이" NOUN
 "<떨어진다고>"
 	"떨어지+ㄴ다+고" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -42031,8 +42031,8 @@
 "<내걸지>"
 	"내걸+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -42083,7 +42083,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<현재>"
 	"현재" NOUN
 	"현재" ADV
@@ -42091,30 +42091,30 @@
 	"우리나라+가" NOUN
 	"우리+나라+가" PRON
 "<안고>"
-	"안+고" VERB SELECT:27:r1a
-;	"안+고" CCONJ SELECT:27:r1a
+	"안+고" VERB SELECT:31:r1a
+;	"안+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<문제는>"
 	"문제+는" NOUN
 	"문제+는" PROPN
 "<재벌이>"
 	"재벌+이" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<것을>"
 	"것+을" NOUN
 	"것+은" NOUN
 "<갖고>"
 	"갖+고" VERB
 	"갖+고" CCONJ
-	"갖+고" SCONJ
+;	"갖+고" SCONJ REMOVE:56:r3
 "<있어서>"
 	"있+어서" SCONJ
 	"있+어서+의" NOUN
@@ -42131,11 +42131,11 @@
 "<댈>"
 	"대+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -42175,8 +42175,8 @@
 "<호소하게>"
 	"호소+하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -42228,10 +42228,10 @@
 "<해결해야>"
 	"해결+하+어야" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<문제로>"
 	"문제+로" ADV
 "<경제문제를>"
@@ -42295,11 +42295,11 @@
 "<대안일>"
 	"대안+이+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -42323,10 +42323,10 @@
 "<팽배해>"
 	"팽배+하+어" VERB
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<국민들에게>"
 	"국민+들+에게" ADV
 "<김대중씨의>"
@@ -42338,11 +42338,11 @@
 "<받아들여질>"
 	"받아들이+어+지+ㄹ" AUX
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -42411,23 +42411,23 @@
 "<조찬간담회를>"
 	"조찬간담회+를" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -42437,13 +42437,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<대안없는>"
 	"대안없+는" ADJ
 "<포지티브야말로>"
@@ -42482,11 +42482,11 @@
 "<설득할>"
 	"설득+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -42549,19 +42549,19 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<잘>"
 	"잘" ADV
 	"자+ㄹ" VERB
 "<살게>"
 	"살+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것인데>"
 	"것+이+ㄴ데" SCONJ
 "<정치적>"
@@ -42576,13 +42576,13 @@
 "<한계를>"
 	"한계+를" NOUN
 "<안고>"
-	"안+고" VERB SELECT:27:r1a
-;	"안+고" CCONJ SELECT:27:r1a
+	"안+고" VERB SELECT:31:r1a
+;	"안+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<운동이다>"
 	"운동+이+다" VERB
 "<.>"
@@ -42737,10 +42737,10 @@
 "<말아야>"
 	"말+아야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<교훈이다>"
 	"교훈+이+다" VERB
 "<.>"
@@ -42755,18 +42755,18 @@
 "<살게>"
 	"살+게" VERB
 "<하고>"
-	"하+고" AUX SELECT:33:r1b
-;	"하+고" CCONJ SELECT:33:r1b
-;	"하+고" VERB SELECT:33:r1b
-;	"하+고" SCONJ SELECT:33:r1b
-;	"하고" ADP SELECT:33:r1b
+	"하+고" AUX SELECT:37:r1b
+;	"하+고" CCONJ SELECT:37:r1b
+;	"하+고" VERB SELECT:37:r1b
+;	"하+고" SCONJ SELECT:37:r1b
+;	"하고" ADP SELECT:37:r1b
 "<나라를>"
 	"나라+를" NOUN
 "<부강하게>"
 	"부강+하+게" VERB
 "<만드는>"
-	"만들+는" AUX SELECT:33:r1b
-;	"만들+는" VERB SELECT:33:r1b
+	"만들+는" AUX SELECT:37:r1b
+;	"만들+는" VERB SELECT:37:r1b
 "<방법이>"
 	"방법+이" NOUN
 "<구체적으로>"
@@ -42776,10 +42776,10 @@
 "<않으면>"
 	"않+으면" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -42788,8 +42788,8 @@
 "<추상적으로>"
 	"추상+적+으로" ADV
 "<되고>"
-	"되+고" VERB SELECT:23:r1
-;	"되+고" CCONJ SELECT:23:r1
+	"되+고" VERB SELECT:27:r1
+;	"되+고" CCONJ SELECT:27:r1
 "<만다>"
 	"말+ㄴ다" AUX
 "<.>"
@@ -42847,8 +42847,8 @@
 "<말이>"
 	"말+이" NOUN
 "<되고>"
-	"되+고" VERB SELECT:27:r1a
-;	"되+고" CCONJ SELECT:27:r1a
+	"되+고" VERB SELECT:31:r1a
+;	"되+고" CCONJ SELECT:31:r1a
 "<만다>"
 	"말+ㄴ다" AUX
 "<.>"
@@ -42896,17 +42896,17 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<주장은>"
 	"주장+은" NOUN
 "<민중진영>"
@@ -43017,10 +43017,10 @@
 	"머물+어" VERB
 	"머물르+어" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -43054,10 +43054,10 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<충분하지>"
-	"충분+하+지" VERB SELECT:23:r1
-;	"충분하+지" ADJ SELECT:23:r1
+	"충분+하+지" VERB SELECT:27:r1
+;	"충분하+지" ADJ SELECT:27:r1
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -43094,11 +43094,11 @@
 "<대안일>"
 	"대안+이+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -43133,8 +43133,8 @@
 	"나가+게" VERB
 	"나가+게" AUX
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -43154,9 +43154,9 @@
 "<만들어야>"
 	"만들+어야" VERB
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -43202,8 +43202,8 @@
 "<지적하지>"
 	"지적+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -43232,9 +43232,9 @@
 "<부르기도>"
 	"부르+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -43259,7 +43259,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -43317,12 +43317,12 @@
 	"대체로" ADV
 	"대체+로" ADV
 "<그렇게>"
-	"그렇+게" VERB SELECT:23:r1
-;	"그렇+게" SCONJ SELECT:23:r1
-;	"그렇게" ADV SELECT:23:r1
+	"그렇+게" VERB SELECT:27:r1
+;	"그렇+게" SCONJ SELECT:27:r1
+;	"그렇게" ADV SELECT:27:r1
 "<봤다>"
-	"보+았+다" VERB
-	"보+았+다" AUX
+	"보+았+다" AUX SELECT:111:r2c
+;	"보+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -43348,9 +43348,9 @@
 "<잘못이라고>"
 	"잘못+이+라+고" VERB
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" AUX SELECT:111:r2c
+;	"하+지" VERB SELECT:111:r2c
+;	"하지" NOUN SELECT:111:r2c
 "<않는다>"
 	"않+는다" AUX
 "<.>"
@@ -43382,11 +43382,11 @@
 	"어찌하+ㄹ" VERB
 	"어쩌+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없이>"
 	"없+이" SCONJ
 "<입술이>"
@@ -43416,19 +43416,19 @@
 	"가" PROPN
 	"가+아" AUX
 "<되어>"
-	"되+어" VERB
-	"되+어" SCONJ
-	"되+어" AUX
+	"되+어" AUX SELECT:111:r2c
+;	"되+어" VERB SELECT:111:r2c
+;	"되+어" SCONJ SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<우리는>"
 	"우리+는" PRON
 	"우리+는" NOUN
@@ -43437,14 +43437,14 @@
 "<사회주의상을>"
 	"사회주의상+을" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<못해서>"
 	"못하+어서" SCONJ
 "<잘못된>"
@@ -43457,8 +43457,8 @@
 "<비판하지>"
 	"비판+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -43540,9 +43540,9 @@
 "<조사도>"
 	"조사+도" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -43570,13 +43570,13 @@
 "<긍정적으로>"
 	"긍정+적+으로" ADV
 "<바라보고>"
-	"바라보+고" VERB SELECT:23:r1
-;	"바라보+고" CCONJ SELECT:23:r1
+	"바라보+고" VERB SELECT:27:r1
+;	"바라보+고" CCONJ SELECT:27:r1
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않았다>"
 	"않+았+다" AUX
 "<.>"
@@ -43621,10 +43621,10 @@
 	"되+어" SCONJ
 	"되+어" AUX
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -43703,20 +43703,20 @@
 "<지적해>"
 	"지적+하+어" VERB
 "<두고>"
-	"두+고" AUX
-	"두+고" VERB
-	"두+고" CCONJ
-	"두+고" SCONJ
-	"두고" PROPN
+	"두+고" AUX SELECT:111:r2c
+;	"두+고" VERB SELECT:111:r2c
+;	"두+고" CCONJ SELECT:111:r2c
+;	"두+고" SCONJ SELECT:111:r2c
+;	"두고" PROPN SELECT:111:r2c
 "<넘어가야>"
-	"넘+어+가+아야" AUX SELECT:33:r1b
-;	"넘어가+아야" VERB SELECT:33:r1b
-;	"넘+어+가+야" SCONJ SELECT:33:r1b
+	"넘+어+가+아야" AUX SELECT:37:r1b
+;	"넘어가+아야" VERB SELECT:37:r1b
+;	"넘+어+가+야" SCONJ SELECT:37:r1b
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -43752,7 +43752,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<민중진영의>"
 	"민중+진영+의" NOUN
 "<대부분>"
@@ -43784,7 +43784,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<나중에>"
 	"나중+에" ADV
 "<김낙중씨>"
@@ -43805,8 +43805,8 @@
 "<성명을>"
 	"성명+을" NOUN
 "<냈던>"
-	"내+ㅆ+던" VERB
-	"내+ㅆ+던" AUX
+	"내+ㅆ+던" VERB SELECT:153:r3b
+;	"내+ㅆ+던" AUX SELECT:153:r3b
 "<사람>"
 	"사람" NOUN
 "<상당수가>"
@@ -43818,18 +43818,18 @@
 "<성명을>"
 	"성명+을" NOUN
 "<내고>"
-	"내+고" CCONJ
-	"내+고" VERB
-	"내+고" AUX
-	"내+고" SCONJ
+	"내+고" VERB SELECT:153:r3b
+;	"내+고" CCONJ SELECT:153:r3b
+;	"내+고" AUX SELECT:153:r3b
+;	"내+고" SCONJ SELECT:153:r3b
 "<기자회견을>"
 	"기자회견+을" NOUN
 "<하기까지>"
 	"하+기+까지" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -44003,8 +44003,8 @@
 "<출발해야>"
 	"출발+하+어야" VERB
 "<하기>"
-	"하+기" VERB
-	"하+기" AUX
+	"하+기" AUX SELECT:111:r2c
+;	"하+기" VERB SELECT:111:r2c
 "<때문이다>"
 	"때문+이+다" VERB
 "<.>"
@@ -44061,8 +44061,8 @@
 "<망하게>"
 	"망하+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -44119,10 +44119,10 @@
 "<비판해야>"
 	"비판+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -44162,11 +44162,11 @@
 "<발전시킬>"
 	"발전+시키+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -44189,10 +44189,10 @@
 "<수립해야>"
 	"수립+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -44294,10 +44294,10 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<일이다>"
 	"일+이+다" VERB
 "<.>"
@@ -44305,7 +44305,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<북한은>"
 	"북한+은" PROPN
 "<다르다>"
@@ -44321,8 +44321,8 @@
 "<민주주의조차>"
 	"민주주의+조차" ADV
 "<무너져>"
-	"무너지+어" VERB SELECT:23:r1
-;	"무너지+어" SCONJ SELECT:23:r1
+	"무너지+어" VERB SELECT:27:r1
+;	"무너지+어" SCONJ SELECT:27:r1
 "<내려>"
 	"내리+어" SCONJ
 	"내리+어" VERB
@@ -44351,17 +44351,17 @@
 "<차례로>"
 	"차례+로" ADV
 "<이루어>"
-	"이루+어" VERB SELECT:23:r1
-;	"이루+어" SCONJ SELECT:23:r1
+	"이루+어" VERB SELECT:27:r1
+;	"이루+어" SCONJ SELECT:27:r1
 "<나가야>"
-	"나가+아야" AUX
-	"나가+아야" VERB
-	"나가+야" AUX
+	"나가+아야" AUX SELECT:111:r2c
+	"나가+야" AUX SELECT:111:r2c
+;	"나가+아야" VERB SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -44370,10 +44370,10 @@
 "<사회주의운동을>"
 	"사회주의운동+을" NOUN
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" VERB SELECT:153:r3b
+;	"하+는" AUX SELECT:153:r3b
+;	"하+는" PROPN SELECT:153:r3b
+;	"하+는" PART SELECT:153:r3b
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -44406,10 +44406,10 @@
 "<제시해야>"
 	"제시+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -44481,20 +44481,20 @@
 "<제시해>"
 	"제시+하+어" VERB
 "<나가야>"
-	"나가+아야" AUX
-	"나가+아야" VERB
-	"나가+야" AUX
+	"나가+아야" AUX SELECT:111:r2c
+	"나가+야" AUX SELECT:111:r2c
+;	"나가+아야" VERB SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -44537,15 +44537,15 @@
 "<패배의>"
 	"패배+의" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<원인이>"
 	"원인+이" NOUN
 "<되었다>"
@@ -44626,13 +44626,13 @@
 "<노동환경에>"
 	"노동+환경+에" ADV
 "<처해>"
-	"처하+어" VERB SELECT:23:r1
-;	"처하+어" SCONJ SELECT:23:r1
+	"처하+어" VERB SELECT:27:r1
+;	"처하+어" SCONJ SELECT:27:r1
 "<있다는>"
-	"있+다는" AUX SELECT:33:r1b
-;	"있+다는" ADJ SELECT:33:r1b
-;	"있+다는" VERB SELECT:33:r1b
-;	"있+다+는" NOUN SELECT:33:r1b
+	"있+다는" AUX SELECT:37:r1b
+;	"있+다는" ADJ SELECT:37:r1b
+;	"있+다는" VERB SELECT:37:r1b
+;	"있+다+는" NOUN SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<맞다>"
@@ -44672,8 +44672,8 @@
 "<받지>"
 	"받+지" VERB
 "<못하는>"
-	"못하+는" AUX
-	"못하+는" VERB
+	"못하+는" AUX SELECT:111:r2c
+;	"못하+는" VERB SELECT:111:r2c
 "<것도>"
 	"것+도" ADV
 "<사실이다>"
@@ -44782,12 +44782,12 @@
 "<중산층이라고>"
 	"중산층+이+라+고" VERB
 "<생각하고>"
-	"생각+하+고" VERB
-	"생각+하+고" CCONJ
+	"생각+하+고" CCONJ SELECT:128:r2e
+;	"생각+하+고" VERB SELECT:128:r2e
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -44807,10 +44807,10 @@
 	"깔리+어" VERB
 	"깔리+어" SCONJ
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것을>"
 	"것+을" NOUN
 	"것+은" NOUN
@@ -44859,10 +44859,10 @@
 "<민중진영은>"
 	"민중+진영+은" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<사람이>"
 	"사람+이" NOUN
 	"사람+의" NOUN
@@ -44880,8 +44880,8 @@
 "<힘들거라고>"
 	"힘들+거라+고" VERB
 "<생각하고>"
-	"생각+하+고" VERB
-	"생각+하+고" CCONJ
+	"생각+하+고" CCONJ SELECT:128:r2e
+;	"생각+하+고" VERB SELECT:128:r2e
 "<주장한다>"
 	"주장+하+ㄴ다" VERB
 "<.>"
@@ -44893,10 +44893,10 @@
 	"힘들+지요" ADJ
 	"힘들+지+요" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<말로>"
 	"말+로" ADV
 	"말로" PROPN
@@ -44922,7 +44922,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그렇게>"
 	"그렇+게" SCONJ
 	"그렇+게" VERB
@@ -44951,8 +44951,8 @@
 	"얼마" ADV
 	"얼마" PRON
 "<되지>"
-	"되+지" VERB SELECT:23:r1
-;	"되+지" AUX SELECT:23:r1
+	"되+지" VERB SELECT:27:r1
+;	"되+지" AUX SELECT:27:r1
 "<않는다>"
 	"않+는다" AUX
 "<.>"
@@ -44963,8 +44963,8 @@
 "<통하지>"
 	"통하+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<데>"
 	"데" NOUN
 "<다음>"
@@ -45064,7 +45064,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -45083,8 +45083,8 @@
 "<해석하지>"
 	"해석+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -45126,7 +45126,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<사회주의가>"
 	"사회주의+가" NOUN
 "<성공하려면>"
@@ -45166,7 +45166,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<우리는>"
 	"우리+는" PRON
 	"우리+는" NOUN
@@ -45193,9 +45193,9 @@
 	"가난+하+어야" VERB
 	"가난+하+어야" SCONJ
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<강박관념이>"
 	"강박관념+이" NOUN
 "<남아>"
@@ -45203,9 +45203,9 @@
 	"남+아" ADJ
 	"남+아" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -45226,15 +45226,15 @@
 "<조급함도>"
 	"조급+하+ㅁ+도" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<몫>"
 	"몫" NOUN
 "<했다>"
@@ -45320,9 +45320,9 @@
 	"아니+라+고" VERB
 	"아니+라고" SCONJ
 "<해야>"
-	"하+어야" VERB
-	"하+어야" AUX
-	"하+어야" SCONJ
+	"하+어야" AUX SELECT:111:r2c
+;	"하+어야" VERB SELECT:111:r2c
+;	"하+어야" SCONJ SELECT:111:r2c
 "<맞는>"
 	"맞+는" VERB
 "<답이>"
@@ -45368,9 +45368,9 @@
 "<바라보지>"
 	"바라보+지" VERB
 "<못하고>"
-	"못하+고" AUX SELECT:57:r5
-;	"못하+고" CCONJ SELECT:57:r5
-;	"못하+고" SCONJ SELECT:57:r5
+	"못하+고" AUX SELECT:66:r5
+;	"못하+고" CCONJ SELECT:66:r5
+;	"못하+고" SCONJ SELECT:66:r5
 "<사실을>"
 	"사실+을" NOUN
 	"사실+은" NOUN
@@ -45380,8 +45380,8 @@
 "<이론에>"
 	"이론+에" ADV
 "<맞게>"
-	"맞+게" VERB SELECT:23:r1
-;	"맞+게" SCONJ SELECT:23:r1
+	"맞+게" VERB SELECT:27:r1
+;	"맞+게" SCONJ SELECT:27:r1
 "<바꿔서>"
 	"바꾸+어서" SCONJ
 "<받아들인다>"
@@ -45423,9 +45423,9 @@
 "<풍조까지>"
 	"풍조+까지" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -45499,11 +45499,11 @@
 "<발전시킬>"
 	"발전+시키+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -45521,11 +45521,11 @@
 "<성공할>"
 	"성공+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없고>"
 	"없+고" CCONJ
 	"없+고" ADJ
@@ -45553,16 +45553,16 @@
 "<성공할>"
 	"성공+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -45580,8 +45580,8 @@
 "<발달해>"
 	"발달+하+어" VERB
 "<나가는>"
-	"나가+는" VERB
-	"나가+는" AUX
+	"나가+는" AUX SELECT:111:r2c
+;	"나가+는" VERB SELECT:111:r2c
 "<필연적인>"
 	"필연+적+이+ㄴ" VERB
 "<과정이다>"
@@ -45599,20 +45599,20 @@
 "<사회주의로>"
 	"사회주의+로" ADV
 "<가는>"
-	"가+는" AUX
-	"가+는" VERB
-	"가+는" NOUN
-	"가늘+ㄴ" ADJ
-	"갈+는" VERB
-	"가늘+는" ADJ
+	"가늘+ㄴ" ADJ SELECT:85:r8
+	"가늘+는" ADJ SELECT:85:r8
+;	"가+는" AUX SELECT:85:r8
+;	"가+는" VERB SELECT:85:r8
+;	"가+는" NOUN SELECT:85:r8
+;	"갈+는" VERB SELECT:85:r8
 "<길이>"
 	"길+이" NOUN
 	"길이" ADV
 	"길이" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -45625,8 +45625,8 @@
 "<발견하지>"
 	"발견+하+지" VERB
 "<못한>"
-	"못하+ㄴ" AUX
-	"못하+ㄴ" VERB
+	"못하+ㄴ" AUX SELECT:111:r2c
+;	"못하+ㄴ" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -45635,7 +45635,7 @@
 
 "<혹은>"
 	"혹은" CCONJ
-	"혹은" ADV
+;	"혹은" ADV REMOVE:69:r6
 "<성공시키지>"
 	"성공+시키+지" VERB
 "<못하고>"
@@ -45643,10 +45643,10 @@
 	"못하+고" CCONJ
 	"못하+고" SCONJ
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:132:r2g
+;	"있+는" ADJ SELECT:132:r2g
+;	"있+는" VERB SELECT:132:r2g
+;	"있+ㄴ" ADJ SELECT:132:r2g
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -45663,20 +45663,20 @@
 "<사회주의로>"
 	"사회주의+로" ADV
 "<가는>"
-	"가+는" AUX
-	"가+는" VERB
-	"가+는" NOUN
-	"가늘+ㄴ" ADJ
-	"갈+는" VERB
-	"가늘+는" ADJ
+	"가늘+ㄴ" ADJ SELECT:85:r8
+	"가늘+는" ADJ SELECT:85:r8
+;	"가+는" AUX SELECT:85:r8
+;	"가+는" VERB SELECT:85:r8
+;	"가+는" NOUN SELECT:85:r8
+;	"갈+는" VERB SELECT:85:r8
 "<길이>"
 	"길+이" NOUN
 	"길이" ADV
 	"길이" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -45688,20 +45688,20 @@
 "<사회주의로>"
 	"사회주의+로" ADV
 "<가는>"
-	"가+는" AUX
-	"가+는" VERB
-	"가+는" NOUN
-	"가늘+ㄴ" ADJ
-	"갈+는" VERB
-	"가늘+는" ADJ
+	"가늘+ㄴ" ADJ SELECT:85:r8
+	"가늘+는" ADJ SELECT:85:r8
+;	"가+는" AUX SELECT:85:r8
+;	"가+는" VERB SELECT:85:r8
+;	"가+는" NOUN SELECT:85:r8
+;	"갈+는" VERB SELECT:85:r8
 "<길이>"
 	"길+이" NOUN
 	"길이" ADV
 	"길이" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -45726,7 +45726,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<우리나라>"
 	"우리+나라" NOUN
 	"우리나라" NOUN
@@ -45760,8 +45760,8 @@
 "<개발하지>"
 	"개발+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -45774,16 +45774,16 @@
 "<성공할>"
 	"성공+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" VERB SELECT:153:r3b
+;	"있+다는" ADJ SELECT:153:r3b
+;	"있+다는" AUX SELECT:153:r3b
+;	"있+다+는" NOUN SELECT:153:r3b
 "<식의>"
 	"식+의" NOUN
 "<생각은>"
@@ -45791,10 +45791,10 @@
 "<버려야>"
 	"버리+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -45819,20 +45819,20 @@
 "<쏟게>"
 	"쏟+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" ADJ SELECT:52:r4
-;	"이" DET SELECT:52:r4
-;	"이" ADP SELECT:52:r4
-;	"이" PRON SELECT:52:r4
-;	"이" PROPN SELECT:52:r4
-;	"이" NUM SELECT:52:r4
-;	"이" NOUN SELECT:52:r4
+	"이" ADJ SELECT:61:r4
+;	"이" DET SELECT:61:r4
+;	"이" ADP SELECT:61:r4
+;	"이" PRON SELECT:61:r4
+;	"이" PROPN SELECT:61:r4
+;	"이" NUM SELECT:61:r4
+;	"이" NOUN SELECT:61:r4
 "<때문에>"
 	"때문+에" ADV
 	"때문에" CCONJ
@@ -45888,8 +45888,8 @@
 	"놓+게" VERB
 	"놓+게" AUX
 "<되고>"
-	"되+고" CCONJ
-	"되+고" VERB
+	"되+고" CCONJ SELECT:128:r2e
+;	"되+고" VERB SELECT:128:r2e
 "<,>"
 	"," PUNCT
 "<비밀>"
@@ -45927,8 +45927,8 @@
 "<맞지>"
 	"맞+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<행동을>"
 	"행동+을" NOUN
 "<많이>"
@@ -45970,9 +45970,9 @@
 "<차도로>"
 	"차도+로" ADV
 "<치고>"
-	"치+고" VERB SELECT:23:r1
-;	"치+고" SCONJ SELECT:23:r1
-;	"치+고" CCONJ SELECT:23:r1
+	"치+고" VERB SELECT:27:r1
+;	"치+고" SCONJ SELECT:27:r1
+;	"치+고" CCONJ SELECT:27:r1
 "<들어가야>"
 	"들+어+가+아야" SCONJ
 	"들어가+야" SCONJ
@@ -46054,9 +46054,9 @@
 "<김새개>"
 	"김새개" ADV
 "<만들어>"
-	"만들+어" VERB SELECT:23:r1
-;	"만들+어" SCONJ SELECT:23:r1
-;	"만들+어" AUX SELECT:23:r1
+	"만들+어" VERB SELECT:27:r1
+;	"만들+어" SCONJ SELECT:27:r1
+;	"만들+어" AUX SELECT:27:r1
 "<버린다>"
 	"버리+ㄴ다" AUX
 "<.>"
@@ -46076,16 +46076,16 @@
 "<것처럼>"
 	"것+처럼" ADV
 "<보이고>"
-	"보이+고" VERB SELECT:23:r1
-;	"보이+고" CCONJ SELECT:23:r1
+	"보이+고" VERB SELECT:27:r1
+;	"보이+고" CCONJ SELECT:27:r1
 "<그렇지>"
 	"그렇+지" VERB
 	"그러하+지" VERB
 	"그렇+지" SCONJ
 "<않은>"
-	"않+ㄴ" AUX SELECT:57:r5
-	"않+은" AUX SELECT:57:r5
-;	"않+ㄴ" ADJ SELECT:57:r5
+	"않+ㄴ" AUX SELECT:66:r5
+	"않+은" AUX SELECT:66:r5
+;	"않+ㄴ" ADJ SELECT:66:r5
 "<것은>"
 	"것+은" NOUN
 "<개량주의>"
@@ -46132,10 +46132,10 @@
 	"하+어야" AUX
 	"하+어야" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -46160,31 +46160,31 @@
 "<어김없이>"
 	"어김없이" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<주장이>"
 	"주장+이" NOUN
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" VERB SELECT:92:r9
+;	"있+었+다" ADJ SELECT:92:r9
+;	"있+었+다" AUX SELECT:92:r9
+;	"있+었+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<주장>"
 	"주장" NOUN
 "<때문에>"
@@ -46210,8 +46210,8 @@
 	"하+게" VERB
 	"하+게" SCONJ
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -46225,8 +46225,8 @@
 "<준비도>"
 	"준비+도" ADV
 "<되지>"
-	"되+지" VERB SELECT:23:r1
-;	"되+지" AUX SELECT:23:r1
+	"되+지" VERB SELECT:27:r1
+;	"되+지" AUX SELECT:27:r1
 "<않았는데>"
 	"않+았+는데" SCONJ
 "<가리봉>"
@@ -46253,9 +46253,9 @@
 "<지원해야>"
 	"지원+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<논리는>"
 	"논리+는" NOUN
 "<선거운동>"
@@ -46347,8 +46347,8 @@
 "<이해하지>"
 	"이해+하+지" VERB
 "<못하는>"
-	"못하+는" AUX
-	"못하+는" VERB
+	"못하+는" AUX SELECT:111:r2c
+;	"못하+는" VERB SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -46370,15 +46370,15 @@
 "<준비를>"
 	"준비+를" NOUN
 "<하고>"
-	"하+고" VERB SELECT:27:r1a
-;	"하+고" CCONJ SELECT:27:r1a
-;	"하+고" AUX SELECT:27:r1a
-;	"하+고" SCONJ SELECT:27:r1a
-;	"하고" ADP SELECT:27:r1a
+	"하+고" VERB SELECT:31:r1a
+;	"하+고" CCONJ SELECT:31:r1a
+;	"하+고" AUX SELECT:31:r1a
+;	"하+고" SCONJ SELECT:31:r1a
+;	"하고" ADP SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -46435,11 +46435,11 @@
 	"." PUNCT
 
 "<이런>"
-	"이런" ADJ SELECT:52:r4
-;	"이런" DET SELECT:52:r4
-;	"이렇+ㄴ" VERB SELECT:52:r4
-;	"이러하+ㄴ" VERB SELECT:52:r4
-;	"이러+ㄴ" VERB SELECT:52:r4
+	"이런" ADJ SELECT:61:r4
+;	"이런" DET SELECT:61:r4
+;	"이렇+ㄴ" VERB SELECT:61:r4
+;	"이러하+ㄴ" VERB SELECT:61:r4
+;	"이러+ㄴ" VERB SELECT:61:r4
 "<사고>"
 	"사고" NOUN
 	"사+고" VERB
@@ -46496,9 +46496,9 @@
 "<받아들이게>"
 	"받아들이+게" VERB
 "<하려고>"
-	"하+려고" AUX
-	"하+려고" SCONJ
-	"하+려고" VERB
+	"하+려고" AUX SELECT:111:r2c
+;	"하+려고" SCONJ SELECT:111:r2c
+;	"하+려고" VERB SELECT:111:r2c
 "<애쓴다>"
 	"애쓰+ㄴ다" VERB
 "<.>"
@@ -46528,19 +46528,19 @@
 "<붙이고도>"
 	"붙이+고+도" ADV
 "<미안해>"
-	"미안+하+어" VERB SELECT:23:r1
-;	"미안하+어" SCONJ SELECT:23:r1
+	"미안+하+어" VERB SELECT:27:r1
+;	"미안하+어" SCONJ SELECT:27:r1
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" AUX SELECT:111:r2c
+;	"하+지" VERB SELECT:111:r2c
+;	"하지" NOUN SELECT:111:r2c
 "<않게>"
 	"않+게" AUX
 	"않+게" SCONJ
 "<되어>"
-	"되+어" VERB
-	"되+어" SCONJ
-	"되+어" AUX
+	"되+어" AUX SELECT:132:r2g
+;	"되+어" VERB SELECT:132:r2g
+;	"되+어" SCONJ SELECT:132:r2g
 "<버렸다>"
 	"버리+었+다" AUX
 "<.>"
@@ -46637,13 +46637,13 @@
 "<곳곳에>"
 	"곳곳+에" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -46655,11 +46655,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -46681,8 +46681,8 @@
 "<이해하지>"
 	"이해+하+지" VERB
 "<못한다>"
-	"못하+ㄴ다" AUX
-	"못하+ㄴ다" VERB
+	"못하+ㄴ다" AUX SELECT:111:r2c
+;	"못하+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -46729,7 +46729,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<대중은>"
 	"대중+은" NOUN
 "<혁명을>"
@@ -46737,10 +46737,10 @@
 "<준비하고>"
 	"준비+하+고" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<만큼>"
 	"만큼" NOUN
 "<절대적으로>"
@@ -46760,7 +46760,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<민중진영은>"
 	"민중+진영+은" NOUN
 "<이미>"
@@ -46829,7 +46829,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<민중진영은>"
 	"민중+진영+은" NOUN
 "<평상시에>"
@@ -46842,9 +46842,9 @@
 	"별로" ADV
 	"별+로" ADV
 "<하지>"
-	"하+지" VERB SELECT:23:r1
-;	"하+지" AUX SELECT:23:r1
-;	"하지" NOUN SELECT:23:r1
+	"하+지" VERB SELECT:27:r1
+;	"하+지" AUX SELECT:27:r1
+;	"하지" NOUN SELECT:27:r1
 "<않는다>"
 	"않+는다" AUX
 "<.>"
@@ -46885,9 +46885,9 @@
 "<참여해야>"
 	"참여+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -46897,9 +46897,9 @@
 "<있기는>"
 	"있+기+는" NOUN
 "<하다>"
-	"하+다" VERB
-	"하+다" AUX
-	"하+다" SCONJ
+	"하+다" VERB SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
+;	"하+다" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -46936,7 +46936,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<선거를>"
 	"선거+를" NOUN
 "<적극>"
@@ -46981,10 +46981,10 @@
 "<가져야>"
 	"가지+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -47036,10 +47036,10 @@
 "<대처해야>"
 	"대처+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -47077,8 +47077,8 @@
 "<운동을>"
 	"운동+을" NOUN
 "<지배하고>"
-	"지배+하+고" VERB SELECT:27:r1a
-;	"지배+하+고" CCONJ SELECT:27:r1a
+	"지배+하+고" VERB SELECT:31:r1a
+;	"지배+하+고" CCONJ SELECT:31:r1a
 "<있기>"
 	"있+기" AUX
 	"있+기" ADJ
@@ -47089,7 +47089,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<선거로는>"
 	"선거+로+는" NOUN
 "<정권을>"
@@ -47097,11 +47097,11 @@
 "<잡을>"
 	"잡+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다는>"
 	"없+다는" ADJ
 "<생각이>"
@@ -47117,8 +47117,8 @@
 "<포기하게>"
 	"포기+하+게" VERB
 "<만든다>"
-	"만들+ㄴ다" VERB
-	"만들+ㄴ다" AUX
+	"만들+ㄴ다" AUX SELECT:111:r2c
+;	"만들+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -47155,10 +47155,10 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -47186,10 +47186,10 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -47200,7 +47200,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그것이>"
 	"그것+이" PRON
 	"그것+의" PRON
@@ -47286,8 +47286,8 @@
 "<이미>"
 	"이미" ADV
 "<충분하지>"
-	"충분+하+지" VERB SELECT:23:r1
-;	"충분하+지" ADJ SELECT:23:r1
+	"충분+하+지" VERB SELECT:27:r1
+;	"충분하+지" ADJ SELECT:27:r1
 "<않을까>"
 	"않+ㄹ까" AUX
 	"않+을까" AUX
@@ -47297,7 +47297,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<엥겔스는>"
 	"엥겔스+는" NOUN
 "<여기에>"
@@ -47322,15 +47322,15 @@
 "<부여하고>"
 	"부여+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<선거권은>"
 	"선거권+은" NOUN
 "<좀>"
@@ -47355,7 +47355,7 @@
 
 "<이와>"
 	"이+와" CCONJ
-	"이+와" ADV
+;	"이+와" ADV REMOVE:69:r6
 "<같이>"
 	"같+이" SCONJ
 	"같이" ADV
@@ -47415,20 +47415,20 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<그것으로써>"
 	"그것+으로써" ADV
 "<노동자계급이>"
 	"노동+자계급+이" NOUN
 	"노동자+계급+이" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<국가기구>"
 	"국가기구" NOUN
 "<자체를>"
@@ -47436,21 +47436,21 @@
 "<타도할>"
 	"타도+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<기회를>"
 	"기회+를" NOUN
 "<말이다>"
-	"말+이+다" VERB
-	"말이다" INTJ
+	"말이다" INTJ SELECT:137:r2h
+;	"말+이+다" VERB SELECT:137:r2h
 "<.>"
 	"." PUNCT
 
@@ -47471,10 +47471,10 @@
 "<더불어>"
 	"더불+어" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<지위를>"
 	"지위+를" NOUN
 "<경쟁하였고>"
@@ -47521,10 +47521,10 @@
 "<이야기해야>"
 	"이야기+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -47553,9 +47553,9 @@
 	"하+지" AUX
 	"하지" NOUN
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<개인의>"
 	"개인+의" NOUN
 "<당선만을>"
@@ -47579,9 +47579,9 @@
 "<선전하지>"
 	"선전+하+지" VERB
 "<못하고>"
-	"못하+고" AUX SELECT:57:r5
-;	"못하+고" CCONJ SELECT:57:r5
-;	"못하+고" SCONJ SELECT:57:r5
+	"못하+고" AUX SELECT:66:r5
+;	"못하+고" CCONJ SELECT:66:r5
+;	"못하+고" SCONJ SELECT:66:r5
 "<개인의>"
 	"개인+의" NOUN
 "<경력과>"
@@ -47615,9 +47615,9 @@
 "<무장폭동도>"
 	"무장+폭동+도" ADV
 "<안된다>"
-	"안되+ㄴ다" VERB
-	"안되+ㄴ다" ADJ
-	"안되+ㄴ다" AUX
+	"안되+ㄴ다" ADJ SELECT:85:r8
+;	"안되+ㄴ다" VERB SELECT:85:r8
+;	"안되+ㄴ다" AUX SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -47650,11 +47650,11 @@
 "<쓸>"
 	"쓰+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -47690,8 +47690,8 @@
 "<타개해>"
 	"타개+하+어" VERB
 "<나가는>"
-	"나가+는" AUX SELECT:33:r1b
-;	"나가+는" VERB SELECT:33:r1b
+	"나가+는" AUX SELECT:37:r1b
+;	"나가+는" VERB SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -47759,10 +47759,10 @@
 "<사업을>"
 	"사업+을" NOUN
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" VERB SELECT:153:r3b
+;	"하+는" AUX SELECT:153:r3b
+;	"하+는" PROPN SELECT:153:r3b
+;	"하+는" PART SELECT:153:r3b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -47849,9 +47849,9 @@
 "<해치기까지>"
 	"해치+기+까지" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -47876,14 +47876,14 @@
 "<중심으로>"
 	"중심+으로" ADV
 "<해야>"
-	"하+어야" VERB SELECT:23:r1
-;	"하+어야" AUX SELECT:23:r1
-;	"하+어야" SCONJ SELECT:23:r1
+	"하+어야" VERB SELECT:27:r1
+;	"하+어야" AUX SELECT:27:r1
+;	"하+어야" SCONJ SELECT:27:r1
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -47898,9 +47898,9 @@
 	"있+어야" ADJ
 	"있+어야" SCONJ
 "<한다는>"
-	"하+ㄴ다는" AUX
-	"하+ㄴ다는" VERB
-	"하+ㄴ다+는" NOUN
+	"하+ㄴ다는" AUX SELECT:132:r2g
+;	"하+ㄴ다는" VERB SELECT:132:r2g
+;	"하+ㄴ다+는" NOUN SELECT:132:r2g
 "<고전적인>"
 	"고전+적+이+ㄴ" VERB
 "<사고방식과도>"
@@ -47939,9 +47939,9 @@
 "<미치고>"
 	"미치+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -47974,14 +47974,14 @@
 "<우리에게>"
 	"우리+에게" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<유산이다>"
 	"유산+이+다" VERB
 "<.>"
@@ -48002,15 +48002,15 @@
 "<대상으로>"
 	"대상+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -48099,14 +48099,14 @@
 "<팔짱을>"
 	"팔짱+을" NOUN
 "<끼고>"
-	"끼+고" VERB SELECT:27:r1a
-;	"끼+고" CCONJ SELECT:27:r1a
-;	"끼+고" SCONJ SELECT:27:r1a
+	"끼+고" VERB SELECT:31:r1a
+;	"끼+고" CCONJ SELECT:31:r1a
+;	"끼+고" SCONJ SELECT:31:r1a
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -48131,9 +48131,9 @@
 "<부탁해>"
 	"부탁+하+어" VERB
 "<왔다>"
-	"오+았+다" AUX
-	"오+았+다" VERB
-	"오+았+다" CCONJ
+	"오+았+다" AUX SELECT:111:r2c
+;	"오+았+다" VERB SELECT:111:r2c
+;	"오+았+다" CCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -48174,7 +48174,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<그때>"
 	"그때" NOUN
 	"그때" ADV
@@ -48191,8 +48191,8 @@
 "<구성해>"
 	"구성+하+어" VERB
 "<봤다>"
-	"보+았+다" VERB
-	"보+았+다" AUX
+	"보+았+다" AUX SELECT:111:r2c
+;	"보+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -48240,8 +48240,8 @@
 "<자랑할>"
 	"자랑+하+ㄹ" VERB
 "<만한>"
-	"만하+ㄴ" AUX SELECT:33:r1b
-;	"만+하+ㄴ" VERB SELECT:33:r1b
+	"만하+ㄴ" AUX SELECT:37:r1b
+;	"만+하+ㄴ" VERB SELECT:37:r1b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -48259,15 +48259,15 @@
 "<안양에서>"
 	"안양+에서" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<일을>"
 	"일+을" NOUN
 "<소개하려고>"
@@ -48348,9 +48348,9 @@
 "<행정에>"
 	"행정+에" ADV
 "<맞서>"
-	"맞서+어" VERB SELECT:23:r1
-;	"맞서+어" SCONJ SELECT:23:r1
-;	"맞+서" SCONJ SELECT:23:r1
+	"맞서+어" VERB SELECT:27:r1
+;	"맞서+어" SCONJ SELECT:27:r1
+;	"맞+서" SCONJ SELECT:27:r1
 "<싸워>"
 	"싸우+어" SCONJ
 "<시민들에게>"
@@ -48358,8 +48358,8 @@
 "<이익을>"
 	"이익+을" NOUN
 "<준>"
-	"주+ㄴ" AUX
-	"주+ㄴ" VERB
+	"주+ㄴ" VERB SELECT:153:r3b
+;	"주+ㄴ" AUX SELECT:153:r3b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -48373,8 +48373,8 @@
 "<자랑할>"
 	"자랑+하+ㄹ" VERB
 "<만한>"
-	"만하+ㄴ" AUX SELECT:33:r1b
-;	"만+하+ㄴ" VERB SELECT:33:r1b
+	"만하+ㄴ" AUX SELECT:37:r1b
+;	"만+하+ㄴ" VERB SELECT:37:r1b
 "<것이라고는>"
 	"것+이+라고+는" NOUN
 	"것+이+라+고+는" NOUN
@@ -48385,15 +48385,15 @@
 "<6개월>"
 	"6+개월" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<것이었다>"
 	"것+이+었+다" VERB
 "<.>"
@@ -48401,7 +48401,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<문맹자인>"
 	"문맹자+이+ㄴ" VERB
 "<시민을>"
@@ -48409,15 +48409,15 @@
 "<대상으로>"
 	"대상+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<사업이다>"
 	"사업+이+다" VERB
 "<.>"
@@ -48438,8 +48438,8 @@
 "<싸우지>"
 	"싸우+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -48459,8 +48459,8 @@
 	"들+지" VERB
 	"들+지" AUX
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -48540,11 +48540,11 @@
 "<중심에>"
 	"중심+에" ADV
 "<두지>"
-	"두+지" VERB SELECT:23:r1
-;	"두+지" AUX SELECT:23:r1
+	"두+지" VERB SELECT:27:r1
+;	"두+지" AUX SELECT:27:r1
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<시민운동>"
 	"시민+운동" NOUN
 "<,>"
@@ -48562,9 +48562,9 @@
 "<목표로>"
 	"목표+로" ADV
 "<하지>"
-	"하+지" VERB SELECT:23:r1
-;	"하+지" AUX SELECT:23:r1
-;	"하지" NOUN SELECT:23:r1
+	"하+지" VERB SELECT:27:r1
+;	"하+지" AUX SELECT:27:r1
+;	"하지" NOUN SELECT:27:r1
 "<않고>"
 	"않+고" CCONJ
 	"않+고" AUX
@@ -48584,7 +48584,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<노동자계급이>"
 	"노동+자계급+이" NOUN
 	"노동자+계급+이" NOUN
@@ -48618,13 +48618,13 @@
 "<생산현장에만>"
 	"생산현장+에+만" ADV
 "<갇혀>"
-	"갇히+어" VERB SELECT:23:r1
-;	"갇히+어" SCONJ SELECT:23:r1
+	"갇히+어" VERB SELECT:27:r1
+;	"갇히+어" SCONJ SELECT:27:r1
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않다>"
 	"않+다" AUX
 	"않+다" ADJ
@@ -48706,9 +48706,9 @@
 	"다르+ㄹ" VERB
 	"다르+ㄹ" ADJ
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<사는>"
 	"살+는" VERB
 	"사+는" VERB
@@ -48736,10 +48736,10 @@
 "<둬야>"
 	"두+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -48785,8 +48785,8 @@
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -48811,10 +48811,10 @@
 	"머물+어" VERB
 	"머물르+어" VERB
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" AUX SELECT:78:r7
+;	"있+었+다" ADJ SELECT:78:r7
+;	"있+었+다" VERB SELECT:78:r7
+;	"있+었+다" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -48825,8 +48825,8 @@
 "<가장>"
 	"가장" ADV
 "<중요한>"
-	"중요+하+ㄴ" VERB SELECT:23:r1
-;	"중요하+ㄴ" ADJ SELECT:23:r1
+	"중요+하+ㄴ" VERB SELECT:27:r1
+;	"중요하+ㄴ" ADJ SELECT:27:r1
 "<운동이지만>"
 	"운동+이+지만" SCONJ
 "<노동운동이>"
@@ -48868,9 +48868,9 @@
 "<돌리지>"
 	"돌리+지" VERB
 "<않은>"
-	"않+ㄴ" AUX SELECT:57:r5
-	"않+은" AUX SELECT:57:r5
-;	"않+ㄴ" ADJ SELECT:57:r5
+	"않+ㄴ" AUX SELECT:66:r5
+	"않+은" AUX SELECT:66:r5
+;	"않+ㄴ" ADJ SELECT:66:r5
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -48891,11 +48891,11 @@
 "<변명할>"
 	"변명+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있지만>"
 	"있+지만" SCONJ
 	"있+지만" CCONJ
@@ -48930,9 +48930,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -48949,7 +48949,7 @@
 "<하지만>"
 	"하지만" CCONJ
 	"하+지만" SCONJ
-	"하지만" ADV
+;	"하지만" ADV REMOVE:69:r6
 "<관점은>"
 	"관점+은" NOUN
 "<늘>"
@@ -48965,12 +48965,12 @@
 "<확립해>"
 	"확립+하+어" VERB
 "<두어야>"
-	"두+어야" VERB
-	"두+어야" AUX
+	"두+어야" AUX SELECT:111:r2c
+;	"두+어야" VERB SELECT:111:r2c
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" AUX SELECT:78:r7
+;	"하+었+다" VERB SELECT:78:r7
+;	"하+었+다" ADJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -49006,8 +49006,8 @@
 "<머물게>"
 	"머물+게" VERB
 "<되었다>"
-	"되+었+다" AUX
-	"되+었+다" VERB
+	"되+었+다" AUX SELECT:111:r2c
+;	"되+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -49034,19 +49034,19 @@
 	"도움+을" NOUN
 	"돕+ㅁ+을" NOUN
 "<주는>"
-	"주+는" VERB
-	"주+는" AUX
-	"주+는" NOUN
-	"주+는" PROPN
+	"주+는" VERB SELECT:153:r3b
+;	"주+는" AUX SELECT:153:r3b
+;	"주+는" NOUN SELECT:153:r3b
+;	"주+는" PROPN SELECT:153:r3b
 "<활동은>"
 	"활동+은" NOUN
 "<별로>"
 	"별로" ADV
 	"별+로" ADV
 "<하지>"
-	"하+지" VERB SELECT:23:r1
-;	"하+지" AUX SELECT:23:r1
-;	"하지" NOUN SELECT:23:r1
+	"하+지" VERB SELECT:27:r1
+;	"하+지" AUX SELECT:27:r1
+;	"하지" NOUN SELECT:27:r1
 "<않고>"
 	"않+고" CCONJ
 	"않+고" AUX
@@ -49150,11 +49150,11 @@
 "<가져가지>"
 	"가지+어+가+지" AUX
 "<말라>"
-	"말+라" AUX
-	"말+라" VERB
-	"마르+아" ADJ
-	"마르+아" VERB
-	"말+라" SCONJ
+	"말+라" AUX SELECT:132:r2g
+;	"말+라" VERB SELECT:132:r2g
+;	"마르+아" ADJ SELECT:132:r2g
+;	"마르+아" VERB SELECT:132:r2g
+;	"말+라" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -49208,11 +49208,11 @@
 "<울리지>"
 	"울리+지" VERB
 "<말라>"
-	"말+라" AUX
-	"말+라" VERB
-	"마르+아" ADJ
-	"마르+아" VERB
-	"말+라" SCONJ
+	"말+라" AUX SELECT:78:r7
+;	"말+라" VERB SELECT:78:r7
+;	"마르+아" ADJ SELECT:78:r7
+;	"마르+아" VERB SELECT:78:r7
+;	"말+라" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -49223,11 +49223,11 @@
 "<밟지>"
 	"밟+지" VERB
 "<말라>"
-	"말+라" AUX
-	"말+라" VERB
-	"마르+아" ADJ
-	"마르+아" VERB
-	"말+라" SCONJ
+	"말+라" AUX SELECT:78:r7
+;	"말+라" VERB SELECT:78:r7
+;	"마르+아" ADJ SELECT:78:r7
+;	"마르+아" VERB SELECT:78:r7
+;	"말+라" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -49236,11 +49236,11 @@
 "<희롱하지>"
 	"희롱+하+지" VERB
 "<말라>"
-	"말+라" AUX
-	"말+라" VERB
-	"마르+아" ADJ
-	"마르+아" VERB
-	"말+라" SCONJ
+	"말+라" AUX SELECT:78:r7
+;	"말+라" VERB SELECT:78:r7
+;	"마르+아" ADJ SELECT:78:r7
+;	"마르+아" VERB SELECT:78:r7
+;	"말+라" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -49249,11 +49249,11 @@
 "<학대하지>"
 	"학대+하+지" VERB
 "<말라>"
-	"말+라" AUX
-	"말+라" VERB
-	"마르+아" ADJ
-	"마르+아" VERB
-	"말+라" SCONJ
+	"말+라" AUX SELECT:78:r7
+;	"말+라" VERB SELECT:78:r7
+;	"마르+아" ADJ SELECT:78:r7
+;	"마르+아" VERB SELECT:78:r7
+;	"말+라" SCONJ SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -49320,9 +49320,9 @@
 "<항목도>"
 	"항목+도" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -49364,15 +49364,15 @@
 "<달아주게>"
 	"달+아+주+게" AUX
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -49387,8 +49387,8 @@
 	"활동+규율+을" NOUN
 "<지니고>"
 	"지니+고" VERB
-	"지니+고" SCONJ
 	"지니+고" CCONJ
+;	"지니+고" SCONJ REMOVE:56:r3
 "<활동하여>"
 	"활동+하+어" SCONJ
 "<산적의>"
@@ -49461,13 +49461,13 @@
 "<후반의>"
 	"후반+의" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<아주머니는>"
 	"아주머니+는" NOUN
 "<성격도>"
@@ -49495,16 +49495,16 @@
 "<일찍>"
 	"일찍" ADV
 "<나오게>"
-	"나오+게" VERB SELECT:23:r1
-;	"나오+게" SCONJ SELECT:23:r1
-;	"나오+게" AUX SELECT:23:r1
+	"나오+게" VERB SELECT:27:r1
+;	"나오+게" SCONJ SELECT:27:r1
+;	"나오+게" AUX SELECT:27:r1
 "<만들어>"
-	"만들+어" VERB
-	"만들+어" SCONJ
-	"만들+어" AUX
+	"만들+어" AUX SELECT:111:r2c
+;	"만들+어" VERB SELECT:111:r2c
+;	"만들+어" SCONJ SELECT:111:r2c
 "<놓는다>"
-	"놓+는다" AUX
-	"놓+는다" VERB
+	"놓+는다" AUX SELECT:132:r2g
+;	"놓+는다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -49528,10 +49528,10 @@
 "<동사무소>"
 	"동사무소" NOUN
 "<일>"
-	"일" NOUN
-	"이+ㄹ" ADP
-	"일" NUM
-	"일" PROPN
+	"일" NOUN SELECT:141:r2i
+;	"이+ㄹ" ADP SELECT:141:r2i
+;	"일" NUM SELECT:141:r2i
+;	"일" PROPN SELECT:141:r2i
 "<중에>"
 	"중+에" ADV
 "<어려운>"
@@ -49548,14 +49548,14 @@
 "<돈>"
 	"돈" NOUN
 "<받고>"
-	"받+고" VERB SELECT:27:r1a
-;	"받+고" CCONJ SELECT:27:r1a
-;	"받+고" SCONJ SELECT:27:r1a
+	"받+고" VERB SELECT:31:r1a
+;	"받+고" CCONJ SELECT:31:r1a
+;	"받+고" SCONJ SELECT:31:r1a
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -49610,7 +49610,7 @@
 
 "<어쨌든>"
 	"어쨌든" CCONJ
-	"어쨌든" ADV
+;	"어쨌든" ADV REMOVE:69:r6
 "<사람들은>"
 	"사람+들+은" NOUN
 "<아쉬우면>"
@@ -49643,10 +49643,10 @@
 "<찍으라고>"
 	"찍+으라+고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -49799,11 +49799,11 @@
 "<믿을>"
 	"믿+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있고>"
 	"있+고" CCONJ
 	"있+고" SCONJ
@@ -49815,10 +49815,10 @@
 	"되+어야" SCONJ
 	"되+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -49906,16 +49906,16 @@
 "<받아야>"
 	"받+아야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<백기완>"
 	"백기완" PROPN
 	"백기완" NOUN
@@ -49953,16 +49953,16 @@
 	"것+을" NOUN
 	"것+은" NOUN
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -49989,8 +49989,8 @@
 "<지지하지>"
 	"지지+하+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -50034,14 +50034,14 @@
 "<기반을>"
 	"기반+을" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<못해서다>"
 	"못하+어서+이+다" AUX
 "<.>"
@@ -50053,8 +50053,8 @@
 	"이렇게" ADV
 	"이러하+게" SCONJ
 "<된>"
-	"되+ㄴ" AUX SELECT:33:r1b
-;	"되+ㄴ" VERB SELECT:33:r1b
+	"되+ㄴ" AUX SELECT:37:r1b
+;	"되+ㄴ" VERB SELECT:37:r1b
 "<이유는>"
 	"이유+는" NOUN
 "<두>"
@@ -50080,10 +50080,10 @@
 	"나아가+야" VERB
 	"나+아+가+아야" AUX
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<길을>"
 	"길+을" NOUN
 "<정확하게>"
@@ -50105,18 +50105,18 @@
 	"나가+아야" VERB
 	"나가+야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<길도>"
 	"길+도" ADV
 "<잘>"
 	"잘" ADV
 	"자+ㄹ" VERB
 "<모르는>"
-	"모르+는" VERB SELECT:23:r1
-;	"모르+는" ADJ SELECT:23:r1
+	"모르+는" VERB SELECT:27:r1
+;	"모르+는" ADJ SELECT:27:r1
 "<판이니>"
 	"판+이+니" SCONJ
 "<노동조합이>"
@@ -50126,10 +50126,10 @@
 	"나가+아야" VERB
 	"나가+야" AUX
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<길을>"
 	"길+을" NOUN
 "<제대로>"
@@ -50180,10 +50180,10 @@
 	"나가+아야" VERB
 	"나가+야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<길에>"
 	"길+에" ADV
 "<대한>"
@@ -50260,8 +50260,8 @@
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -50283,9 +50283,9 @@
 "<지지하게>"
 	"지지+하+게" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<방침>"
 	"방침" NOUN
 "<이상을>"
@@ -50293,8 +50293,8 @@
 "<내놓지>"
 	"내놓+지" VERB
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -50345,25 +50345,25 @@
 "<한계이기도>"
 	"한계+이+기+도" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<기본적으로>"
 	"기본+적+으로" ADV
 "<문제가>"
 	"문제+가" NOUN
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" VERB SELECT:153:r3b
+;	"되+는" AUX SELECT:153:r3b
 "<것은>"
 	"것+은" NOUN
 "<우리>"
@@ -50384,11 +50384,11 @@
 "<조건도>"
 	"조건+도" ADV
 "<충분하지>"
-	"충분+하+지" VERB SELECT:23:r1
-;	"충분하+지" ADJ SELECT:23:r1
+	"충분+하+지" VERB SELECT:27:r1
+;	"충분하+지" ADJ SELECT:27:r1
 "<않다는>"
-	"않+다는" AUX SELECT:57:r5
-;	"않+다는" ADJ SELECT:57:r5
+	"않+다는" AUX SELECT:66:r5
+;	"않+다는" ADJ SELECT:66:r5
 "<데>"
 	"데" NOUN
 "<있다>"
@@ -50416,9 +50416,9 @@
 "<둬야>"
 	"두+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<당연한>"
@@ -50442,10 +50442,10 @@
 	"지배+하+고" VERB
 	"지배+하+고" CCONJ
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<재벌이다>"
@@ -50454,9 +50454,9 @@
 	"." PUNCT
 
 "<그>"
-	"그" ADJ SELECT:52:r4
-;	"그" DET SELECT:52:r4
-;	"그" PRON SELECT:52:r4
+	"그" ADJ SELECT:61:r4
+;	"그" DET SELECT:61:r4
+;	"그" PRON SELECT:61:r4
 "<재벌과>"
 	"재벌+과" CCONJ
 "<맞서>"
@@ -50490,26 +50490,26 @@
 "<바탕을>"
 	"바탕+을" NOUN
 "<두고>"
-	"두+고" AUX
-	"두+고" VERB
-	"두+고" CCONJ
-	"두+고" SCONJ
-	"두고" PROPN
+	"두+고" VERB SELECT:153:r3b
+;	"두+고" AUX SELECT:153:r3b
+;	"두+고" CCONJ SELECT:153:r3b
+;	"두+고" SCONJ SELECT:153:r3b
+;	"두고" PROPN SELECT:153:r3b
 "<투쟁을>"
 	"투쟁+을" NOUN
 "<계획해야>"
 	"계획+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그럼에도>"
-	"그럼에도" ADV
 	"그럼에도" CCONJ
+;	"그럼에도" ADV REMOVE:69:r6
 "<불구하고>"
 	"불구+하+고" CCONJ
 	"불구하+고" SCONJ
@@ -50527,27 +50527,27 @@
 "<대상으로>"
 	"대상+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<선전과>"
 	"선전+과" CCONJ
 "<선동에>"
 	"선동+에" ADV
 "<매달려>"
-	"매달리+어" VERB SELECT:23:r1
-;	"매달리+어" SCONJ SELECT:23:r1
+	"매달리+어" VERB SELECT:27:r1
+;	"매달리+어" SCONJ SELECT:27:r1
 "<있다는>"
-	"있+다는" AUX SELECT:33:r1b
-;	"있+다는" ADJ SELECT:33:r1b
-;	"있+다는" VERB SELECT:33:r1b
-;	"있+다+는" NOUN SELECT:33:r1b
+	"있+다는" AUX SELECT:37:r1b
+;	"있+다는" ADJ SELECT:37:r1b
+;	"있+다는" VERB SELECT:37:r1b
+;	"있+다+는" NOUN SELECT:37:r1b
 "<느낌을>"
 	"느낌+을" NOUN
 	"느끼+ㅁ+을" NOUN
@@ -50555,9 +50555,9 @@
 	"받+게" VERB
 	"받+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -50625,10 +50625,10 @@
 	"않+는다+고" VERB
 	"않+는다고" SCONJ
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것은>"
 	"것+은" NOUN
 "<우리>"
@@ -50639,13 +50639,13 @@
 "<주력을>"
 	"주력+을" NOUN
 "<이루고>"
-	"이루+고" VERB SELECT:27:r1a
-;	"이루+고" CCONJ SELECT:27:r1a
+	"이루+고" VERB SELECT:31:r1a
+;	"이루+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<각급>"
 	"각급" NOUN
 "<조직의>"
@@ -50676,9 +50676,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<아직>"
 	"아직" ADV
 "<청년층을>"
@@ -50687,11 +50687,11 @@
 	"제대로" ADV
 	"제+대로" ADV
 "<벗어나지>"
-	"벗어나+지" VERB SELECT:23:r1
-;	"벗+어+나+지" AUX SELECT:23:r1
+	"벗어나+지" VERB SELECT:27:r1
+;	"벗+어+나+지" AUX SELECT:27:r1
 "<못했다>"
-	"못하+었+다" AUX
-	"못하+었+다" VERB
+	"못하+었+다" AUX SELECT:111:r2c
+;	"못하+었+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -50720,16 +50720,16 @@
 "<20대였다고>"
 	"20+대+이+었+다+고" VERB
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -50767,11 +50767,11 @@
 "<대변할>"
 	"대변+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없었다>"
 	"없+었+다" ADJ
 "<.>"
@@ -50783,9 +50783,9 @@
 	"더" ADV
 	"더" X
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -50809,8 +50809,8 @@
 	"벗+어+나+지" AUX
 	"벗어나+지" VERB
 "<못하는>"
-	"못하+는" AUX SELECT:33:r1b
-;	"못하+는" VERB SELECT:33:r1b
+	"못하+는" AUX SELECT:37:r1b
+;	"못하+는" VERB SELECT:37:r1b
 "<곳이>"
 	"곳+이" NOUN
 "<많다>"
@@ -50856,18 +50856,18 @@
 "<조직구성에>"
 	"조직+구성+에" ADV
 "<반영되어>"
-	"반영+되+어" VERB SELECT:23:r1
-;	"반영+되+어" SCONJ SELECT:23:r1
+	"반영+되+어" VERB SELECT:27:r1
+;	"반영+되+어" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<사무>"
 	"사무" NOUN
 "<,>"
@@ -50890,9 +50890,9 @@
 	"못하+고" CCONJ
 	"못하+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -50922,10 +50922,10 @@
 "<살아가야>"
 	"살+아+가+아야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<세력이다>"
 	"세력+이+다" VERB
 "<.>"
@@ -50969,11 +50969,11 @@
 "<설득할>"
 	"설득+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -51014,13 +51014,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<구호는>"
 	"구호+는" NOUN
 "<50년대>"
@@ -51064,11 +51064,11 @@
 	"것+이" NOUN
 	"것+이" PRON
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" VERB SELECT:153:r3b
+;	"있+ㄹ" ADJ SELECT:153:r3b
+;	"있+ㄹ" AUX SELECT:153:r3b
+;	"있+을" ADJ SELECT:153:r3b
+;	"있+을" AUX SELECT:153:r3b
 "<리는>"
 	"리+는" NOUN
 "<없다>"
@@ -51078,7 +51078,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<최소한>"
 	"최소한" ADV
 	"최소+하+ㄴ" VERB
@@ -51095,15 +51095,15 @@
 "<중심에>"
 	"중심+에" ADV
 "<두는>"
-	"두+는" VERB SELECT:23:r1
-;	"두+는" AUX SELECT:23:r1
+	"두+는" VERB SELECT:27:r1
+;	"두+는" AUX SELECT:27:r1
 "<것이어야>"
 	"것+이+어야" VERB
 	"것+이+어야" SCONJ
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<점만은>"
 	"점+만+은" NOUN
 	"점+만은" ADV
@@ -51111,14 +51111,14 @@
 	"분명+히" ADV
 	"분명히" ADV
 "<해야>"
-	"하+어야" VERB SELECT:23:r1
-;	"하+어야" AUX SELECT:23:r1
-;	"하+어야" SCONJ SELECT:23:r1
+	"하+어야" VERB SELECT:27:r1
+;	"하+어야" AUX SELECT:27:r1
+;	"하+어야" SCONJ SELECT:27:r1
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -51172,7 +51172,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<대안이란>"
 	"대안+이란" ADV
 "<무엇인가>"
@@ -51184,8 +51184,8 @@
 "<부강하게>"
 	"부강+하+게" VERB
 "<만드는>"
-	"만들+는" VERB
-	"만들+는" AUX
+	"만들+는" AUX SELECT:111:r2c
+;	"만들+는" VERB SELECT:111:r2c
 "<방법이다>"
 	"방법+이+다" VERB
 "<.>"
@@ -51211,16 +51211,16 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<잘>"
 	"잘" ADV
 	"자+ㄹ" VERB
 "<입고>"
-	"입+고" CCONJ
-	"입+고" VERB
-	"입+고" SCONJ
+	"입+고" CCONJ SELECT:128:r2e
+;	"입+고" VERB SELECT:128:r2e
+;	"입+고" SCONJ SELECT:128:r2e
 "<마음>"
 	"마음" NOUN
 "<편하게>"
@@ -51232,21 +51232,21 @@
 	"살+ㄹ" VERB
 	"사+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -51274,10 +51274,10 @@
 	"내놓+아야" VERB
 	"내+어+놓+아야" AUX
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -51327,11 +51327,11 @@
 "<어떤가>"
 	"어떻+ㄴ가" VERB
 "<하고>"
-	"하+고" CCONJ
-	"하+고" VERB
-	"하+고" AUX
-	"하+고" SCONJ
-	"하고" ADP
+	"하+고" AUX SELECT:111:r2c
+;	"하+고" CCONJ SELECT:111:r2c
+;	"하+고" VERB SELECT:111:r2c
+;	"하+고" SCONJ SELECT:111:r2c
+;	"하고" ADP SELECT:111:r2c
 "<물었다>"
 	"묻+었+다" VERB
 	"물+었+다" VERB
@@ -51394,15 +51394,15 @@
 "<칭찬도>"
 	"칭찬+도" ADV
 "<할>"
-	"하+ㄹ" VERB SELECT:23:r1
-	"살+아야" VERB SELECT:23:r1
-;	"하+ㄹ" AUX SELECT:23:r1
-;	"할" NOUN SELECT:23:r1
+	"하+ㄹ" VERB SELECT:27:r1
+	"살+아야" VERB SELECT:27:r1
+;	"하+ㄹ" AUX SELECT:27:r1
+;	"할" NOUN SELECT:27:r1
 "<줄>"
-	"주+ㄹ" VERB
-	"주+ㄹ" AUX
-	"줄" NOUN
-	"줄+ㄹ" VERB
+	"주+ㄹ" AUX SELECT:111:r2c
+;	"주+ㄹ" VERB SELECT:111:r2c
+;	"줄" NOUN SELECT:111:r2c
+;	"줄+ㄹ" VERB SELECT:111:r2c
 "<알았나>"
 	"알+았+나" VERB
 "<보다>"
@@ -51414,7 +51414,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<칭찬하기는커녕>"
 	"칭찬+하+기+는커녕" ADV
 "<자기가>"
@@ -51439,7 +51439,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<곧>"
 	"곧" ADV
 	"곧" CCONJ
@@ -51474,11 +51474,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -51488,7 +51488,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<정치는>"
 	"정치+는" NOUN
 "<국민이>"
@@ -51497,19 +51497,19 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<잘>"
 	"잘" ADV
 	"자+ㄹ" VERB
 "<살게>"
 	"살+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<거다>"
 	"거+이+다" VERB
 "<.>"
@@ -51578,10 +51578,10 @@
 "<살게>"
 	"살+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -51599,10 +51599,10 @@
 "<분배해야>"
 	"분배+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -51611,10 +51611,10 @@
 	"바르+게" SCONJ
 	"바르+게" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -51627,10 +51627,10 @@
 "<살게>"
 	"살+게" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -51698,10 +51698,10 @@
 	"사람+이" NOUN
 	"사람+의" NOUN
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" VERB SELECT:153:r3b
+;	"하+는" AUX SELECT:153:r3b
+;	"하+는" PROPN SELECT:153:r3b
+;	"하+는" PART SELECT:153:r3b
 "<일은>"
 	"일+은" NOUN
 "<다>"
@@ -51709,12 +51709,12 @@
 	"다" NOUN
 	"이+다" ADP
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<먹고>"
-	"먹+고" CCONJ
-	"먹+고" SCONJ
-	"먹+고" VERB
+	"먹+고" CCONJ SELECT:128:r2e
+;	"먹+고" SCONJ SELECT:128:r2e
+;	"먹+고" VERB SELECT:128:r2e
 "<잘>"
 	"잘" ADV
 	"자+ㄹ" VERB
@@ -51766,11 +51766,11 @@
 "<부강하게>"
 	"부강+하+게" VERB
 "<하고>"
-	"하+고" AUX SELECT:33:r1b
-;	"하+고" CCONJ SELECT:33:r1b
-;	"하+고" VERB SELECT:33:r1b
-;	"하+고" SCONJ SELECT:33:r1b
-;	"하고" ADP SELECT:33:r1b
+	"하+고" AUX SELECT:37:r1b
+;	"하+고" CCONJ SELECT:37:r1b
+;	"하+고" VERB SELECT:37:r1b
+;	"하+고" SCONJ SELECT:37:r1b
+;	"하고" ADP SELECT:37:r1b
 "<국민이>"
 	"국민+이" NOUN
 "<마음>"
@@ -51784,16 +51784,16 @@
 	"살+ㄹ" VERB
 	"사+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<사회를>"
 	"사회+를" NOUN
 "<만드는>"
@@ -51825,11 +51825,11 @@
 "<느낄>"
 	"느끼+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -51928,11 +51928,11 @@
 	"살+ㄹ" VERB
 	"사+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
 	"있+는" ADJ
 	"있+는" AUX
@@ -51956,8 +51956,8 @@
 "<사회를>"
 	"사회+를" NOUN
 "<만드는>"
-	"만들+는" VERB
-	"만들+는" AUX
+	"만들+는" VERB SELECT:153:r3b
+;	"만들+는" AUX SELECT:153:r3b
 "<우리>"
 	"우리" PRON
 	"우리" NOUN
@@ -51998,8 +51998,8 @@
 "<사회를>"
 	"사회+를" NOUN
 "<만드는>"
-	"만들+는" VERB
-	"만들+는" AUX
+	"만들+는" VERB SELECT:153:r3b
+;	"만들+는" AUX SELECT:153:r3b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -52033,10 +52033,10 @@
 "<노동자에게>"
 	"노동자+에게" ADV
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" ADJ SELECT:85:r8
+	"있+ㄴ" ADJ SELECT:85:r8
+;	"있+는" AUX SELECT:85:r8
+;	"있+는" VERB SELECT:85:r8
 "<사회를>"
 	"사회+를" NOUN
 "<만들>"
@@ -52073,10 +52073,10 @@
 "<뽑게>"
 	"뽑+게" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -52180,10 +52180,10 @@
 "<망해가고>"
 	"망하+어+가+고" AUX
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:132:r2g
+;	"있+는" ADJ SELECT:132:r2g
+;	"있+는" VERB SELECT:132:r2g
+;	"있+ㄴ" ADJ SELECT:132:r2g
 "<사회주의다>"
 	"사회주의+이+다" VERB
 "<.>"
@@ -52223,8 +52223,8 @@
 "<주인이>"
 	"주인+이" NOUN
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" VERB SELECT:153:r3b
+;	"되+는" AUX SELECT:153:r3b
 "<사회를>"
 	"사회+를" NOUN
 "<만들겠다는>"
@@ -52274,9 +52274,9 @@
 	"수+도" ADV
 	"수도" NOUN
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -52465,21 +52465,21 @@
 "<소유할>"
 	"소유+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -52527,14 +52527,14 @@
 "<모델로>"
 	"모델+로" ADV
 "<삼고>"
-	"삼+고" VERB SELECT:23:r1
-;	"삼+고" CCONJ SELECT:23:r1
-;	"삼+고" SCONJ SELECT:23:r1
+	"삼+고" VERB SELECT:27:r1
+;	"삼+고" CCONJ SELECT:27:r1
+;	"삼+고" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<일본은>"
 	"일본+은" PROPN
 "<어떤가>"
@@ -52641,17 +52641,17 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<일본>"
 	"일본" PROPN
 	"일본+이" PROPN
 "<이야기를>"
 	"이야기+를" NOUN
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" VERB SELECT:153:r3b
+;	"하+는" AUX SELECT:153:r3b
+;	"하+는" PROPN SELECT:153:r3b
+;	"하+는" PART SELECT:153:r3b
 "<이유는>"
 	"이유+는" NOUN
 "<이렇다>"
@@ -52697,8 +52697,8 @@
 "<장점은>"
 	"장점+은" NOUN
 "<버리는>"
-	"버리+는" VERB
-	"버리+는" AUX
+	"버리+는" VERB SELECT:153:r3b
+;	"버리+는" AUX SELECT:153:r3b
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -52755,14 +52755,14 @@
 "<휩쓸어>"
 	"휩쓸+어" VERB
 "<간다>"
-	"가+ㄴ다" VERB
-	"가+ㄴ다" AUX
+	"가+ㄴ다" AUX SELECT:111:r2c
+;	"가+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<공금융의>"
 	"공금융+의" NOUN
 "<30>"
@@ -52800,9 +52800,9 @@
 "<생산을>"
 	"생산+을" NOUN
 "<하려고>"
-	"하+려고" AUX
-	"하+려고" SCONJ
-	"하+려고" VERB
+	"하+려고" VERB SELECT:153:r3b
+;	"하+려고" AUX SELECT:153:r3b
+;	"하+려고" SCONJ SELECT:153:r3b
 "<땅을>"
 	"땅+을" NOUN
 "<가진>"
@@ -52821,8 +52821,8 @@
 	"말+은" NOUN
 	"말+ㄴ" VERB
 "<줄어든다>"
-	"줄+어+들+ㄴ다" AUX
-	"줄어들+ㄴ다" VERB
+	"줄+어+들+ㄴ다" AUX SELECT:111:r2c
+;	"줄어들+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -52914,14 +52914,14 @@
 "<재벌이>"
 	"재벌+이" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<부동산>"
 	"부동산" NOUN
 	"부+동산" PART
@@ -52969,12 +52969,12 @@
 "<손아귀에>"
 	"손아귀+에" ADV
 "<잡혀>"
-	"잡히+어" VERB SELECT:23:r1
-;	"잡히+어" SCONJ SELECT:23:r1
+	"잡히+어" VERB SELECT:27:r1
+;	"잡히+어" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -53018,9 +53018,9 @@
 "<준비하기까지>"
 	"준비+하+기+까지" ADV
 "<했다>"
-	"하+었+다" AUX
-	"하+었+다" VERB
-	"하+었+다" ADJ
+	"하+었+다" ADJ SELECT:85:r8
+;	"하+었+다" AUX SELECT:85:r8
+;	"하+었+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -53081,11 +53081,11 @@
 "<읽을>"
 	"읽+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -53095,7 +53095,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그>"
 	"그" DET
 	"그" PRON
@@ -53160,14 +53160,14 @@
 "<은행빚을>"
 	"은행빚+을" NOUN
 "<지고>"
-	"지+고" VERB SELECT:27:r1a
-;	"지+고" CCONJ SELECT:27:r1a
-;	"지+고" SCONJ SELECT:27:r1a
+	"지+고" VERB SELECT:31:r1a
+;	"지+고" CCONJ SELECT:31:r1a
+;	"지+고" SCONJ SELECT:31:r1a
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" AUX SELECT:78:r7
+;	"있+다는" ADJ SELECT:78:r7
+;	"있+다는" VERB SELECT:78:r7
+;	"있+다+는" NOUN SELECT:78:r7
 "<점이다>"
 	"점+이+다" VERB
 "<.>"
@@ -53175,7 +53175,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<은행대출의>"
 	"은행+대출+의" NOUN
 "<조건이>"
@@ -53189,13 +53189,13 @@
 "<자금으로>"
 	"자금+으로" ADV
 "<한정되어>"
-	"한정+되+어" VERB SELECT:23:r1
-;	"한정+되+어" SCONJ SELECT:23:r1
+	"한정+되+어" VERB SELECT:27:r1
+;	"한정+되+어" SCONJ SELECT:27:r1
 "<있다는>"
-	"있+다는" AUX SELECT:33:r1b
-;	"있+다는" ADJ SELECT:33:r1b
-;	"있+다는" VERB SELECT:33:r1b
-;	"있+다+는" NOUN SELECT:33:r1b
+	"있+다는" AUX SELECT:37:r1b
+;	"있+다는" ADJ SELECT:37:r1b
+;	"있+다는" VERB SELECT:37:r1b
+;	"있+다+는" NOUN SELECT:37:r1b
 "<사실만은>"
 	"사실+만은" ADV
 	"사실+만+은" NOUN
@@ -53205,10 +53205,10 @@
 "<상기시키고자>"
 	"상기+시키+고자" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -53274,7 +53274,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<민자당과>"
 	"민자당+과" CCONJ
 "<민주당을>"
@@ -53289,9 +53289,9 @@
 "<계속되고>"
 	"계속+되+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -53343,16 +53343,16 @@
 	"절대+적+이+라+고" VERB
 	"절대+적+이+라고" SCONJ
 "<할>"
-	"하+ㄹ" AUX SELECT:33:r1b
-;	"하+ㄹ" VERB SELECT:33:r1b
-;	"살+아야" VERB SELECT:33:r1b
-;	"할" NOUN SELECT:33:r1b
+	"하+ㄹ" AUX SELECT:37:r1b
+;	"하+ㄹ" VERB SELECT:37:r1b
+;	"살+아야" VERB SELECT:37:r1b
+;	"할" NOUN SELECT:37:r1b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -53365,10 +53365,10 @@
 "<대기업도>"
 	"대기업+도" ADV
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<부품을>"
 	"부품+을" NOUN
 "<스스로>"
@@ -53428,15 +53428,15 @@
 "<경우>"
 	"경우" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<대의>"
 	"대+의" NOUN
 	"대의" NOUN
@@ -53458,9 +53458,9 @@
 "<조립하고>"
 	"조립+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -53476,7 +53476,7 @@
 
 "<그런데>"
 	"그런데" CCONJ
-	"그런데" ADV
+;	"그런데" ADV REMOVE:69:r6
 "<일본의>"
 	"일본+의" PROPN
 "<닛산자동차나>"
@@ -53661,11 +53661,11 @@
 "<공급받을>"
 	"공급받+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있기>"
 	"있+기" AUX
 	"있+기" ADJ
@@ -53703,10 +53703,10 @@
 	"되+어야" SCONJ
 	"되+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -53722,9 +53722,9 @@
 "<계열화되어>"
 	"계열화+되+어" VERB
 "<있어>"
-	"있+어" AUX SELECT:57:r5
-;	"있+어" SCONJ SELECT:57:r5
-;	"있+어" ADJ SELECT:57:r5
+	"있+어" AUX SELECT:66:r5
+;	"있+어" SCONJ SELECT:66:r5
+;	"있+어" ADJ SELECT:66:r5
 "<서로>"
 	"서로" NOUN
 	"서로" ADV
@@ -53920,7 +53920,7 @@
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<재벌이>"
 	"재벌+이" NOUN
 "<중소기업에게>"
@@ -53932,10 +53932,10 @@
 	"안" NOUN
 	"알+ㄴ" VERB
 "<주고>"
-	"주+고" AUX
-	"주+고" CCONJ
-	"주+고" SCONJ
-	"주+고" VERB
+	"주+고" AUX SELECT:111:r2c
+;	"주+고" CCONJ SELECT:111:r2c
+;	"주+고" SCONJ SELECT:111:r2c
+;	"주+고" VERB SELECT:111:r2c
 "<어음만>"
 	"어음+만" ADV
 "<끊어준>"
@@ -53959,8 +53959,8 @@
 "<주고>"
 	"주+고" AUX
 	"주+고" CCONJ
-	"주+고" SCONJ
 	"주+고" VERB
+;	"주+고" SCONJ REMOVE:56:r3
 "<사와서>"
 	"사+아+오+아서" SCONJ
 "<대기업에>"
@@ -53984,11 +53984,11 @@
 	"받+ㄹ" VERB
 	"받+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -54060,15 +54060,15 @@
 "<외상거래를>"
 	"외상거래+를" NOUN
 "<하고>"
-	"하+고" VERB SELECT:27:r1a
-;	"하+고" CCONJ SELECT:27:r1a
-;	"하+고" AUX SELECT:27:r1a
-;	"하+고" SCONJ SELECT:27:r1a
-;	"하고" ADP SELECT:27:r1a
+	"하+고" VERB SELECT:31:r1a
+;	"하+고" CCONJ SELECT:31:r1a
+;	"하+고" AUX SELECT:31:r1a
+;	"하+고" SCONJ SELECT:31:r1a
+;	"하고" ADP SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -54138,11 +54138,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -54316,9 +54316,9 @@
 "<질타해야>"
 	"질타+하+어야" VERB
 "<했던>"
-	"하+었+던" AUX
-	"하+었+던" VERB
-	"하+ㅆ+던" AUX
+	"하+었+던" AUX SELECT:111:r2c
+	"하+ㅆ+던" AUX SELECT:111:r2c
+;	"하+었+던" VERB SELECT:111:r2c
 "<구씨의>"
 	"구+씨+의" PROPN
 "<죽음은>"
@@ -54373,15 +54373,15 @@
 	"빚+을" NOUN
 	"빚+ㄹ" VERB
 "<지고>"
-	"지+고" VERB SELECT:27:r1a
-;	"지+고" CCONJ SELECT:27:r1a
-;	"지+고" SCONJ SELECT:27:r1a
+	"지+고" VERB SELECT:31:r1a
+;	"지+고" CCONJ SELECT:31:r1a
+;	"지+고" SCONJ SELECT:31:r1a
 "<있었던>"
-	"있+었+던" AUX SELECT:57:r5
-	"있+었더+ㄴ" AUX SELECT:57:r5
-;	"있+었+던" ADJ SELECT:57:r5
-;	"있+었+더+ㄴ" ADJ SELECT:57:r5
-;	"있+었+ㄴ" ADJ SELECT:57:r5
+	"있+었+던" AUX SELECT:66:r5
+	"있+었더+ㄴ" AUX SELECT:66:r5
+;	"있+었+던" ADJ SELECT:66:r5
+;	"있+었+더+ㄴ" ADJ SELECT:66:r5
+;	"있+었+ㄴ" ADJ SELECT:66:r5
 "<것은>"
 	"것+은" NOUN
 "<사실이다>"
@@ -54482,19 +54482,19 @@
 "<비교해>"
 	"비교+하+어" VERB
 "<볼>"
-	"보+ㄹ" AUX SELECT:33:r1b
-;	"보+ㄹ" VERB SELECT:33:r1b
-;	"볼" NOUN SELECT:33:r1b
+	"보+ㄹ" AUX SELECT:37:r1b
+;	"보+ㄹ" VERB SELECT:37:r1b
+;	"볼" NOUN SELECT:37:r1b
 "<때>"
 	"때" NOUN
 	"때+는" NOUN
 "<쓰러지고>"
 	"쓰러지+고" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<중소기업의>"
 	"중소기업+의" NOUN
 	"중소+기업+의" NOUN
@@ -54529,10 +54529,10 @@
 "<젖줄이라고>"
 	"젖줄+이+라+고" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<중소기업이>"
 	"중소기업+이" NOUN
 "<고통을>"
@@ -54578,8 +54578,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<하나는>"
 	"하나+는" NUM
 	"하나+는" NOUN
@@ -54648,10 +54648,10 @@
 	"있+어야" ADJ
 	"있+어야" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -54671,11 +54671,11 @@
 "<대출받을>"
 	"대출받+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없는>"
 	"없+는" ADJ
 	"없+던" ADJ
@@ -54811,16 +54811,16 @@
 "<중소기업만이>"
 	"중소기업+만+이" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있도록>"
 	"있+도록" SCONJ
 "<정해>"
@@ -54867,13 +54867,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<중>"
 	"중" NOUN
 	"중" PROPN
@@ -54892,12 +54892,12 @@
 "<이미>"
 	"이미" ADV
 "<진출하고>"
-	"진출+하+고" VERB SELECT:23:r1
-;	"진출+하+고" CCONJ SELECT:23:r1
+	"진출+하+고" VERB SELECT:27:r1
+;	"진출+하+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -54931,11 +54931,11 @@
 "<발전할>"
 	"발전+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다고>"
 	"없+다+고" VERB
 	"없+다고" SCONJ
@@ -54959,11 +54959,11 @@
 "<치료할>"
 	"치료+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을까>"
 	"있+ㄹ까" ADJ
 	"있+ㄹ까" VERB
@@ -54991,9 +54991,9 @@
 "<수탈하고>"
 	"수탈+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -55015,18 +55015,18 @@
 "<독점재벌이>"
 	"독점재벌+이" NOUN
 "<지배하고>"
-	"지배+하+고" VERB SELECT:27:r1a
-;	"지배+하+고" CCONJ SELECT:27:r1a
+	"지배+하+고" VERB SELECT:31:r1a
+;	"지배+하+고" CCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<나라의>"
 	"나라+의" NOUN
 "<일반적인>"
@@ -55049,23 +55049,23 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<문제를>"
 	"문제+를" NOUN
 "<고칠>"
 	"고치+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -55114,8 +55114,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<하나는>"
 	"하나+는" NUM
 	"하나+는" NOUN
@@ -55221,9 +55221,9 @@
 "<통치를>"
 	"통치+를" NOUN
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" VERB SELECT:153:r3b
+;	"하+지" AUX SELECT:153:r3b
+;	"하지" NOUN SELECT:153:r3b
 "<않는다는>"
 	"않+는다는" AUX
 	"않+ㄴ다는" AUX
@@ -55265,15 +55265,15 @@
 	"적+이" NOUN
 	"적이" ADV
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" ADJ SELECT:85:r8
+;	"있+다" AUX SELECT:85:r8
+;	"있+다" VERB SELECT:85:r8
 "<.>"
 	"." PUNCT
 
 "<즉>"
 	"즉" CCONJ
-	"즉" ADV
+;	"즉" ADV REMOVE:69:r6
 "<분배>"
 	"분배" NOUN
 "<,>"
@@ -55310,13 +55310,13 @@
 "<자산이>"
 	"자산+이" NOUN
 "<되고>"
-	"되+고" VERB SELECT:27:r1a
-;	"되+고" CCONJ SELECT:27:r1a
+	"되+고" VERB SELECT:31:r1a
+;	"되+고" CCONJ SELECT:31:r1a
 "<있다는>"
-	"있+다는" ADJ
-	"있+다는" AUX
-	"있+다는" VERB
-	"있+다+는" NOUN
+	"있+다는" AUX SELECT:78:r7
+;	"있+다는" ADJ SELECT:78:r7
+;	"있+다는" VERB SELECT:78:r7
+;	"있+다+는" NOUN SELECT:78:r7
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -55411,9 +55411,9 @@
 "<빠지지>"
 	"빠지+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<개인이>"
 	"개인+이" NOUN
 "<잘>"
@@ -55446,11 +55446,11 @@
 "<우선을>"
 	"우선+을" NOUN
 "<두고>"
-	"두+고" AUX
-	"두+고" VERB
-	"두+고" CCONJ
-	"두+고" SCONJ
-	"두고" PROPN
+	"두+고" VERB SELECT:153:r3b
+;	"두+고" AUX SELECT:153:r3b
+;	"두+고" CCONJ SELECT:153:r3b
+;	"두+고" SCONJ SELECT:153:r3b
+;	"두고" PROPN SELECT:153:r3b
 "<정부>"
 	"정부" NOUN
 "<관리는>"
@@ -55483,11 +55483,11 @@
 "<발전할>"
 	"발전+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -55520,8 +55520,8 @@
 "<만들지>"
 	"만들+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<것은>"
 	"것+은" NOUN
 "<가능하다>"
@@ -55546,21 +55546,21 @@
 "<참여할>"
 	"참여+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있게>"
 	"있+게" ADJ
 	"있+게" SCONJ
 	"있+게" VERB
 	"있+게" AUX
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것도>"
 	"것+도" ADV
 "<가능하다>"
@@ -55610,9 +55610,9 @@
 "<살게>"
 	"살+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -55623,16 +55623,16 @@
 "<부패하지>"
 	"부패+하+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<뇌물을>"
 	"뇌물+을" NOUN
 "<받지>"
 	"받+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<게>"
 	"게" NOUN
 	"거+이" NOUN
@@ -55732,16 +55732,16 @@
 "<구분했다고>"
 	"구분+하+었+다+고" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<그러면서>"
 	"그러면서" CCONJ
-	"그러+면서" SCONJ
+;	"그러+면서" SCONJ REMOVE:56:r3
 "<강력하게>"
 	"강력+하+게" SCONJ
 "<금융실명제를>"
@@ -55771,8 +55771,8 @@
 	"모두" NOUN
 	"모두" PRON
 "<망할>"
-	"망하+ㄹ" VERB SELECT:23:r1
-;	"나라+는" NOUN SELECT:23:r1
+	"망하+ㄹ" VERB SELECT:27:r1
+;	"나라+는" NOUN SELECT:27:r1
 "<판이니까>"
 	"판+이+니까" SCONJ
 "<그런>"
@@ -55932,9 +55932,9 @@
 "<살게>"
 	"살+게" VERB
 "<만들고>"
-	"만들+고" AUX SELECT:33:r1b
-;	"만들+고" VERB SELECT:33:r1b
-;	"만들+고" CCONJ SELECT:33:r1b
+	"만들+고" AUX SELECT:37:r1b
+;	"만들+고" VERB SELECT:37:r1b
+;	"만들+고" CCONJ SELECT:37:r1b
 "<나라를>"
 	"나라+를" NOUN
 "<부강하게>"
@@ -55969,24 +55969,24 @@
 "<이루지>"
 	"이루+지" VERB
 "<못할>"
-	"못하+ㄹ" AUX
-	"못하+ㄹ" VERB
-	"못하+ㄹ" ADJ
+	"못하+ㄹ" AUX SELECT:78:r7
+;	"못하+ㄹ" VERB SELECT:78:r7
+;	"못하+ㄹ" ADJ SELECT:78:r7
 "<것이라는>"
 	"것+이+라는" VERB
 "<점만>"
 	"점+만" ADV
 "<말해>"
-	"말하+어" VERB SELECT:23:r1
-;	"말하+어" SCONJ SELECT:23:r1
+	"말하+어" VERB SELECT:27:r1
+;	"말하+어" SCONJ SELECT:27:r1
 "<두려고>"
-	"두+려고" AUX
-	"두+려고" VERB
+	"두+려고" AUX SELECT:111:r2c
+;	"두+려고" VERB SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -56080,9 +56080,9 @@
 	"." PUNCT
 
 "<그>"
-	"그" ADJ SELECT:52:r4
-;	"그" DET SELECT:52:r4
-;	"그" PRON SELECT:52:r4
+	"그" ADJ SELECT:61:r4
+;	"그" DET SELECT:61:r4
+;	"그" PRON SELECT:61:r4
 "<때문에>"
 	"때문+에" ADV
 	"때문에" CCONJ
@@ -56110,10 +56110,10 @@
 "<사줘야>"
 	"사+아+주+어야" AUX
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:132:r2g
+;	"하+ㄹ" VERB SELECT:132:r2g
+;	"살+아야" VERB SELECT:132:r2g
+;	"할" NOUN SELECT:132:r2g
 "<중소기업과>"
 	"중소기업+과" CCONJ
 "<노동자들이>"
@@ -56121,8 +56121,8 @@
 "<재벌이>"
 	"재벌+이" NOUN
 "<만든>"
-	"만들+ㄴ" VERB
-	"만들+ㄴ" AUX
+	"만들+ㄴ" VERB SELECT:153:r3b
+;	"만들+ㄴ" AUX SELECT:153:r3b
 "<물건을>"
 	"물건+을" NOUN
 "<살>"
@@ -56258,16 +56258,16 @@
 "<개발할>"
 	"개발+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<능력을>"
 	"능력+을" NOUN
 "<측정하는>"
@@ -56342,16 +56342,16 @@
 "<국제경쟁력이>"
 	"국제+경쟁력+이" NOUN
 "<떨어지는>"
-	"떨어지+는" VERB
-	"떨+어+지+는" AUX
+	"떨어지+는" VERB SELECT:153:r3b
+;	"떨+어+지+는" AUX SELECT:153:r3b
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<현상은>"
 	"현상+은" NOUN
 "<금방>"
@@ -56387,19 +56387,19 @@
 "<생산활동을>"
 	"생산활동+을" NOUN
 "<해야>"
-	"하+어야" VERB
-	"하+어야" AUX
-	"하+어야" SCONJ
+	"하+어야" VERB SELECT:153:r3b
+;	"하+어야" AUX SELECT:153:r3b
+;	"하+어야" SCONJ SELECT:153:r3b
 "<기술을>"
 	"기술+을" NOUN
 "<개발할>"
 	"개발+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -56435,10 +56435,10 @@
 	"하+어야" AUX
 	"하+어야" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -56459,10 +56459,10 @@
 "<당해야>"
 	"당하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -56502,11 +56502,11 @@
 "<감당할>"
 	"감당+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
 	"있+ㄹ" ADJ
 	"있+ㄹ" AUX
@@ -56529,10 +56529,10 @@
 "<감당하려>"
 	"감당+하+려" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것인가>"
 	"것+이+ㄴ가" VERB
 	"것+이+ㄴ가" SCONJ
@@ -56564,10 +56564,10 @@
 "<감당하려>"
 	"감당+하+려" VERB
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" AUX SELECT:111:r2c
+;	"하+ㄹ" VERB SELECT:111:r2c
+;	"살+아야" VERB SELECT:111:r2c
+;	"할" NOUN SELECT:111:r2c
 "<것인가>"
 	"것+이+ㄴ가" VERB
 	"것+이+ㄴ가" SCONJ
@@ -56587,12 +56587,12 @@
 "<톱니바퀴처럼>"
 	"톱니+바퀴+처럼" ADV
 "<맞물려>"
-	"맞물리+어" VERB SELECT:23:r1
-;	"맞물리+어" SCONJ SELECT:23:r1
+	"맞물리+어" VERB SELECT:27:r1
+;	"맞물리+어" SCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -56601,14 +56601,14 @@
 "<지도자를>"
 	"지도자+를" NOUN
 "<가지고>"
-	"가지+고" VERB SELECT:27:r1a
-;	"가지+고" CCONJ SELECT:27:r1a
-;	"가지+고" SCONJ SELECT:27:r1a
+	"가지+고" VERB SELECT:31:r1a
+;	"가지+고" CCONJ SELECT:31:r1a
+;	"가지+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<국민은>"
 	"국민+은" NOUN
 "<어려움을>"
@@ -56617,9 +56617,9 @@
 "<감당하려>"
 	"감당+하+려" VERB
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" AUX SELECT:111:r2c
+;	"하+지" VERB SELECT:111:r2c
+;	"하지" NOUN SELECT:111:r2c
 "<않는다>"
 	"않+는다" AUX
 "<.>"
@@ -56641,22 +56641,22 @@
 "<개선하려>"
 	"개선+하+려" VERB
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" AUX SELECT:111:r2c
+;	"하+지" VERB SELECT:111:r2c
+;	"하지" NOUN SELECT:111:r2c
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<개선은>"
 	"개선+은" NOUN
 "<불가능하다>"
@@ -56690,11 +56690,11 @@
 "<기대할>"
 	"기대+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -56708,13 +56708,13 @@
 "<정부가>"
 	"정부+가" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<작업에>"
 	"작업+에" ADV
 "<착수할지도>"
@@ -56793,7 +56793,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<전두환에게는>"
 	"전두환+에게+는" PROPN
 "<그>"
@@ -56941,11 +56941,11 @@
 "<택할>"
 	"택하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -56978,10 +56978,10 @@
 "<채택하는>"
 	"채택+하+는" VERB
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<방법은>"
 	"방법+은" NOUN
 "<근로대중의>"
@@ -57025,11 +57025,11 @@
 	"살+아야" VERB
 	"할" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다>"
 	"있+다" AUX
 	"있+다" ADJ
@@ -57056,8 +57056,8 @@
 "<정책이>"
 	"정책+이" NOUN
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" VERB SELECT:153:r3b
+;	"되+는" AUX SELECT:153:r3b
 "<경우가>"
 	"경우+가" NOUN
 "<많다>"
@@ -57124,7 +57124,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<현재>"
 	"현재" NOUN
 	"현재" ADV
@@ -57160,13 +57160,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -57214,18 +57214,18 @@
 "<서비스직으로>"
 	"서비스직+으로" ADV
 "<옮기고>"
-	"옮기+고" VERB SELECT:23:r1
-;	"옮기+고" CCONJ SELECT:23:r1
+	"옮기+고" VERB SELECT:27:r1
+;	"옮기+고" CCONJ SELECT:27:r1
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<이것은>"
 	"이것+은" PRON
 "<사람이면>"
@@ -57234,10 +57234,10 @@
 	"당연+하+ㄴ" VERB
 	"당연하+ㄴ" ADJ
 "<일>"
-	"일" NOUN
-	"이+ㄹ" ADP
-	"일" NUM
-	"일" PROPN
+	"일" NOUN SELECT:141:r2i
+;	"이+ㄹ" ADP SELECT:141:r2i
+;	"일" NUM SELECT:141:r2i
+;	"일" PROPN SELECT:141:r2i
 "<아닌가>"
 	"아니+ㄴ가" ADJ
 	"아니+ㄴ가" SCONJ
@@ -57328,15 +57328,15 @@
 "<제조업에>"
 	"제조업+에" ADV
 "<남아>"
-	"남+아" VERB SELECT:23:r1
-;	"남+아" ADJ SELECT:23:r1
-;	"남+아" SCONJ SELECT:23:r1
+	"남+아" VERB SELECT:27:r1
+;	"남+아" ADJ SELECT:27:r1
+;	"남+아" SCONJ SELECT:27:r1
 "<있을>"
-	"있+ㄹ" AUX SELECT:33:r1b
-	"있+을" AUX SELECT:33:r1b
-;	"있+ㄹ" ADJ SELECT:33:r1b
-;	"있+을" ADJ SELECT:33:r1b
-;	"있+ㄹ" VERB SELECT:33:r1b
+	"있+ㄹ" AUX SELECT:37:r1b
+	"있+을" AUX SELECT:37:r1b
+;	"있+ㄹ" ADJ SELECT:37:r1b
+;	"있+을" ADJ SELECT:37:r1b
+;	"있+ㄹ" VERB SELECT:37:r1b
 "<이유가>"
 	"이유+가" NOUN
 "<무엇인가>"
@@ -57372,9 +57372,9 @@
 "<살게>"
 	"살+게" VERB
 "<된다는>"
-	"되+ㄴ다는" AUX SELECT:33:r1b
-;	"되+ㄴ다는" VERB SELECT:33:r1b
-;	"되+는" VERB SELECT:33:r1b
+	"되+ㄴ다는" AUX SELECT:37:r1b
+;	"되+ㄴ다는" VERB SELECT:37:r1b
+;	"되+는" VERB SELECT:37:r1b
 "<확신이>"
 	"확신+이" NOUN
 "<생기면>"
@@ -57408,11 +57408,11 @@
 	"받+ㄹ" VERB
 	"받+을" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있다면>"
 	"있+다면" SCONJ
 "<그>"
@@ -57456,10 +57456,10 @@
 "<어려워졌다고>"
 	"어렵+어+지+었+다+고" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -57472,10 +57472,10 @@
 	"않+고" AUX
 	"않+고" SCONJ
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<책임을>"
 	"책임+을" NOUN
 "<노동자에게>"
@@ -57507,10 +57507,10 @@
 "<만들려>"
 	"만들+려" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -57528,10 +57528,10 @@
 "<발달해야>"
 	"발달+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -57541,9 +57541,9 @@
 "<발달해야>"
 	"발달+하+어야" VERB
 "<한다는>"
-	"하+ㄴ다는" AUX SELECT:33:r1b
-;	"하+ㄴ다는" VERB SELECT:33:r1b
-;	"하+ㄴ다+는" NOUN SELECT:33:r1b
+	"하+ㄴ다는" AUX SELECT:37:r1b
+;	"하+ㄴ다는" VERB SELECT:37:r1b
+;	"하+ㄴ다+는" NOUN SELECT:37:r1b
 "<말은>"
 	"말+은" NOUN
 	"말+ㄴ" VERB
@@ -57625,13 +57625,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<기술은>"
 	"기술+은" NOUN
 "<마치>"
@@ -57721,9 +57721,9 @@
 	"되+지" VERB
 	"되+지" AUX
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<노동자가>"
 	"노동자+가" NOUN
 "<현장에서>"
@@ -57745,9 +57745,9 @@
 "<그리고>"
 	"그리+고" VERB
 	"그리고" CCONJ
-	"그리고" ADV
 	"길+ㄴ" ADJ
 	"그리+고" SCONJ
+;	"그리고" ADV REMOVE:69:r6
 "<개발된>"
 	"개발+되+ㄴ" VERB
 "<기술도>"
@@ -57769,11 +57769,11 @@
 "<쓸>"
 	"쓰+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -57868,13 +57868,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<로봇은>"
 	"로봇+은" NOUN
 "<프로그래머가>"
@@ -57913,13 +57913,13 @@
 "<로봇은>"
 	"로봇+은" NOUN
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<입력받아>"
 	"입력받+아" SCONJ
 "<그대로>"
@@ -57962,7 +57962,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<일본의>"
 	"일본+의" PROPN
 "<이러한>"
@@ -57997,7 +57997,7 @@
 
 "<다만>"
 	"다만" CCONJ
-	"다만" ADV
+;	"다만" ADV REMOVE:69:r6
 "<일본식>"
 	"일본식" NOUN
 	"일본+식" NOUN
@@ -58065,9 +58065,9 @@
 "<쏟아붓고>"
 	"쏟아붓+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -58089,11 +58089,11 @@
 "<이용할>"
 	"이용+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는지는>"
 	"있+는지+는" NOUN
 	"있+는지" SCONJ
@@ -58148,21 +58148,21 @@
 	"중" NOUN
 	"중" PROPN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<곳도>"
 	"곳+도" ADV
 "<안된다>"
-	"안되+ㄴ다" VERB
-	"안되+ㄴ다" ADJ
-	"안되+ㄴ다" AUX
+	"안되+ㄴ다" ADJ SELECT:85:r8
+;	"안되+ㄴ다" VERB SELECT:85:r8
+;	"안되+ㄴ다" AUX SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -58215,10 +58215,10 @@
 "<일을>"
 	"일+을" NOUN
 "<할>"
-	"하+ㄹ" AUX
-	"하+ㄹ" VERB
-	"살+아야" VERB
-	"할" NOUN
+	"하+ㄹ" VERB SELECT:153:r3b
+	"살+아야" VERB SELECT:153:r3b
+;	"하+ㄹ" AUX SELECT:153:r3b
+;	"할" NOUN SELECT:153:r3b
 "<수가>"
 	"수+가" NOUN
 "<있다는>"
@@ -58284,7 +58284,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<보람도>"
 	"보람+도" ADV
 "<없는>"
@@ -58333,22 +58333,22 @@
 	"일하+ㄹ" VERB
 	"일+하+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<여건을>"
 	"여건+을" NOUN
 "<만들고>"
-	"만들+고" VERB
-	"만들+고" CCONJ
-	"만들+고" AUX
+	"만들+고" VERB SELECT:153:r3b
+;	"만들+고" CCONJ SELECT:153:r3b
+;	"만들+고" AUX SELECT:153:r3b
 "<노동자가>"
 	"노동자+가" NOUN
 "<주인이>"
@@ -58369,10 +58369,10 @@
 	"하+어도" SCONJ
 	"해도" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -58419,10 +58419,10 @@
 "<해두어야>"
 	"하+어+두+어야" AUX
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
@@ -58441,10 +58441,10 @@
 "<재벌회사의>"
 	"재벌회사+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<생산수단을>"
 	"생산수단+을" NOUN
 	"생산+수단+을" NOUN
@@ -58504,25 +58504,25 @@
 	"되+게" VERB
 	"되+게" SCONJ
 "<해야>"
-	"하+어야" VERB
-	"하+어야" AUX
-	"하+어야" SCONJ
+	"하+어야" AUX SELECT:111:r2c
+;	"하+어야" VERB SELECT:111:r2c
+;	"하+어야" SCONJ SELECT:111:r2c
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:132:r2g
+	"하+다" AUX SELECT:132:r2g
+;	"하+ㄴ다" VERB SELECT:132:r2g
+;	"하+ㄴ다" SCONJ SELECT:132:r2g
 "<.>"
 	"." PUNCT
 
 "<이를>"
-	"이+를" PRON
-	"이르+ㄹ" VERB
-	"이+를" NOUN
-	"이+를" PROPN
-	"이르+ㄹ" ADJ
-	"이+들" NOUN
-	"이+을" PRON
+	"이+를" PRON SELECT:158:r3c
+	"이+을" PRON SELECT:158:r3c
+;	"이르+ㄹ" VERB SELECT:158:r3c
+;	"이+를" NOUN SELECT:158:r3c
+;	"이+를" PROPN SELECT:158:r3c
+;	"이르+ㄹ" ADJ SELECT:158:r3c
+;	"이+들" NOUN SELECT:158:r3c
 "<우리는>"
 	"우리+는" PRON
 	"우리+는" NOUN
@@ -58551,9 +58551,9 @@
 "<압축하고>"
 	"압축+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -58576,7 +58576,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<재벌회사의>"
 	"재벌회사+의" NOUN
 "<공장은>"
@@ -58615,9 +58615,9 @@
 "<국민기업이라고>"
 	"국민+기업+이+라+고" VERB
 "<부르고>"
-	"부르+고" CCONJ
-	"부르+고" VERB
-	"부르+고" SCONJ
+	"부르+고" CCONJ SELECT:128:r2e
+;	"부르+고" VERB SELECT:128:r2e
+;	"부르+고" SCONJ SELECT:128:r2e
 "<재산을>"
 	"재산+을" NOUN
 "<사회에>"
@@ -58625,10 +58625,10 @@
 "<환원한다고>"
 	"환원+하+ㄴ다+고" VERB
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -58649,9 +58649,9 @@
 "<환원한다>"
 	"환원+하+ㄴ다" VERB
 "<하지>"
-	"하+지" VERB
-	"하+지" AUX
-	"하지" NOUN
+	"하+지" AUX SELECT:111:r2c
+;	"하+지" VERB SELECT:111:r2c
+;	"하지" NOUN SELECT:111:r2c
 "<말고>"
 	"말+고" CCONJ
 	"말+고" SCONJ
@@ -58662,8 +58662,8 @@
 "<해보라고>"
 	"하+어+보+라+고" VERB
 "<주장하고>"
-	"주장+하+고" VERB
-	"주장+하+고" CCONJ
+	"주장+하+고" CCONJ SELECT:128:r2e
+;	"주장+하+고" VERB SELECT:128:r2e
 "<싶다>"
 	"싶+다" AUX
 "<.>"
@@ -58715,10 +58715,10 @@
 "<순종에게>"
 	"순종+에게" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -58862,10 +58862,10 @@
 "<15세기>"
 	"15+세기" NOUN
 "<내지>"
-	"내+지" VERB
-	"내지" CCONJ
-	"내+지" AUX
-	"내지" ADV
+	"내+지" VERB SELECT:153:r3b
+;	"내지" CCONJ SELECT:153:r3b
+;	"내+지" AUX SELECT:153:r3b
+;	"내지" ADV SELECT:153:r3b
 "<17세기>"
 	"17+세기" NOUN
 "<이상에>"
@@ -58876,19 +58876,19 @@
 "<한나라의>"
 	"한나라+의" PROPN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<재산은>"
 	"재산+은" NOUN
 "<왕에게>"
 	"왕+에게" ADV
 "<있었다>"
-	"있+었+다" ADJ
-	"있+었+다" AUX
-	"있+었+다" VERB
-	"있+었+다" SCONJ
+	"있+었+다" ADJ SELECT:85:r8
+;	"있+었+다" AUX SELECT:85:r8
+;	"있+었+다" VERB SELECT:85:r8
+;	"있+었+다" SCONJ SELECT:85:r8
 "<.>"
 	"." PUNCT
 
@@ -58964,10 +58964,10 @@
 "<국민에게>"
 	"국민+에게" ADV
 "<있는>"
-	"있+는" VERB SELECT:23:r1
-;	"있+는" ADJ SELECT:23:r1
-;	"있+는" AUX SELECT:23:r1
-;	"있+ㄴ" ADJ SELECT:23:r1
+	"있+는" VERB SELECT:27:r1
+;	"있+는" ADJ SELECT:27:r1
+;	"있+는" AUX SELECT:27:r1
+;	"있+ㄴ" ADJ SELECT:27:r1
 "<것이다>"
 	"것+이+다" VERB
 	"것+이+다" SCONJ
@@ -59061,10 +59061,10 @@
 "<옛날>"
 	"옛날" NOUN
 "<일>"
-	"일" NOUN
-	"이+ㄹ" ADP
-	"일" NUM
-	"일" PROPN
+	"일" NOUN SELECT:141:r2i
+;	"이+ㄹ" ADP SELECT:141:r2i
+;	"일" NUM SELECT:141:r2i
+;	"일" PROPN SELECT:141:r2i
 "<같은데>"
 	"같+ㄴ데" SCONJ
 	"같+은데" SCONJ
@@ -59155,8 +59155,8 @@
 "<변하지>"
 	"변하+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -59253,8 +59253,8 @@
 	"사회주의+라고" VERB
 	"사회주의+이+라+고" VERB
 "<본다>"
-	"보+ㄴ다" AUX
-	"보+ㄴ다" VERB
+	"보+ㄴ다" AUX SELECT:111:r2c
+;	"보+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -59426,9 +59426,9 @@
 "<가리지>"
 	"가리+지" VERB
 "<않고>"
-	"않+고" AUX SELECT:57:r5
-;	"않+고" CCONJ SELECT:57:r5
-;	"않+고" SCONJ SELECT:57:r5
+	"않+고" AUX SELECT:66:r5
+;	"않+고" CCONJ SELECT:66:r5
+;	"않+고" SCONJ SELECT:66:r5
 "<민주주의가>"
 	"민주주의+가" NOUN
 "<좋다>"
@@ -59466,8 +59466,8 @@
 "<주인이>"
 	"주인+이" NOUN
 "<되는>"
-	"되+는" AUX
-	"되+는" VERB
+	"되+는" VERB SELECT:153:r3b
+;	"되+는" AUX SELECT:153:r3b
 "<경제체제가>"
 	"경제체제+가" NOUN
 	"경제+체제+가" NOUN
@@ -59523,10 +59523,10 @@
 "<나쁘다고>"
 	"나쁘+다+고" VERB
 "<하는>"
-	"하+는" AUX SELECT:33:r1b
-;	"하+는" VERB SELECT:33:r1b
-;	"하+는" PROPN SELECT:33:r1b
-;	"하+는" PART SELECT:33:r1b
+	"하+는" AUX SELECT:37:r1b
+;	"하+는" VERB SELECT:37:r1b
+;	"하+는" PROPN SELECT:37:r1b
+;	"하+는" PART SELECT:37:r1b
 "<것이>"
 	"것+이" NOUN
 	"것+이" PRON
@@ -59664,10 +59664,10 @@
 "<노릇을>"
 	"노릇+을" NOUN
 "<해>"
-	"해" NOUN
-	"하+어" AUX
-	"하+어" VERB
-	"하+어" SCONJ
+	"하+어" VERB SELECT:153:r3b
+;	"해" NOUN SELECT:153:r3b
+;	"하+어" AUX SELECT:153:r3b
+;	"하+어" SCONJ SELECT:153:r3b
 "<빅>"
 	"빅" NOUN
 "<스타가>"
@@ -59692,24 +59692,24 @@
 "<주름잡은>"
 	"주름잡+은" VERB
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<카포네를>"
 	"카포네+를" PROPN
 "<주인공으로>"
 	"주인공+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<영화들이>"
 	"영화+들+이" NOUN
 "<쏟아져>"
@@ -59718,8 +59718,8 @@
 	"쏟+아+지+어" SCONJ
 	"쏟아지+어" VERB
 "<나왔다>"
-	"나오+았+다" VERB
-	"나오+았+다" AUX
+	"나오+았+다" AUX SELECT:111:r2c
+;	"나오+았+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -59737,13 +59737,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<시대는>"
 	"시대+는" NOUN
 "<험프리>"
@@ -59771,10 +59771,10 @@
 "<달리고>"
 	"달리+고" VERB
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<시대이다>"
 	"시대+이+다" VERB
 "<.>"
@@ -59782,7 +59782,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<몇>"
 	"몇" ADJ
 	"몇" NUM
@@ -59828,9 +59828,9 @@
 	"치+게" VERB
 	"치+게" SCONJ
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -59850,8 +59850,8 @@
 	"잘" ADV
 	"자+ㄹ" VERB
 "<만든>"
-	"만들+ㄴ" VERB
-	"만들+ㄴ" AUX
+	"만들+ㄴ" AUX SELECT:111:r2c
+;	"만들+ㄴ" VERB SELECT:111:r2c
 "<갱에>"
 	"갱+에" ADV
 "<대한>"
@@ -59877,9 +59877,9 @@
 	"가" PROPN
 	"가+아" AUX
 "<나와>"
-	"나오+아" VERB
-	"나오+아" SCONJ
-	"나+와" CCONJ
+	"나+와" CCONJ SELECT:128:r2e
+;	"나오+아" VERB SELECT:128:r2e
+;	"나오+아" SCONJ SELECT:128:r2e
 "<그야말로>"
 	"그야말로" ADV
 "<빅>"
@@ -59887,10 +59887,10 @@
 "<히트를>"
 	"히트+를" NOUN
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" VERB SELECT:92:r9
+;	"하+ㄴ다" AUX SELECT:92:r9
+;	"하+ㄴ다" SCONJ SELECT:92:r9
+;	"하+다" AUX SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -59901,17 +59901,17 @@
 "<기총소사로>"
 	"기총소사+로" ADV
 "<온>"
-	"온" ADJ
-	"오+ㄴ" AUX
-	"오+ㄴ" VERB
-	"온" NOUN
+	"온" ADJ SELECT:85:r8
+;	"오+ㄴ" AUX SELECT:85:r8
+;	"오+ㄴ" VERB SELECT:85:r8
+;	"온" NOUN SELECT:85:r8
 "<몸이>"
 	"몸+이" NOUN
 "<벌집이>"
 	"벌집+이" NOUN
 "<된>"
-	"되+ㄴ" VERB
-	"되+ㄴ" AUX
+	"되+ㄴ" VERB SELECT:153:r3b
+;	"되+ㄴ" AUX SELECT:153:r3b
 "<채>"
 	"채" NOUN
 	"채" ADV
@@ -60004,7 +60004,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<윌리엄>"
 	"윌리엄" PROPN
 "<웰만이>"
@@ -60012,25 +60012,25 @@
 "<감독한>"
 	"감독+하+ㄴ" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화는>"
 	"영화+는" NOUN
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<갱스터가>"
 	"갱스터+가" NOUN
 "<어떻게>"
@@ -60054,14 +60054,14 @@
 	"보이+어" VERB
 	"보이+어" SCONJ
 "<주고>"
-	"주+고" AUX
-	"주+고" CCONJ
-	"주+고" SCONJ
-	"주+고" VERB
+	"주+고" AUX SELECT:111:r2c
+;	"주+고" CCONJ SELECT:111:r2c
+;	"주+고" SCONJ SELECT:111:r2c
+;	"주+고" VERB SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -60120,10 +60120,10 @@
 "<감독이>"
 	"감독+이" NOUN
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<파치노를>"
 	"파치노+를" PROPN
 "<기용>"
@@ -60171,13 +60171,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<단편은>"
 	"단편+은" NOUN
 "<1964년>"
@@ -60388,10 +60388,10 @@
 "<배어>"
 	"배+어" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<마피아>"
 	"마피아" PROPN
 	"마피아" NOUN
@@ -60438,14 +60438,14 @@
 "<자본주의가>"
 	"자본주의+가" NOUN
 "<갖고>"
-	"갖+고" VERB SELECT:27:r1a
-;	"갖+고" CCONJ SELECT:27:r1a
-;	"갖+고" SCONJ SELECT:27:r1a
+	"갖+고" VERB SELECT:31:r1a
+;	"갖+고" CCONJ SELECT:31:r1a
+;	"갖+고" SCONJ SELECT:31:r1a
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<악몽>"
 	"악몽" NOUN
 "<같은>"
@@ -60456,9 +60456,9 @@
 "<연결시키고>"
 	"연결+시키+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -60569,10 +60569,10 @@
 "<감상해야>"
 	"감상+하+어야" VERB
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -60592,10 +60592,10 @@
 "<칭송받고>"
 	"칭송받+고" VERB
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" AUX SELECT:78:r7
+;	"있+는" ADJ SELECT:78:r7
+;	"있+는" VERB SELECT:78:r7
+;	"있+ㄴ" ADJ SELECT:78:r7
 "<작품으로>"
 	"작품+으로" ADV
 "<1편과>"
@@ -60643,8 +60643,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<뉴욕>"
 	"뉴욕" PROPN
 "<명소로는>"
@@ -60694,10 +60694,10 @@
 "<응시하던>"
 	"응시+하+던" VERB
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<파치노의>"
 	"파치노+의" PROPN
 "<표정은>"
@@ -60739,14 +60739,14 @@
 "<뉴욕에>"
 	"뉴욕+에" ADV
 "<살고>"
-	"살+고" VERB SELECT:23:r1
-;	"살+고" CCONJ SELECT:23:r1
-;	"살+고" SCONJ SELECT:23:r1
+	"살+고" VERB SELECT:27:r1
+;	"살+고" CCONJ SELECT:27:r1
+;	"살+고" SCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<이제>"
 	"이제" ADV
 	"이제" NOUN
@@ -60764,10 +60764,10 @@
 "<가족의>"
 	"가족+의" NOUN
 "<모든>"
-	"모든" ADJ
-	"모든" DET
-	"모든" NUM
-	"모든" ADV
+	"모든" ADJ SELECT:116:r2d
+;	"모든" DET SELECT:116:r2d
+;	"모든" NUM SELECT:116:r2d
+;	"모든" ADV SELECT:116:r2d
 "<사업을>"
 	"사업+을" NOUN
 "<합법화시킬>"
@@ -60819,8 +60819,8 @@
 "<신성하지>"
 	"신성+하+지" VERB
 "<못한>"
-	"못하+ㄴ" AUX SELECT:33:r1b
-;	"못하+ㄴ" VERB SELECT:33:r1b
+	"못하+ㄴ" AUX SELECT:37:r1b
+;	"못하+ㄴ" VERB SELECT:37:r1b
 "<재정담당>"
 	"재정담당" NOUN
 "<대주교>"
@@ -60871,9 +60871,9 @@
 "<폭발하게>"
 	"폭발+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -60925,13 +60925,13 @@
 	"바로" ADV
 	"바로" ADJ
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<같은>"
 	"같+ㄴ" ADJ
 	"같+은" ADJ
@@ -61020,15 +61020,15 @@
 "<변하게>"
 	"변하+게" VERB
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"하+ㄴ" AUX SELECT:78:r7
+	"있+ㄴ" AUX SELECT:78:r7
+;	"한" NUM SELECT:78:r7
+;	"하+ㄴ" VERB SELECT:78:r7
+;	"한" NOUN SELECT:78:r7
+;	"하+ㄴ" PART SELECT:78:r7
+;	"한" ADJ SELECT:78:r7
+;	"한" PROPN SELECT:78:r7
+;	"한" DET SELECT:78:r7
 "<갑작스런>"
 	"갑작스럽+ㄴ" ADJ
 "<동기요>"
@@ -61061,13 +61061,13 @@
 	"적+이" NOUN
 	"적이" ADV
 "<없다고>"
-	"없+다+고" VERB SELECT:23:r1
-;	"없+다고" SCONJ SELECT:23:r1
+	"없+다+고" VERB SELECT:27:r1
+;	"없+다고" SCONJ SELECT:27:r1
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -61116,13 +61116,13 @@
 "<흥미를>"
 	"흥미+를" NOUN
 "<느끼고>"
-	"느끼+고" VERB SELECT:27:r1a
-;	"느끼+고" CCONJ SELECT:27:r1a
-;	"느끼+고" SCONJ SELECT:27:r1a
+	"느끼+고" VERB SELECT:31:r1a
+;	"느끼+고" CCONJ SELECT:31:r1a
+;	"느끼+고" SCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -61173,11 +61173,11 @@
 "<아닐>"
 	"아니+ㄹ" ADJ
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<없다>"
 	"없+다" ADJ
 "<.>"
@@ -61207,10 +61207,10 @@
 	"내놓+아야" VERB
 	"내+어+놓+아야" AUX
 "<하는>"
-	"하+는" AUX
-	"하+는" VERB
-	"하+는" PROPN
-	"하+는" PART
+	"하+는" AUX SELECT:111:r2c
+;	"하+는" VERB SELECT:111:r2c
+;	"하+는" PROPN SELECT:111:r2c
+;	"하+는" PART SELECT:111:r2c
 "<것도>"
 	"것+도" ADV
 "<또>"
@@ -61258,9 +61258,9 @@
 "<썩고>"
 	"썩+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -61326,9 +61326,9 @@
 "<올라앉아>"
 	"올라앉+아" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -61346,15 +61346,15 @@
 "<함께>"
 	"함께" ADV
 "<일하고>"
-	"일하+고" VERB SELECT:23:r1
-	"일+하+고" VERB SELECT:23:r1
-	"일+하+이+고" VERB SELECT:23:r1
-;	"일하+고" CCONJ SELECT:23:r1
+	"일하+고" VERB SELECT:27:r1
+	"일+하+고" VERB SELECT:27:r1
+	"일+하+이+고" VERB SELECT:27:r1
+;	"일하+고" CCONJ SELECT:27:r1
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<사람들은>"
 	"사람+들+은" NOUN
 "<그의>"
@@ -61362,11 +61362,11 @@
 "<솜씨를>"
 	"솜씨+를" NOUN
 "<보고>"
-	"보+고" AUX
-	"보+고" CCONJ
-	"보+고" VERB
-	"보+고" SCONJ
-	"보고" NOUN
+	"보+고" VERB SELECT:153:r3b
+;	"보+고" AUX SELECT:153:r3b
+;	"보+고" CCONJ SELECT:153:r3b
+;	"보+고" SCONJ SELECT:153:r3b
+;	"보고" NOUN SELECT:153:r3b
 "<오페라>"
 	"오페라" NOUN
 "<연출가의>"
@@ -61416,16 +61416,16 @@
 "<지울>"
 	"지우+ㄹ" VERB
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있는가>"
-	"있+는가" VERB
-	"있+는가" ADJ
-	"있+는가" AUX
-	"있+는가" SCONJ
+	"있+는가" VERB SELECT:92:r9
+;	"있+는가" ADJ SELECT:92:r9
+;	"있+는가" AUX SELECT:92:r9
+;	"있+는가" SCONJ SELECT:92:r9
 "<.>"
 	"." PUNCT
 
@@ -61465,13 +61465,13 @@
 "<살인은>"
 	"살인+은" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<같은>"
 	"같+ㄴ" ADJ
 	"같+은" ADJ
@@ -61548,9 +61548,9 @@
 "<열거해>"
 	"열거+하+어" VERB
 "<보자>"
-	"보+자" AUX
-	"보+자" VERB
-	"보+자" SCONJ
+	"보+자" AUX SELECT:111:r2c
+;	"보+자" VERB SELECT:111:r2c
+;	"보+자" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -61622,13 +61622,13 @@
 "<그가>"
 	"그+가" PRON
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화를>"
 	"영화+를" NOUN
 "<두>"
@@ -61712,9 +61712,9 @@
 	"가지+ㄴ" VERB
 	"가진+ㄴ" VERB
 "<뛰어난>"
-	"뛰어나+ㄴ" ADJ
-	"뛰어나+ㄴ" VERB
-	"뛰+어+나+ㄴ" AUX
+	"뛰+어+나+ㄴ" AUX SELECT:78:r7
+;	"뛰어나+ㄴ" ADJ SELECT:78:r7
+;	"뛰어나+ㄴ" VERB SELECT:78:r7
 "<드라마였다>"
 	"드라마+이+었+다" VERB
 "<.>"
@@ -61739,13 +61739,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" ADJ SELECT:52:r4
-;	"이" DET SELECT:52:r4
-;	"이" ADP SELECT:52:r4
-;	"이" PRON SELECT:52:r4
-;	"이" PROPN SELECT:52:r4
-;	"이" NUM SELECT:52:r4
-;	"이" NOUN SELECT:52:r4
+	"이" ADJ SELECT:61:r4
+;	"이" DET SELECT:61:r4
+;	"이" ADP SELECT:61:r4
+;	"이" PRON SELECT:61:r4
+;	"이" PROPN SELECT:61:r4
+;	"이" NUM SELECT:61:r4
+;	"이" NOUN SELECT:61:r4
 "<긴장과>"
 	"긴장+과" CCONJ
 "<흥분은>"
@@ -61820,13 +61820,13 @@
 "<매력을>"
 	"매력+을" NOUN
 "<소유하고>"
-	"소유+하+고" VERB SELECT:27:r1a
-;	"소유+하+고" CCONJ SELECT:27:r1a
+	"소유+하+고" VERB SELECT:31:r1a
+;	"소유+하+고" CCONJ SELECT:31:r1a
 "<있지>"
-	"있+지" AUX
-	"있+지" VERB
-	"있+지" ADJ
-	"있+지" SCONJ
+	"있+지" AUX SELECT:78:r7
+;	"있+지" VERB SELECT:78:r7
+;	"있+지" ADJ SELECT:78:r7
+;	"있+지" SCONJ SELECT:78:r7
 "<않기>"
 	"않+기" AUX
 "<때문이다>"
@@ -61861,8 +61861,8 @@
 "<내키지>"
 	"내키+지" VERB
 "<않는>"
-	"않+는" AUX SELECT:57:r5
-;	"않+는" ADJ SELECT:57:r5
+	"않+는" AUX SELECT:66:r5
+;	"않+는" ADJ SELECT:66:r5
 "<스타>"
 	"스타" NOUN
 "<'>"
@@ -61890,9 +61890,9 @@
 "<나타내고>"
 	"나타내+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -61903,10 +61903,10 @@
 "<위엄>"
 	"위엄" NOUN
 "<있는>"
-	"있+는" ADJ
-	"있+는" AUX
-	"있+는" VERB
-	"있+ㄴ" ADJ
+	"있+는" VERB SELECT:153:r3b
+;	"있+는" ADJ SELECT:153:r3b
+;	"있+는" AUX SELECT:153:r3b
+;	"있+ㄴ" ADJ SELECT:153:r3b
 "<대부의>"
 	"대부+의" NOUN
 "<피곤과>"
@@ -61922,15 +61922,15 @@
 	"표현+하+고" CCONJ
 	"표현+하+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<오스카>"
 	"오스카" PROPN
 "<조연상>"
@@ -62018,10 +62018,10 @@
 "<돌봐야>"
 	"돌보+아야" VERB
 "<해>"
-	"해" NOUN
-	"하+어" AUX
-	"하+어" VERB
-	"하+어" SCONJ
+	"하+어" AUX SELECT:111:r2c
+;	"해" NOUN SELECT:111:r2c
+;	"하+어" VERB SELECT:111:r2c
+;	"하+어" SCONJ SELECT:111:r2c
 "<17>"
 	"17" NUM
 "<세>"
@@ -62071,8 +62071,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<전설적인>"
 	"전설+적+이+ㄴ" VERB
 "<연기학교>"
@@ -62109,15 +62109,15 @@
 "<)>"
 	")" PUNCT
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" NOUN SELECT:122:r2f
+;	"한" NUM SELECT:122:r2f
+;	"하+ㄴ" VERB SELECT:122:r2f
+;	"하+ㄴ" AUX SELECT:122:r2f
+;	"하+ㄴ" PART SELECT:122:r2f
+;	"한" ADJ SELECT:122:r2f
+;	"한" PROPN SELECT:122:r2f
+;	"한" DET SELECT:122:r2f
+;	"있+ㄴ" AUX SELECT:122:r2f
 "<이후로는>"
 	"이후+로+는" NOUN
 "<연기에만>"
@@ -62128,13 +62128,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화로>"
 	"영화+로" ADV
 "<오스카>"
@@ -62159,8 +62159,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<돈도>"
 	"돈+도" ADV
 "<벌>"
@@ -62203,7 +62203,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<그는>"
 	"그+는" PRON
 "<돈>"
@@ -62383,24 +62383,24 @@
 "<별명을>"
 	"별명+을" NOUN
 "<가지고>"
-	"가지+고" VERB SELECT:27:r1a
-;	"가지+고" CCONJ SELECT:27:r1a
-;	"가지+고" SCONJ SELECT:27:r1a
+	"가지+고" VERB SELECT:31:r1a
+;	"가지+고" CCONJ SELECT:31:r1a
+;	"가지+고" SCONJ SELECT:31:r1a
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화는>"
 	"영화+는" NOUN
 "<상영>"
@@ -62436,23 +62436,23 @@
 "<잡지들이>"
 	"잡지+들+이" NOUN
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<작품을>"
 	"작품+을" NOUN
 "<매우>"
 	"매우" ADV
 "<잘>"
-	"자+ㄹ" VERB SELECT:23:r1
-;	"잘" ADV SELECT:23:r1
+	"자+ㄹ" VERB SELECT:27:r1
+;	"잘" ADV SELECT:27:r1
 "<만든>"
-	"만들+ㄴ" VERB
-	"만들+ㄴ" AUX
+	"만들+ㄴ" AUX SELECT:111:r2c
+;	"만들+ㄴ" VERB SELECT:111:r2c
 "<영화라고>"
 	"영화+이+라+고" VERB
 "<칭찬했다>"
@@ -62462,7 +62462,7 @@
 
 "<그러나>"
 	"그러나" CCONJ
-	"그러나" ADV
+;	"그러나" ADV REMOVE:69:r6
 "<일부는>"
 	"일부+는" NOUN
 "<좋지>"
@@ -62499,8 +62499,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<미국>"
 	"미국" PROPN
 "<사람들은>"
@@ -62556,13 +62556,13 @@
 "<저질렀던>"
 	"저지르+었+던" VERB
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<전쟁에>"
 	"전쟁+에" ADV
 "<관해>"
@@ -62700,17 +62700,17 @@
 	"보+ㄹ" AUX
 	"볼" NOUN
 "<수>"
-	"수" NOUN
-	"망하+ㄹ" ADJ
-	"수" PROPN
-	"수" NUM
-	"수" ADJ
+	"수" NOUN SELECT:122:r2f
+;	"망하+ㄹ" ADJ SELECT:122:r2f
+;	"수" PROPN SELECT:122:r2f
+;	"수" NUM SELECT:122:r2f
+;	"수" ADJ SELECT:122:r2f
 "<있을>"
-	"있+ㄹ" ADJ
-	"있+ㄹ" AUX
-	"있+을" ADJ
-	"있+을" AUX
-	"있+ㄹ" VERB
+	"있+ㄹ" VERB SELECT:153:r3b
+;	"있+ㄹ" ADJ SELECT:153:r3b
+;	"있+ㄹ" AUX SELECT:153:r3b
+;	"있+을" ADJ SELECT:153:r3b
+;	"있+을" AUX SELECT:153:r3b
 "<만큼>"
 	"만큼" NOUN
 "<마음에>"
@@ -62740,9 +62740,9 @@
 	"분석+하+고" VERB
 	"분석+하+고" CCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -62753,10 +62753,10 @@
 "<독식하고>"
 	"독식+하+고" VERB
 "<있는>"
-	"있+는" AUX SELECT:33:r1b
-;	"있+는" ADJ SELECT:33:r1b
-;	"있+는" VERB SELECT:33:r1b
-;	"있+ㄴ" ADJ SELECT:33:r1b
+	"있+는" AUX SELECT:37:r1b
+;	"있+는" ADJ SELECT:37:r1b
+;	"있+는" VERB SELECT:37:r1b
+;	"있+ㄴ" ADJ SELECT:37:r1b
 "<미>"
 	"미" PROPN
 	"미" NOUN
@@ -62783,8 +62783,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<피를>"
 	"피+를" NOUN
 "<좋아하는>"
@@ -62852,10 +62852,10 @@
 "<입곤>"
 	"입+곤" VERB
 "<해>"
-	"해" NOUN
-	"하+어" AUX
-	"하+어" VERB
-	"하+어" SCONJ
+	"하+어" AUX SELECT:111:r2c
+;	"해" NOUN SELECT:111:r2c
+;	"하+어" VERB SELECT:111:r2c
+;	"하+어" SCONJ SELECT:111:r2c
 "<여권론자들로부터>"
 	"여권론자+들+로+부터" ADV
 "<욕을>"
@@ -62863,9 +62863,9 @@
 "<얻어먹고>"
 	"얻어먹+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -62886,15 +62886,15 @@
 "<조장으로>"
 	"조장+으로" ADV
 "<한>"
-	"한" NUM
-	"하+ㄴ" VERB
-	"하+ㄴ" AUX
-	"한" NOUN
-	"하+ㄴ" PART
-	"한" ADJ
-	"한" PROPN
-	"한" DET
-	"있+ㄴ" AUX
+	"한" ADJ SELECT:85:r8
+;	"한" NUM SELECT:85:r8
+;	"하+ㄴ" VERB SELECT:85:r8
+;	"하+ㄴ" AUX SELECT:85:r8
+;	"한" NOUN SELECT:85:r8
+;	"하+ㄴ" PART SELECT:85:r8
+;	"한" PROPN SELECT:85:r8
+;	"한" DET SELECT:85:r8
+;	"있+ㄴ" AUX SELECT:85:r8
 "<5인>"
 	"5+인" NOUN
 "<정찰대는>"
@@ -62912,8 +62912,8 @@
 "<납치해>"
 	"납치+하+어" VERB
 "<간다>"
-	"가+ㄴ다" VERB
-	"가+ㄴ다" AUX
+	"가+ㄴ다" AUX SELECT:111:r2c
+;	"가+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -62946,21 +62946,21 @@
 	"받+게" VERB
 	"받+게" SCONJ
 "<한다>"
-	"하+ㄴ다" VERB
-	"하+ㄴ다" AUX
-	"하+ㄴ다" SCONJ
-	"하+다" AUX
+	"하+ㄴ다" AUX SELECT:111:r2c
+	"하+다" AUX SELECT:111:r2c
+;	"하+ㄴ다" VERB SELECT:111:r2c
+;	"하+ㄴ다" SCONJ SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화에>"
 	"영화+에" ADV
 "<잘못이>"
@@ -63004,8 +63004,8 @@
 	"하+고" CCONJ
 	"하+고" VERB
 	"하+고" AUX
-	"하+고" SCONJ
 	"하고" ADP
+;	"하+고" SCONJ REMOVE:56:r3
 "<있다는데>"
 	"있+다는데" SCONJ
 "<많은>"
@@ -63019,24 +63019,24 @@
 "<나무라고>"
 	"나무라+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<한편>"
 	"한편" CCONJ
 	"한편" NOUN
-	"한편" ADV
+;	"한편" ADV REMOVE:69:r6
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화가>"
 	"영화+가" NOUN
 "<나오자>"
@@ -63069,13 +63069,13 @@
 "<">"
 	""" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<영화는>"
 	"영화+는" NOUN
 "<허위로>"
@@ -63120,9 +63120,9 @@
 "<안겨주고>"
 	"안기+어+주+고" AUX
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:132:r2g
+;	"있+다" ADJ SELECT:132:r2g
+;	"있+다" VERB SELECT:132:r2g
 "<">"
 	""" PUNCT
 "<고>"
@@ -63131,16 +63131,16 @@
 "<반박하고>"
 	"반박+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<베트남전의>"
 	"베트남전+의" NOUN
 "<'>"
@@ -63158,13 +63158,13 @@
 "<>>"
 	">" PUNCT
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<전쟁>"
 	"전쟁" NOUN
 "<영화라면>"
@@ -63199,8 +63199,8 @@
 "<드라마라>"
 	"드라마+이+라" VERB
 "<하겠다>"
-	"하+겠+다" VERB
-	"하+겠+다" AUX
+	"하+겠+다" AUX SELECT:111:r2c
+;	"하+겠+다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -63248,8 +63248,8 @@
 	"." PUNCT
 
 "<또>"
-	"또" ADV
 	"또" CCONJ
+;	"또" ADV REMOVE:69:r6
 "<귀국해서는>"
 	"귀국+하+어서+는" NOUN
 "<소외와>"
@@ -63301,9 +63301,9 @@
 "<젖게>"
 	"젖+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -63426,10 +63426,10 @@
 "<원래는>"
 	"원래+는" NOUN
 "<알>"
-	"알+ㄹ" VERB
-	"알" PROPN
-	"아+ㄹ" VERB
-	"알" NOUN
+	"알" PROPN SELECT:105:r2b
+;	"알+ㄹ" VERB SELECT:105:r2b
+;	"아+ㄹ" VERB SELECT:105:r2b
+;	"알" NOUN SELECT:105:r2b
 "<파치노가>"
 	"파치노+가" PROPN
 "<맡기로>"
@@ -63525,13 +63525,13 @@
 "<그에게>"
 	"그+에게" ADV
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<같은>"
 	"같+ㄴ" ADJ
 	"같+은" ADJ
@@ -63613,9 +63613,9 @@
 "<자각하게>"
 	"자각+하+게" VERB
 "<된다>"
-	"되+ㄴ다" AUX
-	"되+ㄴ다" VERB
-	"되+다" AUX
+	"되+ㄴ다" AUX SELECT:111:r2c
+	"되+다" AUX SELECT:111:r2c
+;	"되+ㄴ다" VERB SELECT:111:r2c
 "<.>"
 	"." PUNCT
 
@@ -63642,9 +63642,9 @@
 "<불구로>"
 	"불구+로" ADV
 "<만들어>"
-	"만들+어" VERB SELECT:23:r1
-;	"만들+어" SCONJ SELECT:23:r1
-;	"만들+어" AUX SELECT:23:r1
+	"만들+어" VERB SELECT:27:r1
+;	"만들+어" SCONJ SELECT:27:r1
+;	"만들+어" AUX SELECT:27:r1
 "<놓은>"
 	"놓+ㄴ" AUX
 	"놓+은" AUX
@@ -63744,14 +63744,14 @@
 	"보이+어" VERB
 	"보이+어" SCONJ
 "<주고>"
-	"주+고" AUX
-	"주+고" CCONJ
-	"주+고" SCONJ
-	"주+고" VERB
+	"주+고" AUX SELECT:111:r2c
+;	"주+고" CCONJ SELECT:111:r2c
+;	"주+고" SCONJ SELECT:111:r2c
+;	"주+고" VERB SELECT:111:r2c
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -63867,8 +63867,8 @@
 
 "<그래서>"
 	"그래서" CCONJ
-	"그래서" ADV
 	"그러+어서" SCONJ
+;	"그래서" ADV REMOVE:69:r6
 "<'>"
 	"'" PUNCT
 "<기적같은>"
@@ -63915,8 +63915,8 @@
 "<영상에>"
 	"영상+에" ADV
 "<담고>"
-	"담+고" VERB SELECT:23:r1
-;	"담+고" CCONJ SELECT:23:r1
+	"담+고" VERB SELECT:27:r1
+;	"담+고" CCONJ SELECT:27:r1
 "<있는데>"
 	"있+는데" SCONJ
 "<정확하고>"
@@ -63931,9 +63931,9 @@
 	"." PUNCT
 
 "<그>"
-	"그" ADJ SELECT:52:r4
-;	"그" DET SELECT:52:r4
-;	"그" PRON SELECT:52:r4
+	"그" ADJ SELECT:61:r4
+;	"그" DET SELECT:61:r4
+;	"그" PRON SELECT:61:r4
 "<갈등과>"
 	"갈등+과" CCONJ
 "<문제를>"
@@ -64001,9 +64001,9 @@
 "<절제하고>"
 	"절제+하+고" VERB
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -64039,9 +64039,9 @@
 	"다루+고" VERB
 	"다루+고" SCONJ
 "<있다>"
-	"있+다" AUX
-	"있+다" ADJ
-	"있+다" VERB
+	"있+다" AUX SELECT:78:r7
+;	"있+다" ADJ SELECT:78:r7
+;	"있+다" VERB SELECT:78:r7
 "<.>"
 	"." PUNCT
 
@@ -64066,13 +64066,13 @@
 	"." PUNCT
 
 "<이>"
-	"이" DET
-	"이" ADP
-	"이" PRON
-	"이" PROPN
-	"이" ADJ
-	"이" NUM
-	"이" NOUN
+	"이" NOUN SELECT:122:r2f
+;	"이" DET SELECT:122:r2f
+;	"이" ADP SELECT:122:r2f
+;	"이" PRON SELECT:122:r2f
+;	"이" PROPN SELECT:122:r2f
+;	"이" ADJ SELECT:122:r2f
+;	"이" NUM SELECT:122:r2f
 "<여피>"
 	"여피" NOUN
 "<부부의>"
@@ -64101,19 +64101,19 @@
 "<한편>"
 	"한편" CCONJ
 	"한편" NOUN
-	"한편" ADV
+;	"한편" ADV REMOVE:69:r6
 "<근무중에도>"
 	"근무+중+에+도" ADV
 "<틈을>"
 	"틈+을" NOUN
 "<내>"
-	"내" ADJ
-	"내" PRON
-	"내" NOUN
-	"내+어" SCONJ
-	"내+어" AUX
-	"나+의" PRON
-	"내" PROPN
+	"내+어" SCONJ SELECT:147:r3a
+;	"내" ADJ SELECT:147:r3a
+;	"내" PRON SELECT:147:r3a
+;	"내" NOUN SELECT:147:r3a
+;	"내+어" AUX SELECT:147:r3a
+;	"나+의" PRON SELECT:147:r3a
+;	"내" PROPN SELECT:147:r3a
 "<격정적인>"
 	"격정+적+이+ㄴ" VERB
 "<정사를>"
